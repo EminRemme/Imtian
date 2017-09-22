@@ -1,0 +1,369 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 47;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F80B171B1F234ED7003892AA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F80B171A1F234ED7003892AA /* AppDelegate.swift */; };
+		F80B171D1F234ED7003892AA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F80B171C1F234ED7003892AA /* ViewController.swift */; };
+		F80B17201F234ED7003892AA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F80B171E1F234ED7003892AA /* Main.storyboard */; };
+		F80B17231F234ED7003892AA /* Imtian.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F80B17211F234ED7003892AA /* Imtian.xcdatamodeld */; };
+		F80B17251F234ED7003892AA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F80B17241F234ED7003892AA /* Assets.xcassets */; };
+		F80B17281F234ED7003892AA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F80B17261F234ED7003892AA /* LaunchScreen.storyboard */; };
+		F80B17361F23A290003892AA /* QuestionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F80B17351F23A290003892AA /* QuestionViewController.swift */; };
+		F80B17381F23A33F003892AA /* LevelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F80B17371F23A33F003892AA /* LevelViewController.swift */; };
+		F80B173A1F23A369003892AA /* ThemesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F80B17391F23A369003892AA /* ThemesTableViewController.swift */; };
+		F85E15A81F3F0374006819DD /* themes.xml in Resources */ = {isa = PBXBuildFile; fileRef = F85E15A51F3F0374006819DD /* themes.xml */; };
+		F85E15AC1F3F2CA9006819DD /* QuestionDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = F85E15AB1F3F2CA9006819DD /* QuestionDataClass.swift */; };
+		F87C844E1F6D395B00489C27 /* history.xml in Resources */ = {isa = PBXBuildFile; fileRef = F87C844B1F6D395B00489C27 /* history.xml */; };
+		F87C844F1F6D395B00489C27 /* literature.xml in Resources */ = {isa = PBXBuildFile; fileRef = F87C844C1F6D395B00489C27 /* literature.xml */; };
+		F87C84501F6D395B00489C27 /* toponimika.xml in Resources */ = {isa = PBXBuildFile; fileRef = F87C844D1F6D395B00489C27 /* toponimika.xml */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F80B17171F234ED7003892AA /* Imtian.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Imtian.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F80B171A1F234ED7003892AA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F80B171C1F234ED7003892AA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F80B171F1F234ED7003892AA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F80B17221F234ED7003892AA /* Imtian.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Imtian.xcdatamodel; sourceTree = "<group>"; };
+		F80B17241F234ED7003892AA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F80B17271F234ED7003892AA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F80B17291F234ED7003892AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F80B17351F23A290003892AA /* QuestionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuestionViewController.swift; sourceTree = "<group>"; };
+		F80B17371F23A33F003892AA /* LevelViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LevelViewController.swift; sourceTree = "<group>"; };
+		F80B17391F23A369003892AA /* ThemesTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThemesTableViewController.swift; sourceTree = "<group>"; };
+		F85E15A51F3F0374006819DD /* themes.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = themes.xml; path = data/themes.xml; sourceTree = "<group>"; };
+		F85E15AB1F3F2CA9006819DD /* QuestionDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuestionDataClass.swift; sourceTree = "<group>"; };
+		F87C844B1F6D395B00489C27 /* history.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = history.xml; path = data/history.xml; sourceTree = "<group>"; };
+		F87C844C1F6D395B00489C27 /* literature.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = literature.xml; path = data/literature.xml; sourceTree = "<group>"; };
+		F87C844D1F6D395B00489C27 /* toponimika.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = toponimika.xml; path = data/toponimika.xml; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F80B17141F234ED7003892AA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F80B170E1F234ED7003892AA = {
+			isa = PBXGroup;
+			children = (
+				F80B17191F234ED7003892AA /* Imtian */,
+				F80B17181F234ED7003892AA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F80B17181F234ED7003892AA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F80B17171F234ED7003892AA /* Imtian.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F80B17191F234ED7003892AA /* Imtian */ = {
+			isa = PBXGroup;
+			children = (
+				F85E159C1F3EFFF3006819DD /* data */,
+				F80B171A1F234ED7003892AA /* AppDelegate.swift */,
+				F80B171C1F234ED7003892AA /* ViewController.swift */,
+				F80B171E1F234ED7003892AA /* Main.storyboard */,
+				F80B17391F23A369003892AA /* ThemesTableViewController.swift */,
+				F80B17371F23A33F003892AA /* LevelViewController.swift */,
+				F80B17351F23A290003892AA /* QuestionViewController.swift */,
+				F80B17241F234ED7003892AA /* Assets.xcassets */,
+				F80B17261F234ED7003892AA /* LaunchScreen.storyboard */,
+				F80B17291F234ED7003892AA /* Info.plist */,
+				F80B17211F234ED7003892AA /* Imtian.xcdatamodeld */,
+				F85E15AB1F3F2CA9006819DD /* QuestionDataClass.swift */,
+			);
+			path = Imtian;
+			sourceTree = "<group>";
+		};
+		F85E159C1F3EFFF3006819DD /* data */ = {
+			isa = PBXGroup;
+			children = (
+				F87C844B1F6D395B00489C27 /* history.xml */,
+				F87C844C1F6D395B00489C27 /* literature.xml */,
+				F87C844D1F6D395B00489C27 /* toponimika.xml */,
+				F85E15A51F3F0374006819DD /* themes.xml */,
+			);
+			name = data;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F80B17161F234ED7003892AA /* Imtian */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F80B172C1F234ED7003892AA /* Build configuration list for PBXNativeTarget "Imtian" */;
+			buildPhases = (
+				F80B17131F234ED7003892AA /* Sources */,
+				F80B17141F234ED7003892AA /* Frameworks */,
+				F80B17151F234ED7003892AA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Imtian;
+			productName = Imtian;
+			productReference = F80B17171F234ED7003892AA /* Imtian.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F80B170F1F234ED7003892AA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = MQ;
+				TargetAttributes = {
+					F80B17161F234ED7003892AA = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = KUPE5Y2TZW;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = F80B17121F234ED7003892AA /* Build configuration list for PBXProject "Imtian" */;
+			compatibilityVersion = "Xcode 6.3";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F80B170E1F234ED7003892AA;
+			productRefGroup = F80B17181F234ED7003892AA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F80B17161F234ED7003892AA /* Imtian */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F80B17151F234ED7003892AA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F87C84501F6D395B00489C27 /* toponimika.xml in Resources */,
+				F87C844E1F6D395B00489C27 /* history.xml in Resources */,
+				F85E15A81F3F0374006819DD /* themes.xml in Resources */,
+				F87C844F1F6D395B00489C27 /* literature.xml in Resources */,
+				F80B17281F234ED7003892AA /* LaunchScreen.storyboard in Resources */,
+				F80B17251F234ED7003892AA /* Assets.xcassets in Resources */,
+				F80B17201F234ED7003892AA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F80B17131F234ED7003892AA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F80B17361F23A290003892AA /* QuestionViewController.swift in Sources */,
+				F80B17381F23A33F003892AA /* LevelViewController.swift in Sources */,
+				F85E15AC1F3F2CA9006819DD /* QuestionDataClass.swift in Sources */,
+				F80B171D1F234ED7003892AA /* ViewController.swift in Sources */,
+				F80B173A1F23A369003892AA /* ThemesTableViewController.swift in Sources */,
+				F80B17231F234ED7003892AA /* Imtian.xcdatamodeld in Sources */,
+				F80B171B1F234ED7003892AA /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F80B171E1F234ED7003892AA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F80B171F1F234ED7003892AA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F80B17261F234ED7003892AA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F80B17271F234ED7003892AA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F80B172A1F234ED7003892AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F80B172B1F234ED7003892AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F80B172D1F234ED7003892AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = KUPE5Y2TZW;
+				INFOPLIST_FILE = Imtian/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mq.self.Imtian;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		F80B172E1F234ED7003892AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = KUPE5Y2TZW;
+				INFOPLIST_FILE = Imtian/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mq.self.Imtian;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F80B17121F234ED7003892AA /* Build configuration list for PBXProject "Imtian" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F80B172A1F234ED7003892AA /* Debug */,
+				F80B172B1F234ED7003892AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F80B172C1F234ED7003892AA /* Build configuration list for PBXNativeTarget "Imtian" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F80B172D1F234ED7003892AA /* Debug */,
+				F80B172E1F234ED7003892AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		F80B17211F234ED7003892AA /* Imtian.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				F80B17221F234ED7003892AA /* Imtian.xcdatamodel */,
+			);
+			currentVersion = F80B17221F234ED7003892AA /* Imtian.xcdatamodel */;
+			path = Imtian.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = F80B170F1F234ED7003892AA /* Project object */;
+}

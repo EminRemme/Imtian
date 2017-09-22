@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<list>
+	<theme >
+        <id>literature</id>
+        <name>Литература</name>
+    </theme>
+    <theme >
+        <id>history</id>
+        <name>История</name>
+    </theme>
+    <theme >
+        <id>toponimika</id>
+        <name>Топонимика</name>
+    </theme>
+</list>

@@ -1,0 +1,705 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<list>
+  <question>
+    <id>1</id>
+    <image>''</image>
+    <name>'Когда произошла депортация крымстатарского народа?'</name>
+    <answerChoice>
+      <list>
+        <item>'11 сентября 1944 г.'</item>
+        <item>'18 мая 1784 г.'</item>
+        <item>'18 мая 1944 г.'</item>
+        <item>'23 февраля 1918 г.'</item>
+      </list>
+    </answerChoice>
+    <correctAnswer>'18 мая 1944 г.'</correctAnswer>
+  </question>
+  <question>
+    <id>2</id>
+    <image>''</image>
+    <name>'Какая династия  правила крымским ханством?'</name>
+    <answerChoice>
+      <list>
+        <item>'Шырин'</item>
+        <item>'Мансур'</item>
+        <item>'Яшлав'</item>
+        <item>'Герай'</item>
+      </list>
+    </answerChoice>
+    <correctAnswer>'Герай'</correctAnswer>
+  </question>
+  <question>
+    <id>3</id>
+    <image>''</image>
+    <name>'Кто издавал газету терджиман?'</name>
+    <answerChoice>
+      <list>
+        <item>'Номан Челибиджихан'</item>
+        <item>'Муса Мамут'</item>
+        <item>'Исмаил Гаспринский'</item>
+        <item>'Шакир Селим'</item>
+      </list>
+    </answerChoice>
+    <correctAnswer>'Исмаил Гаспринский'</correctAnswer>
+  </question>
+  <question>
+    <id>4</id>
+    <image>''</image>
+    <name>'Президент крымскотатарской республики?'</name>
+    <answerChoice>
+      <list>
+        <item>'Джафер Сейдамет'</item>
+        <item>'Исмаил Гаспринский'</item>
+        <item>'Номан Челибиджихан'</item>
+        <item>'Алим Айдамах'</item>
+      </list>
+    </answerChoice>
+    <correctAnswer>'Номан Челибиджихан'</correctAnswer>
+  </question>
+  <question>
+    <id>5</id>
+    <image>''</image>
+    <name>'Как звали известную крымскотатарскую разведчицу?'</name>
+    <answerChoice>
+      <list>
+        <item>'Сабрие Эреджепова'</item>
+        <item>'Сабрие Сеутова'</item>
+        <item>'Шефика Гаспринская'</item>
+        <item>'Алиме Абденнанова'</item>
+      </list>
+    </answerChoice>
+    <correctAnswer>'Алиме Абденнанова'</correctAnswer>
+  </question>
+  <question>
+    <id>6</id>
+    <image>''</image>
+    <name>'Почти трижды герой СССР, кто?'</name>
+    <answerChoice>
+      <list>
+        <item>'Амет-Хан Султан'</item>
+        <item>'Абдул Тейфук'</item>
+        <item>'Абдураим Решидов'</item>
+        <item>'Февзи Якубов'</item>
+      </list>
+    </answerChoice>
+    <correctAnswer>'Амет-Хан Султан'</correctAnswer>
+  </question>
+  <question>
+    <id>7</id>
+    <image>''</image>
+    <name>'Основатель Крымского инженерно-педагогического университета?'</name>
+    <answerChoice>
+      <list>
+        <item>'Якубов Чингиз '</item>
+        <item>'Рустем Казаков'</item>
+        <item>'Сервер Какура'</item>
+        <item>'Февзи Якубов'</item>
+      </list>
+    </answerChoice>
+    <correctAnswer>'Февзи Якубов'</correctAnswer>
+  </question>
+  <question>
+    <id>8</id>
+    <image>''</image>
+    <name>'Советский борец классического стиля, победивший в олимпиаде 1972?'</name>
+    <answerChoice>
+      <list>
+        <item>'Бувайсар Сайтиев'</item>
+        <item>'Рустем Казаков'</item>
+        <item>'Сейдамет Ягьяев'</item>
+        <item>'Дилявер Османов'</item>
+      </list>
+    </answerChoice>
+    <correctAnswer>'Рустем Казаков'</correctAnswer>
+  </question>
+  <question>
+    <id>9</id>
+    <image>''</image>
+    <name>'Последний хан Крымского ханства, кто?'</name>
+    <answerChoice>
+      <list>
+        <item>'Менгли Герай'</item>
+        <item>'Бора Газы Герай'</item>
+        <item>'Шагин Герай'</item>
+        <item>'Девлет Герай'</item>
+      </list>
+    </answerChoice>
+    <correctAnswer>'Шагин Герай'</correctAnswer>
+  </question>
+  <question>
+    <id>10</id>
+    <image>''</image>
+    <name>'Скакой из ханов напал на Ивана Грозного и сжег Москву?'</name>
+    <answerChoice>
+      <list>
+        <item>'Девлет Герай'</item>
+        <item>'Девлет II Герай'</item>
+        <item>'Менгли Герай'</item>
+        <item>'Ислам Герай'</item>
+      </list>
+    </answerChoice>
+    <correctAnswer>'Девлет II Герай'</correctAnswer>
+  </question>
+  <question>
+    <id>11</id>
+    <image>''</image>
+    <name>'У какого хана Богдан Хмельницкий просил военную помощь?'</name>
+    <answerChoice>
+      <list>
+        <item>'Гази Герай'</item>
+        <item>'Гази II Герай'</item>
+        <item>'Ислам Герай'</item>
+        <item>'Ислам III Герай'</item>
+      </list>
+    </answerChoice>
+    <correctAnswer>
+    </correctAnswer>
+  </question>
+  <question>
+    <id>12</id>
+    <image>''</image>
+    <name>'Какую мечеть в Крыму построил султан Египта?'</name>
+    <answerChoice>
+      <list>
+        <item>'Узбек Хан джамиси'</item>
+        <item>'Бей-Барс Султан джамиси'</item>
+        <item>'Джума-Джами Кезлев'</item>
+        <item>'Кебир-Джами Акъмесджит'</item>
+      </list>
+    </answerChoice>
+    <correctAnswer>'Бей-Барс Султан джамиси'</correctAnswer>
+  </question>
+  <question>
+    <id>13</id>
+    <image>''</image>
+    <name>'Первое высшее учебное заведение в восточной Европе?'</name>
+    <answerChoice>
+      <list>
+        <item>'Зынджирлы Медресе'</item>
+        <item>'Аль Асхар'</item>
+        <item>'Къалай Медресе'</item>
+        <item>'Инджибек Хатун Медресе'</item>
+      </list>
+    </answerChoice>
+    <correctAnswer>'Инджибек Хатун Медресе'</correctAnswer>
+  </question>
+  <question>
+    <id>14</id>
+    <image>''</image>
+    <name>'Кто основал династию Герай?'</name>
+    <answerChoice>
+      <list>
+        <item>'Хаджи Герай'</item>
+        <item>'Селим Герай '</item>
+        <item>'Менгли Герай'</item>
+        <item>'Ислам Герай'</item>
+      </list>
+    </answerChoice>
+    <correctAnswer>'Хаджи Герай'</correctAnswer>
+  </question>
+  <question>
+    <id>15</id>
+    <image>''</image>
+    <name>'Столица крымского улуса Золотой Орды?'</name>
+    <answerChoice>
+      <list>
+        <item>'Бахчисарай'</item>
+        <item>'Къыркъ Ер'</item>
+        <item>'Кезлев'</item>
+        <item>'Солхат'</item>
+      </list>
+    </answerChoice>
+    <correctAnswer>'Солхат'</correctAnswer>
+  </question>
+  <question>
+    <id>16</id>
+    <image>''</image>
+    <name>'Первая столица крымского ханства?'</name>
+    <answerChoice>
+      <list>
+        <item>'Къыркъ Ер'</item>
+        <item>'Бахчисарай'</item>
+        <item>'Акъмесджит'</item>
+        <item>'Кефе'</item>
+      </list>
+    </answerChoice>
+    <correctAnswer>'Къыркъ Ер'</correctAnswer>
+  </question>
+  <question>
+    <id>17</id>
+    <image>''</image>
+    <name>'Годы правления Хаджи Герай хана?'</name>
+    <answerChoice>
+      <list>
+        <item>'1441-1466'</item>
+        <item>'1475-1487'</item>
+        <item>'1440-1466'</item>
+        <item>'1445-1476'</item>
+      </list>
+    </answerChoice>
+    <correctAnswer>'1441-1466'</correctAnswer>
+  </question>
+  <question>
+    <id>18</id>
+    <image>''</image>
+    <name>'Год собрания первого къурултая крымскотатарского народа?'</name>
+    <answerChoice>
+      <list>
+        <item>'1919'</item>
+        <item>'1991'</item>
+        <item>'1917'</item>
+        <item>'1918'</item>
+      </list>
+    </answerChoice>
+    <correctAnswer>'1917'</correctAnswer>
+  </question>
+  <question>
+    <id>19</id>
+    <image>''</image>
+    <name>'Как назывался женский журнал, издаваемый Шефикой Гаспринской?'</name>
+    <answerChoice>
+      <list>
+        <item>'Алем-и Субьян'</item>
+        <item>'Алем-и Медение'</item>
+        <item>'Ха-ха-ха'</item>
+        <item>'Алем-и Нисван'</item>
+      </list>
+    </answerChoice>
+    <correctAnswer>'Алем-и Нисван'</correctAnswer>
+  </question>
+  <question>
+    <id>20</id>
+    <image>''</image>
+    <name>'Крымский "Робин Гуд"?'</name>
+    <answerChoice>
+      <list>
+        <item>'Алим Айдамакъ'</item>
+        <item>'Алим Алиев'</item>
+        <item>'Ильми Алиев'</item>
+        <item>'Амет Озенбашлы'</item>
+      </list>
+    </answerChoice>
+    <correctAnswer>'Алим Айдамакъ'</correctAnswer>
+  </question>
+  <question>
+    <id>21</id>
+    <image>''</image>
+    <name>'Тамгъа - это…?'</name>
+    <answerChoice>
+      <list>
+        <item>'Родовой герб'</item>
+        <item>'Красивая буква "Т"'</item>
+        <item>'Дуализм'</item>
+        <item>'Символ связи поколений'</item>
+      </list>
+    </answerChoice>
+    <correctAnswer>'Родовой герб'</correctAnswer>
+  </question>
+  <question>
+    <id>22</id>
+    <image>''</image>
+    <name>'Древняя религия тюрков?'</name>
+    <answerChoice>
+      <list>
+        <item>'Зароастризм'</item>
+        <item>'Буддизм'</item>
+        <item>'Тенгрианство'</item>
+        <item>'Индуизм'</item>
+      </list>
+    </answerChoice>
+    <correctAnswer>'Тенгрианство'</correctAnswer>
+  </question>
+  <question>
+    <id>23</id>
+    <image>''</image>
+    <name>'Архитектор Джума Джами (Кезлев)?'</name>
+    <answerChoice>
+      <list>
+        <item>'Мимар Сеннан'</item>
+        <item>'Абу Суфьян'</item>
+        <item>'Салах Ад-Дин'</item>
+        <item>'Габдулла Тукай'</item>
+      </list>
+    </answerChoice>
+    <correctAnswer>'Мимар Сеннан'</correctAnswer>
+  </question>
+  <question>
+    <id>24</id>
+    <image>''</image>
+    <name>'Какой город был ставкой Калга Султана?'</name>
+    <answerChoice>
+      <list>
+        <item>'Акъ Яр'</item>
+        <item>'Кезлев'</item>
+        <item>'Акъмесджит'</item>
+        <item>'Джанкой'</item>
+      </list>
+    </answerChoice>
+    <correctAnswer>'Акъмесджит'</correctAnswer>
+  </question>
+  <question>
+    <id>25</id>
+    <image>''</image>
+    <name>'Кто такая Ненкеджан-ханым?'</name>
+    <answerChoice>
+      <list>
+        <item>'дочь Тохтамыш хана'</item>
+        <item>'жена Менгли Герай Хан'</item>
+        <item>'сестра Селим Герай Хана '</item>
+        <item>'племянница  Гаспринского'</item>
+      </list>
+    </answerChoice>
+    <correctAnswer>'дочь Тохтамыш хана'</correctAnswer>
+  </question>
+  <question>
+    <id>26</id>
+    <image>''</image>
+    <name>'Первый крымскотатарский художественный фильм'</name>
+    <answerChoice>
+      <list>
+        <item>'Хайтарма'</item>
+        <item>'Сенинъ йылдызынъ'</item>
+        <item>'Алим-крымский разбойник'</item>
+        <item>'Козьяш дивар'</item>
+      </list>
+    </answerChoice>
+    <correctAnswer>
+    </correctAnswer>
+  </question>
+  <question>
+    <id>27</id>
+    <image>''</image>
+    <name>'Кто из крымских ханов был поэтом?'</name>
+    <answerChoice>
+      <list>
+        <item>'Крым Герай'</item>
+        <item>'Гази Герай '</item>
+        <item>'Ислам Герай'</item>
+        <item>'Мубарек Герай'</item>
+      </list>
+    </answerChoice>
+    <correctAnswer>'Гази Герай '</correctAnswer>
+  </question>
+  <question>
+    <id>28</id>
+    <image>''</image>
+    <name>'В каком городе Крыма находится Текие Дервиш?'</name>
+    <answerChoice>
+      <list>
+        <item>'Кезлев'</item>
+        <item>'Акъяр'</item>
+        <item>'Акъмесджит'</item>
+        <item>'Кефе'</item>
+      </list>
+    </answerChoice>
+    <correctAnswer>'Кезлев'</correctAnswer>
+  </question>
+  <question>
+    <id>29</id>
+    <image>''</image>
+    <name>'В каком году была основана газета Терджиман?'</name>
+    <answerChoice>
+      <list>
+        <item>'1883'</item>
+        <item>'1945'</item>
+        <item>'1889'</item>
+        <item>'1790'</item>
+      </list>
+    </answerChoice>
+    <correctAnswer>'1883'</correctAnswer>
+  </question>
+  <question>
+    <id>30</id>
+    <image>''</image>
+    <name>'Первым муфтие мусульман Крымской Народной Республики был...'</name>
+    <answerChoice>
+      <list>
+        <item>'Номан Челебиджихан'</item>
+        <item>'Мухаммедджан Хусаинов'</item>
+        <item>'Абдулятиф Заде'</item>
+        <item>'Мухамедьяр Султанов'</item>
+      </list>
+    </answerChoice>
+    <correctAnswer>'Номан Челебиджихан'</correctAnswer>
+  </question>
+  <question>
+    <id>31</id>
+    <image>''</image>
+    <name>'На каких языках издавалась газета Терджиман?'</name>
+    <answerChoice>
+      <list>
+        <item>'русский, крымскотатарский'</item>
+        <item>'крымскотатарский, арабский'</item>
+        <item>'турецкий, фарси'</item>
+        <item>'крымскотатрский, французский'</item>
+      </list>
+    </answerChoice>
+    <correctAnswer>'русский, крымскотатарский'</correctAnswer>
+  </question>
+  <question>
+    <id>32</id>
+    <image>''</image>
+    <name>'Какая письменность не использовалась тюркскими языками?'</name>
+    <answerChoice>
+      <list>
+        <item>'Руны'</item>
+        <item>'Арабица'</item>
+        <item>'Кириллица'</item>
+        <item>'Иероглифы'</item>
+      </list>
+    </answerChoice>
+    <correctAnswer>'Иероглифы'</correctAnswer>
+  </question>
+  <question>
+    <id>33</id>
+    <image>''</image>
+    <name>'Крымский художник-моренист.'</name>
+    <answerChoice>
+      <list>
+        <item>'Иван Айвазовский'</item>
+        <item>'Иван Шульга'</item>
+        <item>'Максимилиан Волошин'</item>
+        <item>'Марель Шагинян'</item>
+      </list>
+    </answerChoice>
+    <correctAnswer>'Иван Айвазовский'</correctAnswer>
+  </question>
+  <question>
+    <id>34</id>
+    <image>''</image>
+    <name>'Как в древности называли Черное море?'</name>
+    <answerChoice>
+      <list>
+        <item>'Порт Артур'</item>
+        <item>'Эвксинский понт'</item>
+        <item>'Меотийское озеро'</item>
+        <item>'Меотида'</item>
+      </list>
+    </answerChoice>
+    <correctAnswer>'Эвксинский понт'</correctAnswer>
+  </question>
+  <question>
+    <id>35</id>
+    <image>''</image>
+    <name>'В каком году состоялись первые протесты крымских татар в Москве?'</name>
+    <answerChoice>
+      <list>
+        <item>'1956'</item>
+        <item>'1945'</item>
+        <item>'1991'</item>
+        <item>'1950'</item>
+      </list>
+    </answerChoice>
+    <correctAnswer>'1956'</correctAnswer>
+  </question>
+  <question>
+    <id>36</id>
+    <image>''</image>
+    <name>'Какой из перечисленных народов не является коренным в Крыму? '</name>
+    <answerChoice>
+      <list>
+        <item>'Крымские татары'</item>
+        <item>'Караимы'</item>
+        <item>'Убыхи'</item>
+        <item>'Крымчаки'</item>
+      </list>
+    </answerChoice>
+    <correctAnswer>'Убыхи'</correctAnswer>
+  </question>
+  <question>
+    <id>37</id>
+    <image>''</image>
+    <name>'Какой общественно-политический деятель был убит 9 мая 1928-го года?  '</name>
+    <answerChoice>
+      <list>
+        <item>'Джафер Сейдамет'</item>
+        <item>'Амет Озенбашлы'</item>
+        <item>'Вели Ибраимов'</item>
+        <item>'Джеппар Аким'</item>
+      </list>
+    </answerChoice>
+    <correctAnswer>'Вели Ибраимов'</correctAnswer>
+  </question>
+  <question>
+    <id>38</id>
+    <image>''</image>
+    <name>'Основную силу армии Крымского ханства составляла...'</name>
+    <answerChoice>
+      <list>
+        <item>'Тяжёлая пехота '</item>
+        <item>'Лёкгая пехота'</item>
+        <item>'Артиллерия'</item>
+        <item>'Кавалерия'</item>
+      </list>
+    </answerChoice>
+    <correctAnswer>'Кавалерия'</correctAnswer>
+  </question>
+  <question>
+    <id>39</id>
+    <image>''</image>
+    <name>'Кто был известным крымским полководцем и политическим деятелем? '</name>
+    <answerChoice>
+      <list>
+        <item>'Халид ибн аль-Валид'</item>
+        <item>'Тогай Бей'</item>
+        <item>'Салах ад-Дин'</item>
+        <item>'Рагнар Лодброк'</item>
+      </list>
+    </answerChoice>
+    <correctAnswer>'Тогай Бей'</correctAnswer>
+  </question>
+  <question>
+    <id>40</id>
+    <image>''</image>
+    <name>'Какое княжество существовало в Крыму? '</name>
+    <answerChoice>
+      <list>
+        <item>'Галицко-Волынское княжество'</item>
+        <item>'Смоленское княжество'</item>
+        <item>'Княжество Феодоро'</item>
+        <item>'Мальтийский орден'</item>
+      </list>
+    </answerChoice>
+    <correctAnswer>'Княжество Феодоро'</correctAnswer>
+  </question>
+  <question>
+    <id>41</id>
+    <image>''</image>
+    <name>'Кто был старшим сыном Чингисхана, его наследником? '</name>
+    <answerChoice>
+      <list>
+        <item>'Хан Тохтамыш '</item>
+        <item>'Узбек хан '</item>
+        <item>'Селямет I Герай'</item>
+        <item>'Джучи Хан'</item>
+      </list>
+    </answerChoice>
+    <correctAnswer>'Джучи Хан'</correctAnswer>
+  </question>
+  <question>
+    <id>42</id>
+    <image>''</image>
+    <name>'Мечеть хана Узбека построил... '</name>
+    <answerChoice>
+      <list>
+        <item>'Узбек Хан'</item>
+        <item>'Исмаил Гаспринский '</item>
+        <item>'Крым Герай '</item>
+        <item>'Имам Шафи '</item>
+      </list>
+    </answerChoice>
+    <correctAnswer>'Узбек Хан'</correctAnswer>
+  </question>
+  <question>
+    <id>43</id>
+    <image>''</image>
+    <name>'Второй титул в иерархии Крымского ханства после хана это... '</name>
+    <answerChoice>
+      <list>
+        <item>'Муфтий '</item>
+        <item>'Нураддин-Султан'</item>
+        <item>'Калга Хан'</item>
+        <item>'Орбей'</item>
+      </list>
+    </answerChoice>
+    <correctAnswer>'Калга Хан'</correctAnswer>
+  </question>
+  <question>
+    <id>44</id>
+    <image>''</image>
+    <name>'Кто является автором поэмы "Бахчисарайский фонтан"?'</name>
+    <answerChoice>
+      <list>
+        <item>'Сергей Есенин '</item>
+        <item>'Эдуард Асадов '</item>
+        <item>'Александр Пушкин'</item>
+        <item>'Николай Гумилёв'</item>
+      </list>
+    </answerChoice>
+    <correctAnswer>'Александр Пушкин'</correctAnswer>
+  </question>
+  <question>
+    <id>45</id>
+    <image>''</image>
+    <name>'Кто из перечисленных офицеров был Героем Советского Союза?'</name>
+    <answerChoice>
+      <list>
+        <item>'Абдураим Решидов '</item>
+        <item>'Абдуль Тейфук'</item>
+        <item>'Абдураман Узеир'</item>
+        <item>'Все перечисленные'</item>
+      </list>
+    </answerChoice>
+    <correctAnswer>'Все перечисленные'</correctAnswer>
+  </question>
+  <question>
+    <id>46</id>
+    <image>''</image>
+    <name>'Где был казнён хан Шахин Герай? '</name>
+    <answerChoice>
+      <list>
+        <item>'В Румынии'</item>
+        <item>'На острове Родос'</item>
+        <item>'На острове Кипр'</item>
+        <item>'в Москве'</item>
+      </list>
+    </answerChoice>
+    <correctAnswer>'На острове Родос'</correctAnswer>
+  </question>
+  <question>
+    <id>47</id>
+    <image>''</image>
+    <name>'В какой стране было посольства Крымского ханства? '</name>
+    <answerChoice>
+      <list>
+        <item>'в Дании'</item>
+        <item>'в Уганде'</item>
+        <item>'в Бразилии '</item>
+        <item>'в Астралии '</item>
+      </list>
+    </answerChoice>
+    <correctAnswer>'в Дании'</correctAnswer>
+  </question>
+  <question>
+    <id>48</id>
+    <image>''</image>
+    <name>'Политическое течение тюрксков, призывающее к консолидации это...'</name>
+    <answerChoice>
+      <list>
+        <item>'Панисламизм'</item>
+        <item>'Кадимизм'</item>
+        <item>'Пантюркизм'</item>
+        <item>'Джадидизм'</item>
+      </list>
+    </answerChoice>
+    <correctAnswer>'Пантюркизм'</correctAnswer>
+  </question>
+  <question>
+    <id>49</id>
+    <image>''</image>
+    <name>'Движением за распространение просвещения, изучение светских дисциплин... '</name>
+    <answerChoice>
+      <list>
+        <item>'Панисламизм'</item>
+        <item>'Кадимизм'</item>
+        <item>'Пантюркизм'</item>
+        <item>'Джадидизм'</item>
+      </list>
+    </answerChoice>
+    <correctAnswer>'Джадидизм'</correctAnswer>
+  </question>
+  <question>
+    <id>50</id>
+    <image>''</image>
+    <name>'Консервативное движение, что боролось против религиозного реформаторства это...'</name>
+    <answerChoice>
+      <list>
+        <item>'Панисламизм'</item>
+        <item>'Кадимизм'</item>
+        <item>'Пантюркизм'</item>
+        <item>'Джадидизм'</item>
+      </list>
+    </answerChoice>
+    <correctAnswer>'Кадимизм'</correctAnswer>
+  </question>
+</list>
