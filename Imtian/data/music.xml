@@ -1,0 +1,129 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<list>
+  <question>
+    <id>1</id>
+    <image>''</image>
+    <name>'Как называется инструмент изготавляемый из абрикосового и тутового дерева, с коническим стволом длиной около 370 мм.?'</name>
+    <answerChoice>
+      <list>
+        <item>'Зурна'</item>
+        <item>'Даре'</item>
+        <item>'Давул'</item>
+        <item>'Къавал'</item>
+      </list>
+    </answerChoice>
+    <correctAnswer>'Зурна'</correctAnswer>
+  </question>
+  <question>
+    <id>2</id>
+    <image>''</image>
+    <name>'Как называется бубен , на одной стороне которого натянута мембрана из бараньей, козьей или рыбьей кожи?'</name>
+    <answerChoice>
+      <list>
+        <item>'Даре'</item>
+        <item>'Думбелек'</item>
+        <item>'Сантыр'</item>
+        <item>'Давул'</item>
+      </list>
+    </answerChoice>
+    <correctAnswer>'Даре'</correctAnswer>
+  </question>
+  <question>
+    <id>3</id>
+    <image>''</image>
+    <name>'Как называется сказово-речитативная форма с нравоучительным содержанием или размышлением о жизни?'</name>
+    <answerChoice>
+      <list>
+        <item>'Беит'</item>
+        <item>'Йыр'</item>
+        <item>'Шиир'</item>
+        <item>'Дестан'</item>
+      </list>
+    </answerChoice>
+    <correctAnswer>'Беит'</correctAnswer>
+  </question>
+  <question>
+    <id>4</id>
+    <image>''</image>
+    <name>'Как называются 2 пьесы, открывающие музыкальную часть свадьбы и исполняемые без перерыва?'</name>
+    <answerChoice>
+      <list>
+        <item>'"Такъсим" и "Пешраф"'</item>
+        <item>'"Хайтарма" и "Йыр"'</item>
+        <item>'"Йыр" и "Оюн"'</item>
+        <item>'"Йыр" и "Шиир"'</item>
+      </list>
+    </answerChoice>
+    <correctAnswer>'"Такъсим" и "Пешраф"'</correctAnswer>
+  </question>
+  <question>
+    <id>5</id>
+    <image>''</image>
+    <name>'Какую мотив традиционно исполняют в последний свадебный день, когда невеста прибывает в дом жениха?'</name>
+    <answerChoice>
+      <list>
+        <item>'"Агълама келин"'</item>
+        <item>'"Эвде байрам"'</item>
+        <item>'"Хайтарма"'</item>
+        <item>'"Келинлер"'</item>
+      </list>
+    </answerChoice>
+    <correctAnswer>'"Агълама келин"'</correctAnswer>
+  </question>
+  <question>
+    <id>6</id>
+    <image>''</image>
+    <name>'Какойособы мотив исполняет оркестр во время национальной борьбы - куреш?'</name>
+    <answerChoice>
+      <list>
+        <item>'"Куреш авасы"'</item>
+        <item>'"Куреш йыры"'</item>
+        <item>'"Къыаршылав йыры"'</item>
+        <item>'"Хайтарма"'</item>
+      </list>
+    </answerChoice>
+    <correctAnswer>'"Куреш авасы"'</correctAnswer>
+  </question>
+  <question>
+    <id>7</id>
+    <image>''</image>
+    <name>'Как называется мужской танец, который исполняется медленно, степенно, демонстрируя волю и силу?'</name>
+    <answerChoice>
+      <list>
+        <item>'"Акъай авасы"'</item>
+        <item>'"Огълан оюны"'</item>
+        <item>'"Чобан оюны"'</item>
+        <item>'"Хайтарма"'</item>
+      </list>
+    </answerChoice>
+    <correctAnswer>'"Акъай авасы"'</correctAnswer>
+  </question>
+  <question>
+    <id>8</id>
+    <image>''</image>
+    <name>'Какой метр присущ традиционному крымскотатарскому танцу - "Хайтарма"?'</name>
+    <answerChoice>
+      <list>
+        <item>'7/8'</item>
+        <item>'04.08.2017 0:00:00'</item>
+        <item>'02.08.2017 0:00:00'</item>
+        <item>'04.04.2017 0:00:00'</item>
+      </list>
+    </answerChoice>
+    <correctAnswer>'7/8'</correctAnswer>
+  </question>
+  <question>
+    <id>9</id>
+    <image>''</image>
+    <name>'Как называется выразительный крымскотатарский танец который традиционно исполняют пастухи?'</name>
+    <answerChoice>
+      <list>
+        <item>'"Чобан хайтармасы"'</item>
+        <item>'"Чобан йыры"'</item>
+        <item>'"Чобанлар"'</item>
+        <item>'"Чобан авасы"'</item>
+      </list>
+    </answerChoice>
+    <correctAnswer>'"Чобан хайтармасы"'</correctAnswer>
+  </question>
+</list>

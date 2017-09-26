@@ -1,0 +1,1123 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<list>
+  <question>
+    <id>1</id>
+    <image>''</image>
+    <name>'Как переводится слово "джеррах"?'</name>
+    <answerChoice>
+      <list>
+        <item>'Столяр'</item>
+        <item>'Узник'</item>
+        <item>'Хирург'</item>
+        <item>'Пекарь'</item>
+      </list>
+    </answerChoice>
+    <correctAnswer>'Хирург'</correctAnswer>
+  </question>
+  <question>
+    <id>2</id>
+    <image>''</image>
+    <name>'Как переводится слово "растительность"?'</name>
+    <answerChoice>
+      <list>
+        <item>'Ашерат'</item>
+        <item>'Узвиет'</item>
+        <item>'Сема'</item>
+        <item>'Небатат'</item>
+      </list>
+    </answerChoice>
+    <correctAnswer>'Небатат'</correctAnswer>
+  </question>
+  <question>
+    <id>3</id>
+    <image>''</image>
+    <name>'Правильный перевод слова "продовольствие"'</name>
+    <answerChoice>
+      <list>
+        <item>'Эрзакъ'</item>
+        <item>'Емек'</item>
+        <item>'Нимет'</item>
+        <item>'Таам'</item>
+      </list>
+    </answerChoice>
+    <correctAnswer>'Эрзакъ'</correctAnswer>
+  </question>
+  <question>
+    <id>4</id>
+    <image>''</image>
+    <name>'Инкишаф - это..?'</name>
+    <answerChoice>
+      <list>
+        <item>'Увлечение'</item>
+        <item>'Наука'</item>
+        <item>'Развитие'</item>
+        <item>'Присутствие'</item>
+      </list>
+    </answerChoice>
+    <correctAnswer>'Развитие'</correctAnswer>
+  </question>
+  <question>
+    <id>5</id>
+    <image>''</image>
+    <name>'Эбабиль - это...?'</name>
+    <answerChoice>
+      <list>
+        <item>'Горная ласточка'</item>
+        <item>'Орел'</item>
+        <item>'Воробей'</item>
+        <item>'Журавль'</item>
+      </list>
+    </answerChoice>
+    <correctAnswer>'Горная ласточка'</correctAnswer>
+  </question>
+  <question>
+    <id>6</id>
+    <image>''</image>
+    <name>'Словосочетание "на закате дней" на крымско-татарском будет звучать так:'</name>
+    <answerChoice>
+      <list>
+        <item>'Омюрнинъ сонъунда'</item>
+        <item>'Ёлларнынъ сонъунда'</item>
+        <item>'Сонъуна къадар'</item>
+        <item>'Сонъу екъ'</item>
+      </list>
+    </answerChoice>
+    <correctAnswer>'Омюрнинъ сонъунда'</correctAnswer>
+  </question>
+  <question>
+    <id>7</id>
+    <image>''</image>
+    <name>'"Делать что-либо из-под палки"'</name>
+    <answerChoice>
+      <list>
+        <item>'Меджбур этип'</item>
+        <item>'Авес этип'</item>
+        <item>'Зиян этип'</item>
+        <item>'Зарар олмакъ'</item>
+      </list>
+    </answerChoice>
+    <correctAnswer>'Меджбур этип'</correctAnswer>
+  </question>
+  <question>
+    <id>8</id>
+    <image>''</image>
+    <name>'Словосочетание "догъру фикир" переводится как:'</name>
+    <answerChoice>
+      <list>
+        <item>'Верная мысль'</item>
+        <item>'Ложное суждение'</item>
+        <item>'Правильный выбор'</item>
+        <item>'Верный путь'</item>
+      </list>
+    </answerChoice>
+    <correctAnswer>'Верная мысль'</correctAnswer>
+  </question>
+  <question>
+    <id>9</id>
+    <image>''</image>
+    <name>'Выражение "Торопится в школу" на крымскотатарском звучит так:'</name>
+    <answerChoice>
+      <list>
+        <item>'Мектепке ашыкъмакъ'</item>
+        <item>'Мектепке азырланмакъ'</item>
+        <item>'Мектептен къайтмакъ'</item>
+        <item>'Мектепнинъ дивары'</item>
+      </list>
+    </answerChoice>
+    <correctAnswer>'Мектепке ашыкъмакъ'</correctAnswer>
+  </question>
+  <question>
+    <id>10</id>
+    <image>''</image>
+    <name>'Правильный перевод слова "блондинка"'</name>
+    <answerChoice>
+      <list>
+        <item>'Къынапер'</item>
+        <item>'Сия сачлы'</item>
+        <item>'Кестане тюс сачлы'</item>
+        <item>'Сарышын'</item>
+      </list>
+    </answerChoice>
+    <correctAnswer>'Сарышын'</correctAnswer>
+  </question>
+  <question>
+    <id>11</id>
+    <image>''</image>
+    <name>'Слово "брюнетка" переводится как:'</name>
+    <answerChoice>
+      <list>
+        <item>'Сия сачлы'</item>
+        <item>'Къынапер'</item>
+        <item>'Кестане тюс сачлы'</item>
+        <item>'Сарышын'</item>
+      </list>
+    </answerChoice>
+    <correctAnswer>'Сия сачлы'</correctAnswer>
+  </question>
+  <question>
+    <id>12</id>
+    <image>''</image>
+    <name>'Выражение "агъзындан ель алсын " переводится так:'</name>
+    <answerChoice>
+      <list>
+        <item>'Типун тебе на язык'</item>
+        <item>'Ветер дует на язык'</item>
+        <item>'Не разговаривай'</item>
+        <item>'Не уходи от вопроса'</item>
+      </list>
+    </answerChoice>
+    <correctAnswer>'Типун тебе на язык'</correctAnswer>
+  </question>
+  <question>
+    <id>13</id>
+    <image>''</image>
+    <name>'Оказываясь в затруднительном положении, вы можете сказать:'</name>
+    <answerChoice>
+      <list>
+        <item>'Эки атеш арасында къалдым'</item>
+        <item>'Учь терек арасында къалдым'</item>
+        <item>'Эв тёпесине чыкътым'</item>
+        <item>'Борджгъа кирдим'</item>
+      </list>
+    </answerChoice>
+    <correctAnswer>'Эки атеш арасында къалдым'</correctAnswer>
+  </question>
+  <question>
+    <id>14</id>
+    <image>''</image>
+    <name>'Выражение "агъзынынъ первасы ёкъ" значит:'</name>
+    <answerChoice>
+      <list>
+        <item>'Язык без костей'</item>
+        <item>'За словом в карман не полезет'</item>
+        <item>'Не проронить ни слова'</item>
+        <item>'Внушать доверие'</item>
+      </list>
+    </answerChoice>
+    <correctAnswer>'Язык без костей'</correctAnswer>
+  </question>
+  <question>
+    <id>15</id>
+    <image>''</image>
+    <name>'Геджелер бакъсам - кок толгъан, саба бакъсам - ёкъ олгъан, недир бу?'</name>
+    <answerChoice>
+      <list>
+        <item>'Йылдызлар'</item>
+        <item>'Къушлар'</item>
+        <item>'Кунеш'</item>
+        <item>'Ай'</item>
+      </list>
+    </answerChoice>
+    <correctAnswer>'Йылдызлар'</correctAnswer>
+  </question>
+  <question>
+    <id>16</id>
+    <image>''</image>
+    <name>'Козь ташласан - агъларсын, ондан гузель тапмазсынъ, недир бу?'</name>
+    <answerChoice>
+      <list>
+        <item>'Кунеш'</item>
+        <item>'Булут'</item>
+        <item>'Ай'</item>
+        <item>'Чокъракъ'</item>
+      </list>
+    </answerChoice>
+    <correctAnswer>'Кунеш'</correctAnswer>
+  </question>
+  <question>
+    <id>17</id>
+    <image>''</image>
+    <name>'Бир акъ явлыкъ, ер устюнде джайдыкъ, недир бу?'</name>
+    <answerChoice>
+      <list>
+        <item>'Къар'</item>
+        <item>'Копюк'</item>
+        <item>'Булут'</item>
+        <item>'Ягъмур'</item>
+      </list>
+    </answerChoice>
+    <correctAnswer>'Къар'</correctAnswer>
+  </question>
+  <question>
+    <id>18</id>
+    <image>''</image>
+    <name>'Как на керченском диалекте называют маму?'</name>
+    <answerChoice>
+      <list>
+        <item>'Абай'</item>
+        <item>'Анай'</item>
+        <item>'Анам'</item>
+        <item>'Аннем'</item>
+      </list>
+    </answerChoice>
+    <correctAnswer>'Абай'</correctAnswer>
+  </question>
+  <question>
+    <id>19</id>
+    <image>''</image>
+    <name>'Вздрогнуть, встрепенуться от шума'</name>
+    <answerChoice>
+      <list>
+        <item>'А) абдырмакъ'</item>
+        <item>'Б) сескенмек'</item>
+        <item>'В) къоркъмакъ'</item>
+        <item>'А) + Б)'</item>
+      </list>
+    </answerChoice>
+    <correctAnswer>'А) + Б)'</correctAnswer>
+  </question>
+  <question>
+    <id>20</id>
+    <image>''</image>
+    <name>'"Это произведение является литературным памятником"'</name>
+    <answerChoice>
+      <list>
+        <item>'Бу эсер эдедий абидеси'</item>
+        <item>'Бу эсер тарих абидеси'</item>
+        <item>'Бу китап тарих абидеси'</item>
+        <item>'Бу эсер эдедий абиде'</item>
+      </list>
+    </answerChoice>
+    <correctAnswer>'Бу эсер эдедий абидеси'</correctAnswer>
+  </question>
+  <question>
+    <id>21</id>
+    <image>''</image>
+    <name>'Как называют сестру на диалекте южный?'</name>
+    <answerChoice>
+      <list>
+        <item>'А) Абле'</item>
+        <item>'Б) Абла'</item>
+        <item>'А) + Б)'</item>
+        <item>'Апте'</item>
+      </list>
+    </answerChoice>
+    <correctAnswer>'А) + Б)'</correctAnswer>
+  </question>
+  <question>
+    <id>22</id>
+    <image>''</image>
+    <name>'Как звучит словосочетание "сделать вот так" на южном диалекте?'</name>
+    <answerChoice>
+      <list>
+        <item>'Аблен япмакъ'</item>
+        <item>'Ойле этмек'</item>
+        <item>'Бойле япмакъ'</item>
+        <item>'Шорба пиширмек'</item>
+      </list>
+    </answerChoice>
+    <correctAnswer>'Аблен япмакъ'</correctAnswer>
+  </question>
+  <question>
+    <id>23</id>
+    <image>''</image>
+    <name>'Сен Аметны керчектен танымайсын?'</name>
+    <answerChoice>
+      <list>
+        <item>'Неужели ты не знаешь Амета?'</item>
+        <item>'Интересно, кто такой Амет'</item>
+        <item>'Неужели ты знаком с Аметом?'</item>
+        <item>'Когда же мы увидим Амета?'</item>
+      </list>
+    </answerChoice>
+    <correctAnswer>'Неужели ты не знаешь Амета?'</correctAnswer>
+  </question>
+  <question>
+    <id>24</id>
+    <image>''</image>
+    <name>'В переводе с крымскотатарского "представители прекрасного пола" :'</name>
+    <answerChoice>
+      <list>
+        <item>'Аджайып джыныс векиллери'</item>
+        <item>'Аджайып векиллери'</item>
+        <item>'Кучсыз джыныс векиллери'</item>
+        <item>'Сагълам джыныс векиллери'</item>
+      </list>
+    </answerChoice>
+    <correctAnswer>'Аджайып джыныс векиллери'</correctAnswer>
+  </question>
+  <question>
+    <id>25</id>
+    <image>''</image>
+    <name>'"Вызвать скорую помощь ":'</name>
+    <answerChoice>
+      <list>
+        <item>'Аджеле ярдым чагъырмакъ'</item>
+        <item>'Экимни давет этмек'</item>
+        <item>'Аджеле ярдым давет этмек'</item>
+        <item>'Аджеле ярдым этмек'</item>
+      </list>
+    </answerChoice>
+    <correctAnswer>'Аджеле ярдым чагъырмакъ'</correctAnswer>
+  </question>
+  <question>
+    <id>26</id>
+    <image>''</image>
+    <name>'Уйдурсанъ уйдур, къаранынъы къачырма'</name>
+    <answerChoice>
+      <list>
+        <item>'Ври, да знай меру'</item>
+        <item>'Собрался уходить, не стой в проходе'</item>
+        <item>'Ложь во благо'</item>
+        <item>'Ври, да не заговаривайся'</item>
+      </list>
+    </answerChoice>
+    <correctAnswer>'Ври, да знай меру'</correctAnswer>
+  </question>
+  <question>
+    <id>27</id>
+    <image>''</image>
+    <name>'Челтекнен сув ташымакъ'</name>
+    <answerChoice>
+      <list>
+        <item>'В решете воду носить'</item>
+        <item>'В кувшине воду носить'</item>
+        <item>'Наполнять емкость'</item>
+        <item>'Остаться у разбитого корыта'</item>
+      </list>
+    </answerChoice>
+    <correctAnswer>'В решете воду носить'</correctAnswer>
+  </question>
+  <question>
+    <id>28</id>
+    <image>''</image>
+    <name>'Олмайджакъ шей ичюн алекет къопармакъ'</name>
+    <answerChoice>
+      <list>
+        <item>'Много шума из ничего'</item>
+        <item>'Слышу звон, да не знаю где он'</item>
+        <item>'Нечем похвастаться'</item>
+        <item>'Расстраиваться из-за пустяков'</item>
+      </list>
+    </answerChoice>
+    <correctAnswer>'Много шума из ничего'</correctAnswer>
+  </question>
+  <question>
+    <id>29</id>
+    <image>''</image>
+    <name>'Чырайларындан къар ягъа'</name>
+    <answerChoice>
+      <list>
+        <item>'Быть не в себе'</item>
+        <item>'Снегопад застал врасплох'</item>
+        <item>'Снег падает на лицо'</item>
+        <item>'Неужели идёт снег'</item>
+      </list>
+    </answerChoice>
+    <correctAnswer>'Быть не в себе'</correctAnswer>
+  </question>
+  <question>
+    <id>30</id>
+    <image>''</image>
+    <name>'В народе домашнюю птицу называют так:'</name>
+    <answerChoice>
+      <list>
+        <item>'Кумес къушлары'</item>
+        <item>'Эвдеки къушлары'</item>
+        <item>'Кийик къушлары'</item>
+        <item>'Чипчелер'</item>
+      </list>
+    </answerChoice>
+    <correctAnswer>'Кумес къушлары'</correctAnswer>
+  </question>
+  <question>
+    <id>31</id>
+    <image>''</image>
+    <name>'Переведите: 1. Цыплёнок; 2. Голубь; 3. Гусь'</name>
+    <answerChoice>
+      <list>
+        <item>'1. Чипче; 2. Гогерджин; 3. Къаз '</item>
+        <item>'1. Чипче; 2. Хораз; 3. Тавукъ'</item>
+        <item>'1. Чипче; 2. Мысыр; 3. Кокюш'</item>
+        <item>'1. Чипче; 2. Кокюш; 3. Къаз'</item>
+      </list>
+    </answerChoice>
+    <correctAnswer>'1. Чипче; 2. Гогерджин; 3. Къаз '</correctAnswer>
+  </question>
+  <question>
+    <id>32</id>
+    <image>''</image>
+    <name>'Переведите: Индюк; Павлин; Утка'</name>
+    <answerChoice>
+      <list>
+        <item>'Кокюш (мысыр); Тавускъуш; Папий '</item>
+        <item>'Кокюш; Гогерджин; Папий'</item>
+        <item>'Кокюш; Къаз; Къыр тавугъы'</item>
+        <item>'Кокюш; Папий; Къаз'</item>
+      </list>
+    </answerChoice>
+    <correctAnswer>'Кокюш (мысыр); Тавускъуш; Папий '</correctAnswer>
+  </question>
+  <question>
+    <id>33</id>
+    <image>''</image>
+    <name>'Переведите: Курочка; Петух; Павлин'</name>
+    <answerChoice>
+      <list>
+        <item>'Тавукъ; Хораз; Тавускъуш '</item>
+        <item>'Тавукъ; Хораз; Гогерджин'</item>
+        <item>'Тавукъ; Къаз; Хораз'</item>
+        <item>'Тавукъ; Къаз; Чипче'</item>
+      </list>
+    </answerChoice>
+    <correctAnswer>'Тавукъ; Хораз; Тавускъуш '</correctAnswer>
+  </question>
+  <question>
+    <id>34</id>
+    <image>''</image>
+    <name>'Сюрюден айырылгъан сюрюнип олер'</name>
+    <answerChoice>
+      <list>
+        <item>'Кто от стада отойдёт, тот споткнётся и умрет'</item>
+        <item>'Кто от стада отойдет, тот умрет'</item>
+        <item>'Кто от стада отойдет, тот споткнётся'</item>
+        <item>'Кто от стада отойдёт, тот вернётся'</item>
+      </list>
+    </answerChoice>
+    <correctAnswer>'Кто от стада отойдёт, тот споткнётся и умрет'</correctAnswer>
+  </question>
+  <question>
+    <id>35</id>
+    <image>''</image>
+    <name>'Переведите слово "сбегать" на крымскотатарский'</name>
+    <answerChoice>
+      <list>
+        <item>'Чапып кельмек '</item>
+        <item>'Чапмакъ'</item>
+        <item>'Барып кельмек'</item>
+        <item>'Чапып бармакъ'</item>
+      </list>
+    </answerChoice>
+    <correctAnswer>'Чапып кельмек '</correctAnswer>
+  </question>
+  <question>
+    <id>36</id>
+    <image>''</image>
+    <name>'Как будет звучать слово мында (бу ерге) на южном диалекте?'</name>
+    <answerChoice>
+      <list>
+        <item>'Абрая'</item>
+        <item>'Абрежне'</item>
+        <item>'Бурая'</item>
+        <item>'Буна'</item>
+      </list>
+    </answerChoice>
+    <correctAnswer>'Абрая'</correctAnswer>
+  </question>
+  <question>
+    <id>37</id>
+    <image>''</image>
+    <name>'Как звучит слово бойле на Бахчисарайском диалекте?'</name>
+    <answerChoice>
+      <list>
+        <item>'Аблежне'</item>
+        <item>'Бурая'</item>
+        <item>'Абле'</item>
+        <item>'Бура'</item>
+      </list>
+    </answerChoice>
+    <correctAnswer>'Аблежне'</correctAnswer>
+  </question>
+  <question>
+    <id>38</id>
+    <image>''</image>
+    <name>'Переведите: фасонить (модничать)'</name>
+    <answerChoice>
+      <list>
+        <item>'Аборотланмакъ'</item>
+        <item>'форсаланмакъ'</item>
+        <item>'форса сатмакъ'</item>
+        <item>'все ответы верны'</item>
+      </list>
+    </answerChoice>
+    <correctAnswer>'все ответы верны'</correctAnswer>
+  </question>
+  <question>
+    <id>39</id>
+    <image>''</image>
+    <name>'Переведите: я ваш покорный слуга'</name>
+    <answerChoice>
+      <list>
+        <item>'Мен сизинъ абиди аджизийнъизим'</item>
+        <item>'Мен сизинъ абди'</item>
+        <item>'Мен сизинъ бенде'</item>
+        <item>'Мен сизинъ къул'</item>
+      </list>
+    </answerChoice>
+    <correctAnswer>'Мен сизинъ абиди аджизийнъизим'</correctAnswer>
+  </question>
+  <question>
+    <id>40</id>
+    <image>''</image>
+    <name>'Переведите: Эта комната хорошо проветриваемая'</name>
+    <answerChoice>
+      <list>
+        <item>'Бу ода авадар'</item>
+        <item>''</item>
+        <item>''</item>
+        <item>''</item>
+      </list>
+    </answerChoice>
+    <correctAnswer>'Бу ода авадар'</correctAnswer>
+  </question>
+  <question>
+    <id>41</id>
+    <image>''</image>
+    <name>'Как на южном диалекте называют бабушку?'</name>
+    <answerChoice>
+      <list>
+        <item>'Тапта'</item>
+        <item>'Буюкана'</item>
+        <item>'Все ответы верны'</item>
+        <item>'Бийкана'</item>
+      </list>
+    </answerChoice>
+    <correctAnswer>'Все ответы верны'</correctAnswer>
+  </question>
+  <question>
+    <id>42</id>
+    <image>''</image>
+    <name>'Как на южном диалекте называют кошку?'</name>
+    <answerChoice>
+      <list>
+        <item>'Писик'</item>
+        <item>'Мышыкъ'</item>
+        <item>'Копек'</item>
+        <item>'Пардош'</item>
+      </list>
+    </answerChoice>
+    <correctAnswer>'Писик'</correctAnswer>
+  </question>
+  <question>
+    <id>43</id>
+    <image>''</image>
+    <name>'Как на степном диалекте называют дождь?'</name>
+    <answerChoice>
+      <list>
+        <item>'Джавун'</item>
+        <item>'Ягъмур'</item>
+        <item>'Джагъмур'</item>
+        <item>'Къар'</item>
+      </list>
+    </answerChoice>
+    <correctAnswer>'Джавун'</correctAnswer>
+  </question>
+  <question>
+    <id>44</id>
+    <image>''</image>
+    <name>'Как на керченском диалекте называют рис?'</name>
+    <answerChoice>
+      <list>
+        <item>'Пирич'</item>
+        <item>'Пирнич'</item>
+        <item>'Курьпе'</item>
+        <item>'Тюй'</item>
+      </list>
+    </answerChoice>
+    <correctAnswer>'Пирич'</correctAnswer>
+  </question>
+  <question>
+    <id>45</id>
+    <image>''</image>
+    <name>'Переведите: "тюй пастасы"'</name>
+    <answerChoice>
+      <list>
+        <item>'Пшенная каша'</item>
+        <item>'Рисовая каша'</item>
+        <item>'Макароны по-флотски'</item>
+        <item>'Итальянская паста'</item>
+      </list>
+    </answerChoice>
+    <correctAnswer>'Пшенная каша'</correctAnswer>
+  </question>
+  <question>
+    <id>46</id>
+    <image>''</image>
+    <name>'Как называют суп на диалекте ай-серез'</name>
+    <answerChoice>
+      <list>
+        <item>'Шорва'</item>
+        <item>'Шорба'</item>
+        <item>'Шурпа'</item>
+        <item>'Сют'</item>
+      </list>
+    </answerChoice>
+    <correctAnswer>'Шорва'</correctAnswer>
+  </question>
+  <question>
+    <id>47</id>
+    <image>''</image>
+    <name>'Как крымские татары называют гречневую крупу?'</name>
+    <answerChoice>
+      <list>
+        <item>'Къара богъдай'</item>
+        <item>'Мысырбогъдай курьпеси'</item>
+        <item>'Тары'</item>
+        <item>'Джылап'</item>
+      </list>
+    </answerChoice>
+    <correctAnswer>'Къара богъдай'</correctAnswer>
+  </question>
+  <question>
+    <id>48</id>
+    <image>''</image>
+    <name>'Как у крымских татар называют просо?'</name>
+    <answerChoice>
+      <list>
+        <item>'Тары'</item>
+        <item>'Джылап'</item>
+        <item>'Арпа курьпеси'</item>
+        <item>'Къара богъдай'</item>
+      </list>
+    </answerChoice>
+    <correctAnswer>'Тары'</correctAnswer>
+  </question>
+  <question>
+    <id>49</id>
+    <image>''</image>
+    <name>'Переведите: овес; ячмень; кукурузная крупа'</name>
+    <answerChoice>
+      <list>
+        <item>'Джылап; арпа курьпеси; мысырбогъдай курьпеси'</item>
+        <item>'Джылап, пирич, тары'</item>
+        <item>'Къара богъдай, тары, арпа'</item>
+        <item>'Арпа, джылап, тюй'</item>
+      </list>
+    </answerChoice>
+    <correctAnswer>'Джылап; арпа курьпеси; мысырбогъдай курьпеси'</correctAnswer>
+  </question>
+  <question>
+    <id>50</id>
+    <image>''</image>
+    <name>'Переведите: фундамент дома'</name>
+    <answerChoice>
+      <list>
+        <item>'Эвнинъ темели'</item>
+        <item>'Темель'</item>
+        <item>'Темельни къоймакъ'</item>
+        <item>'Базы'</item>
+      </list>
+    </answerChoice>
+    <correctAnswer>'Эвнинъ темели'</correctAnswer>
+  </question>
+  <question>
+    <id>51</id>
+    <image>''</image>
+    <name>'Переведите: черепица; крыша; проект дома'</name>
+    <answerChoice>
+      <list>
+        <item>'Кирамет; дам; эвнинъ лейхасы'</item>
+        <item>'Кирамет; дам; темель'</item>
+        <item>'Кирамет; лейха, темель'</item>
+        <item>'Лейха, кирамет, базы'</item>
+      </list>
+    </answerChoice>
+    <correctAnswer>'Кирамет; дам; эвнинъ лейхасы'</correctAnswer>
+  </question>
+  <question>
+    <id>52</id>
+    <image>''</image>
+    <name>'Как как крымские татары называют строителя?'</name>
+    <answerChoice>
+      <list>
+        <item>'Къуруджы'</item>
+        <item>'Джеррах'</item>
+        <item>'Оджа'</item>
+        <item>'Ашчы'</item>
+      </list>
+    </answerChoice>
+    <correctAnswer>'Къуруджы'</correctAnswer>
+  </question>
+  <question>
+    <id>53</id>
+    <image>''</image>
+    <name>'Какие значения имеет слово " тола"?'</name>
+    <answerChoice>
+      <list>
+        <item>'Коротко стриженная овчина'</item>
+        <item>'Обожженный кирпич'</item>
+        <item>'Оба ответа верны'</item>
+        <item>'Такого слова нет'</item>
+      </list>
+    </answerChoice>
+    <correctAnswer>'Коротко стриженная овчина'</correctAnswer>
+  </question>
+  <question>
+    <id>54</id>
+    <image>''</image>
+    <name>'Переведите: доска; известь; песок'</name>
+    <answerChoice>
+      <list>
+        <item>'Тахта; киреч; къум'</item>
+        <item>'Тахта; къум; киреч'</item>
+        <item>'Тахта; киреч; тола'</item>
+        <item>'Киреч; тола; тахта'</item>
+      </list>
+    </answerChoice>
+    <correctAnswer>'Тахта; киреч; къум'</correctAnswer>
+  </question>
+  <question>
+    <id>55</id>
+    <image>''</image>
+    <name>'Как крымские татары называют лестницу?'</name>
+    <answerChoice>
+      <list>
+        <item>'Мердивен'</item>
+        <item>'Босагъа'</item>
+        <item>'Дивар'</item>
+        <item>'Дам'</item>
+      </list>
+    </answerChoice>
+    <correctAnswer>'Мердивен'</correctAnswer>
+  </question>
+  <question>
+    <id>56</id>
+    <image>''</image>
+    <name>'Переведите: платье; туфли; брюки'</name>
+    <answerChoice>
+      <list>
+        <item>'Антер, аякъап, штан'</item>
+        <item>'антер, аякъап, чызма'</item>
+        <item>'антер, чызма, къушакъ'</item>
+        <item>'штан, антер, аякъап'</item>
+      </list>
+    </answerChoice>
+    <correctAnswer>'Антер, аякъап, штан'</correctAnswer>
+  </question>
+  <question>
+    <id>57</id>
+    <image>''</image>
+    <name>'Переведите: галстук; юбка; рубашка'</name>
+    <answerChoice>
+      <list>
+        <item>'Боюнбагъ; фистан; кольмек'</item>
+        <item>'Боюнбагъ, антер, штан'</item>
+        <item>'Боюнбагъ; фистан; антер'</item>
+        <item>'Къушакъ; фистан; антер'</item>
+      </list>
+    </answerChoice>
+    <correctAnswer>'Боюнбагъ; фистан; кольмек'</correctAnswer>
+  </question>
+  <question>
+    <id>58</id>
+    <image>''</image>
+    <name>'Переведите: ремень; сапоги; шуба'</name>
+    <answerChoice>
+      <list>
+        <item>'Къушакъ, чызма, тон'</item>
+        <item>'Къушакъ, чызма, антер'</item>
+        <item>'Къушакъ, чызма, тулуп'</item>
+        <item>'Чызма, къушакъ, фистан'</item>
+      </list>
+    </answerChoice>
+    <correctAnswer>'Къушакъ, чызма, тон'</correctAnswer>
+  </question>
+  <question>
+    <id>59</id>
+    <image>''</image>
+    <name>'Переведите: самолет; корабль; сани'</name>
+    <answerChoice>
+      <list>
+        <item>'Учакъ; геми; чана'</item>
+        <item>'Учакъ; геми; трен'</item>
+        <item>'Трен; учакъ; геми'</item>
+        <item>'Учакъ; геми; къайыкъ'</item>
+      </list>
+    </answerChoice>
+    <correctAnswer>'Учакъ; геми; чана'</correctAnswer>
+  </question>
+  <question>
+    <id>60</id>
+    <image>''</image>
+    <name>'Переведите: парусник; лодка; поезд'</name>
+    <answerChoice>
+      <list>
+        <item>'Елькенли геми; къайыкъ; трен'</item>
+        <item>'Елькенли геми; къайыкъ; чана'</item>
+        <item>'Елькенли геми; машна; аякъмашна'</item>
+        <item>'Геми; машна; аякъмашна'</item>
+      </list>
+    </answerChoice>
+    <correctAnswer>'Елькенли геми; къайыкъ; трен'</correctAnswer>
+  </question>
+  <question>
+    <id>61</id>
+    <image>''</image>
+    <name>'Переведите: грузовик; автомобиль; велосипед'</name>
+    <answerChoice>
+      <list>
+        <item>'Юк машнасы, машна, аякъмашна'</item>
+        <item>'Юк машнасы; машна; геми'</item>
+        <item>'Юк машнасы; автомобиль; трен'</item>
+        <item>'Машна; автомобиль; геми'</item>
+      </list>
+    </answerChoice>
+    <correctAnswer>'Юк машнасы, машна, аякъмашна'</correctAnswer>
+  </question>
+  <question>
+    <id>62</id>
+    <image>''</image>
+    <name>'Переведите: попугай, аист, журавль'</name>
+    <answerChoice>
+      <list>
+        <item>'Папагъан, лейлек, турна'</item>
+        <item>'папагъан, лейлек, гогерджин'</item>
+        <item>'папагъан, бульбуль, турна'</item>
+        <item>'бульбуль, турна, папагъан'</item>
+      </list>
+    </answerChoice>
+    <correctAnswer>'Папагъан, лейлек, турна'</correctAnswer>
+  </question>
+  <question>
+    <id>63</id>
+    <image>''</image>
+    <name>'Переведите: соловей, лебедь, ласточка'</name>
+    <answerChoice>
+      <list>
+        <item>'Бульбуль, акъкъуш, къарылгъач'</item>
+        <item>'бульбуль, акъкъуш, турна'</item>
+        <item>'бульбуль, акъкъуш, лейлек'</item>
+        <item>'акъкъуш, турна, лейлек'</item>
+      </list>
+    </answerChoice>
+    <correctAnswer>'Бульбуль, акъкъуш, къарылгъач'</correctAnswer>
+  </question>
+  <question>
+    <id>64</id>
+    <image>''</image>
+    <name>'Переведите: дятел, орел, голубь'</name>
+    <answerChoice>
+      <list>
+        <item>'Такъ-такъ къуш, къартал, гогерджин'</item>
+        <item>'такъ-такъ къуш, къартал, турна'</item>
+        <item>'такъ-такъ къуш, турна, лейлек'</item>
+        <item>'такъ-такъ къуш, бульбуль, гогерджин'</item>
+      </list>
+    </answerChoice>
+    <correctAnswer>'Такъ-такъ къуш, къартал, гогерджин'</correctAnswer>
+  </question>
+  <question>
+    <id>65</id>
+    <image>''</image>
+    <name>'Переведите: география, математика, физическая культура'</name>
+    <answerChoice>
+      <list>
+        <item>'Джография, риязият, беден тербиеси'</item>
+        <item>'джография, риязият, тарих'</item>
+        <item>'джография, риязият, ана тили'</item>
+        <item>'риязият, ана тили, тарих'</item>
+      </list>
+    </answerChoice>
+    <correctAnswer>'Джография, риязият, беден тербиеси'</correctAnswer>
+  </question>
+  <question>
+    <id>66</id>
+    <image>''</image>
+    <name>'Переведите: родной язык, литература, история'</name>
+    <answerChoice>
+      <list>
+        <item>'Ана тили, эдебият, тарих'</item>
+        <item>'ана тили, эдебият, риязият'</item>
+        <item>'ана тили, риязият, тарих'</item>
+        <item>'тарих, эдебият, эсап'</item>
+      </list>
+    </answerChoice>
+    <correctAnswer>'Ана тили, эдебият, тарих'</correctAnswer>
+  </question>
+  <question>
+    <id>67</id>
+    <image>''</image>
+    <name>'Переведите: арифметика, изобразительное искусство, иностранный язык'</name>
+    <answerChoice>
+      <list>
+        <item>'Эсап, Тасвирий санаат, Эджнебий тиль'</item>
+        <item>'эсап, тасвирий санаат, ана тили'</item>
+        <item>'эсап, ана тили, беден'</item>
+        <item>'эсап, тарих, тасвирий санаат'</item>
+      </list>
+    </answerChoice>
+    <correctAnswer>'Эсап, Тасвирий санаат, Эджнебий тиль'</correctAnswer>
+  </question>
+  <question>
+    <id>68</id>
+    <image>''</image>
+    <name>'Переведите словосочетание: с незапамятных времён'</name>
+    <answerChoice>
+      <list>
+        <item>'Дедемнинъ кунюнден (къалгъан)'</item>
+        <item>'Битамнынъ кунюнден (къалгъан)'</item>
+        <item>'Эвель-эвельдеки'</item>
+        <item>'Чокътан-чокъ'</item>
+      </list>
+    </answerChoice>
+    <correctAnswer>'Дедемнинъ кунюнден (къалгъан)'</correctAnswer>
+  </question>
+  <question>
+    <id>69</id>
+    <image>''</image>
+    <name>'Назовите цвета: черный-причерный, белый, коричневый'</name>
+    <answerChoice>
+      <list>
+        <item>'Сим-сия, беяз, къаверенкли'</item>
+        <item>'сим-сия, беяз, пемпе'</item>
+        <item>'Къара, беяз, кок'</item>
+        <item>'къап-къара, беяз, къырмызы'</item>
+      </list>
+    </answerChoice>
+    <correctAnswer>'Сим-сия, беяз, къаверенкли'</correctAnswer>
+  </question>
+  <question>
+    <id>70</id>
+    <image>''</image>
+    <name>'Какой из диалектов ближе всего к турецкому литературному языку?'</name>
+    <answerChoice>
+      <list>
+        <item>'южный'</item>
+        <item>'ногъайский'</item>
+        <item>'татский'</item>
+        <item>'керченский'</item>
+      </list>
+    </answerChoice>
+    <correctAnswer>'южный'</correctAnswer>
+  </question>
+  <question>
+    <id>71</id>
+    <image>''</image>
+    <name>'Особенностью южного диалекта является:'</name>
+    <answerChoice>
+      <list>
+        <item>'греческие заимствования'</item>
+        <item>'итальянские заимствования'</item>
+        <item>'схожесть с турецким языком'</item>
+        <item>'Все ответы верны'</item>
+      </list>
+    </answerChoice>
+    <correctAnswer>'Все ответы верны'</correctAnswer>
+  </question>
+  <question>
+    <id>72</id>
+    <image>''</image>
+    <name>'Какой из диалектов относится к кыпчакским языкам?'</name>
+    <answerChoice>
+      <list>
+        <item>'ногъайский'</item>
+        <item>'ялыбойский'</item>
+        <item>'орта-ёлакъ'</item>
+        <item>'татский'</item>
+      </list>
+    </answerChoice>
+    <correctAnswer>'ногъайский'</correctAnswer>
+  </question>
+  <question>
+    <id>73</id>
+    <image>''</image>
+    <name>'Быдыр-быдыр лаф этмек'</name>
+    <answerChoice>
+      <list>
+        <item>'Тарахтеть без умолку'</item>
+        <item>'Громко разговаривать'</item>
+        <item>'Тихо общаться'</item>
+        <item>'Напевать мелодию'</item>
+      </list>
+    </answerChoice>
+    <correctAnswer>'Тарахтеть без умолку'</correctAnswer>
+  </question>
+  <question>
+    <id>74</id>
+    <image>''</image>
+    <name>'Переведите: однородные величины'</name>
+    <answerChoice>
+      <list>
+        <item>'Бир сой буюкликлер'</item>
+        <item>'Сой буюкликлер'</item>
+        <item>'Бир сой буюклер'</item>
+        <item>'Бир буюклиги'</item>
+      </list>
+    </answerChoice>
+    <correctAnswer>'Бир сой буюкликлер'</correctAnswer>
+  </question>
+  <question>
+    <id>75</id>
+    <image>''</image>
+    <name>'Как на крымскотатарском звучит слово беспокоиться?'</name>
+    <answerChoice>
+      <list>
+        <item>'Бусанмакъ'</item>
+        <item>'Раатсызланмакъ'</item>
+        <item>'Къавсеветленмек'</item>
+        <item>'Все ответы верны'</item>
+      </list>
+    </answerChoice>
+    <correctAnswer>'Все ответы верны'</correctAnswer>
+  </question>
+  <question>
+    <id>76</id>
+    <image>''</image>
+    <name>'Выберите антонимы к слову буюк'</name>
+    <answerChoice>
+      <list>
+        <item>'Киик, уфакъ'</item>
+        <item>'Балабан'</item>
+        <item>'Бир дереджеде'</item>
+        <item>'Чокътан-чокъ'</item>
+      </list>
+    </answerChoice>
+    <correctAnswer>'Киик, уфакъ'</correctAnswer>
+  </question>
+  <question>
+    <id>77</id>
+    <image>''</image>
+    <name>'Переведите слово эвлеримиздендирлерми?'</name>
+    <answerChoice>
+      <list>
+        <item>'Из наших домов ли'</item>
+        <item>'Из нашего дома'</item>
+        <item>'Из наших домов'</item>
+        <item>'Не из наших домов'</item>
+      </list>
+    </answerChoice>
+    <correctAnswer>'Из наших домов ли'</correctAnswer>
+  </question>
+  <question>
+    <id>78</id>
+    <image>''</image>
+    <name>'Сколько аффиксов содержит слово эвлеримиздендирлерми?'</name>
+    <answerChoice>
+      <list>
+        <item>'шесть'</item>
+        <item>'один'</item>
+        <item>'пять'</item>
+        <item>'четыре'</item>
+      </list>
+    </answerChoice>
+    <correctAnswer>'шесть'</correctAnswer>
+  </question>
+  <question>
+    <id>79</id>
+    <image>''</image>
+    <name>'Переведите словосочетание: переиздать книгу'</name>
+    <answerChoice>
+      <list>
+        <item>'Китапны янъындан нешир этмек'</item>
+        <item>'Китапны янынъдан тешкиль этмек'</item>
+        <item>'Китапны янынъдан джедвельге алмакъ'</item>
+        <item>'Китапны янынъдан сайламакъ'</item>
+      </list>
+    </answerChoice>
+    <correctAnswer>'Китапны янъындан нешир этмек'</correctAnswer>
+  </question>
+  <question>
+    <id>80</id>
+    <image>''</image>
+    <name>'В каких значениях употребляется словосочетание " адам олмакъ"?'</name>
+    <answerChoice>
+      <list>
+        <item>'Инсанджа яшамакъ'</item>
+        <item>'Намуслы олмакъ'</item>
+        <item>'Джемааткъа файдалы олмакъ'</item>
+        <item>'Все ответы верны'</item>
+      </list>
+    </answerChoice>
+    <correctAnswer>'Все ответы верны'</correctAnswer>
+  </question>
+</list>
