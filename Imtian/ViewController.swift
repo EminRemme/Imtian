@@ -13,11 +13,15 @@ class ViewController: UIViewController {
     
     
     
+    @IBOutlet weak var StartButton: UIButton!
     override func viewDidLoad() {
         super.viewDidLoad()
+        
         // Do any additional setup after loading the view, typically from a nib.
+        //self.StartButton.layer.masksToBounds = true
+        //self.StartButton.layer.cornerRadius = self.StartButton.bounds.height / 4
+        
     }
-
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.

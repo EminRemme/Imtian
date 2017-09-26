@@ -8,8 +8,28 @@
         <id>history</id>
         <name>История</name>
     </theme>
-    <theme >
+    <theme>
         <id>toponimika</id>
         <name>Топонимика</name>
+    </theme>
+    <theme>
+        <id>islam</id>
+        <name>Ислам</name>
+    </theme>
+    <theme>
+        <id>kitchen</id>
+        <name>Кухня</name>
+    </theme>
+    <theme>
+        <id>language</id>
+        <name>Язык</name>
+    </theme>
+    <theme>
+        <id>music</id>
+        <name>Музыка</name>
+    </theme>
+    <theme>
+        <id>tradition</id>
+        <name>Традиция</name>
     </theme>
 </list>

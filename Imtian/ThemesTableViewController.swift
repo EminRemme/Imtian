@@ -20,6 +20,7 @@ class ThemesTableViewController: UITableViewController, XMLParserDelegate {
     
     var parser : XMLParser = XMLParser()
     
+    @IBOutlet var ThemesTableView: UITableView!
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -36,7 +37,29 @@ class ThemesTableViewController: UITableViewController, XMLParserDelegate {
             }
         }
     }
-
+    override func viewWillAppear(_ animated: Bool) {
+        //self.clearsSelectionOnViewWillAppear = self.splitViewController!.isCollapsed
+        super.viewWillAppear(animated)
+        
+        // Add a background view to the table view
+        let backgroundImage = UIImage(named: "Page.png")
+        let imageView = UIImageView(image: backgroundImage)
+        self.tableView.backgroundView = imageView
+        // no lines where there aren't cells
+        //tableView.tableFooterView = UIView(frame: CGRectZero)
+        
+        // center and scale background image
+        imageView.contentMode = .scaleAspectFill
+        
+        // Set the background color to match better
+        //tableView.backgroundColor = .lightGray()
+        
+        // blur it
+        //let blurEffect = UIBlurEffect(style: UIBlurEffectStyle.light)
+        //let blurView = UIVisualEffectView(effect: blurEffect)
+        //blurView.frame = imageView.bounds
+        //imageView.addSubview(blurView)
+    }
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
@@ -57,7 +80,9 @@ class ThemesTableViewController: UITableViewController, XMLParserDelegate {
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "themeCell", for: indexPath as IndexPath)
-        
+        cell.backgroundColor = .clear
+        //cell.textLabel?.font = UIFont(name:"System", size:50)
+        cell.textLabel?.adjustsFontSizeToFitWidth = true
         let theme = themes[indexPath.row]
         cell.textLabel?.text = theme.Name
         return cell

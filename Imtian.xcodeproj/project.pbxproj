@@ -21,6 +21,11 @@
 		F87C844E1F6D395B00489C27 /* history.xml in Resources */ = {isa = PBXBuildFile; fileRef = F87C844B1F6D395B00489C27 /* history.xml */; };
 		F87C844F1F6D395B00489C27 /* literature.xml in Resources */ = {isa = PBXBuildFile; fileRef = F87C844C1F6D395B00489C27 /* literature.xml */; };
 		F87C84501F6D395B00489C27 /* toponimika.xml in Resources */ = {isa = PBXBuildFile; fileRef = F87C844D1F6D395B00489C27 /* toponimika.xml */; };
+		F895624B1F7A446600BE0CA3 /* music.xml in Resources */ = {isa = PBXBuildFile; fileRef = F89562461F7A446500BE0CA3 /* music.xml */; };
+		F895624C1F7A446600BE0CA3 /* language.xml in Resources */ = {isa = PBXBuildFile; fileRef = F89562471F7A446600BE0CA3 /* language.xml */; };
+		F895624D1F7A446600BE0CA3 /* kitchen.xml in Resources */ = {isa = PBXBuildFile; fileRef = F89562481F7A446600BE0CA3 /* kitchen.xml */; };
+		F895624E1F7A446600BE0CA3 /* islam.xml in Resources */ = {isa = PBXBuildFile; fileRef = F89562491F7A446600BE0CA3 /* islam.xml */; };
+		F895624F1F7A446600BE0CA3 /* tradition.xml in Resources */ = {isa = PBXBuildFile; fileRef = F895624A1F7A446600BE0CA3 /* tradition.xml */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +45,11 @@
 		F87C844B1F6D395B00489C27 /* history.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = history.xml; path = data/history.xml; sourceTree = "<group>"; };
 		F87C844C1F6D395B00489C27 /* literature.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = literature.xml; path = data/literature.xml; sourceTree = "<group>"; };
 		F87C844D1F6D395B00489C27 /* toponimika.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = toponimika.xml; path = data/toponimika.xml; sourceTree = "<group>"; };
+		F89562461F7A446500BE0CA3 /* music.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = music.xml; path = data/music.xml; sourceTree = "<group>"; };
+		F89562471F7A446600BE0CA3 /* language.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = language.xml; path = data/language.xml; sourceTree = "<group>"; };
+		F89562481F7A446600BE0CA3 /* kitchen.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = kitchen.xml; path = data/kitchen.xml; sourceTree = "<group>"; };
+		F89562491F7A446600BE0CA3 /* islam.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = islam.xml; path = data/islam.xml; sourceTree = "<group>"; };
+		F895624A1F7A446600BE0CA3 /* tradition.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = tradition.xml; path = data/tradition.xml; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,6 +101,11 @@
 		F85E159C1F3EFFF3006819DD /* data */ = {
 			isa = PBXGroup;
 			children = (
+				F89562491F7A446600BE0CA3 /* islam.xml */,
+				F89562481F7A446600BE0CA3 /* kitchen.xml */,
+				F89562471F7A446600BE0CA3 /* language.xml */,
+				F89562461F7A446500BE0CA3 /* music.xml */,
+				F895624A1F7A446600BE0CA3 /* tradition.xml */,
 				F87C844B1F6D395B00489C27 /* history.xml */,
 				F87C844C1F6D395B00489C27 /* literature.xml */,
 				F87C844D1F6D395B00489C27 /* toponimika.xml */,
@@ -159,8 +174,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F895624C1F7A446600BE0CA3 /* language.xml in Resources */,
 				F87C84501F6D395B00489C27 /* toponimika.xml in Resources */,
+				F895624B1F7A446600BE0CA3 /* music.xml in Resources */,
 				F87C844E1F6D395B00489C27 /* history.xml in Resources */,
+				F895624E1F7A446600BE0CA3 /* islam.xml in Resources */,
+				F895624D1F7A446600BE0CA3 /* kitchen.xml in Resources */,
+				F895624F1F7A446600BE0CA3 /* tradition.xml in Resources */,
 				F85E15A81F3F0374006819DD /* themes.xml in Resources */,
 				F87C844F1F6D395B00489C27 /* literature.xml in Resources */,
 				F80B17281F234ED7003892AA /* LaunchScreen.storyboard in Resources */,

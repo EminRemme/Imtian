@@ -77,7 +77,7 @@ class QuestionViewController: UIViewController, XMLParserDelegate {
         // Do any additional setup after loading the view.
         nameQuestion.layer.masksToBounds = true
         nameQuestion.layer.cornerRadius = nameAnswer1.bounds.height / 4
-        nameAnswer1.layer.masksToBounds = true
+        /*nameAnswer1.layer.masksToBounds = true
         nameAnswer1.layer.cornerRadius = nameAnswer1.bounds.height / 4
         nameAnswer2.layer.masksToBounds = true
         nameAnswer2.layer.cornerRadius = nameAnswer2.bounds.height / 4
@@ -85,7 +85,7 @@ class QuestionViewController: UIViewController, XMLParserDelegate {
         nameAnswer3.layer.cornerRadius = nameAnswer3.bounds.height / 4
         nameAnswer4.layer.masksToBounds = true
         nameAnswer4.layer.cornerRadius = nameAnswer4.bounds.height / 4
-        
+        */
         buttonAnswer1.showsTouchWhenHighlighted = true
         buttonAnswer2.showsTouchWhenHighlighted = true
         buttonAnswer3.showsTouchWhenHighlighted = true
