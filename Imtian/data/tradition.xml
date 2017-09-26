@@ -1,0 +1,1236 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<list>
+  <question>
+    <id>1</id>
+    <image>''</image>
+    <name>'Характерной особенностью крымских татар является:'</name>
+    <answerChoice>
+      <list>
+        <item>'Враждебность'</item>
+        <item>'Гостеприимство'</item>
+        <item>'Радушие'</item>
+        <item>'Замкнутость'</item>
+      </list>
+    </answerChoice>
+    <correctAnswer>'Гостеприимство'</correctAnswer>
+  </question>
+  <question>
+    <id>2</id>
+    <image>''</image>
+    <name>'Попав в крымско-татарский дом, вам непременно будет приготовлен:'</name>
+    <answerChoice>
+      <list>
+        <item>'Какао'</item>
+        <item>'Лимонад'</item>
+        <item>'Кофе'</item>
+        <item>'Чай'</item>
+      </list>
+    </answerChoice>
+    <correctAnswer>'Кофе'</correctAnswer>
+  </question>
+  <question>
+    <id>3</id>
+    <image>''</image>
+    <name>'Если подавая кофе гостю в крымскотатарской семье чашечку располагают ручкой к гостю, это означает, что:'</name>
+    <answerChoice>
+      <list>
+        <item>'Его рады видеть'</item>
+        <item>'Его не уважают'</item>
+        <item>'Ничего незначит'</item>
+        <item>'В зависимости от семьи'</item>
+      </list>
+    </answerChoice>
+    <correctAnswer>'Его рады видеть'</correctAnswer>
+  </question>
+  <question>
+    <id>4</id>
+    <image>''</image>
+    <name>'Кто, согласно крымскотатарским традициям, приступает к пище первым?'</name>
+    <answerChoice>
+      <list>
+        <item>'Глава семьи'</item>
+        <item>'Мама'</item>
+        <item>'Дети'</item>
+        <item>'Гости'</item>
+      </list>
+    </answerChoice>
+    <correctAnswer>'Глава семьи'</correctAnswer>
+  </question>
+  <question>
+    <id>5</id>
+    <image>''</image>
+    <name>'До каких пор, согласно крымскотатарским традициям нельзя вставать из-за стола?'</name>
+    <answerChoice>
+      <list>
+        <item>'Пока не наешься'</item>
+        <item>'До тех пор пока глава семьи не прочитает молитву'</item>
+        <item>'Пока не уберут со стола'</item>
+        <item>'Когда захочу, тогда и встану'</item>
+      </list>
+    </answerChoice>
+    <correctAnswer>'До тех пор пока глава семьи не прочитает молитву'</correctAnswer>
+  </question>
+  <question>
+    <id>6</id>
+    <image>''</image>
+    <name>'Красят ли хной пальцы ног девушке перед свадьбой?'</name>
+    <answerChoice>
+      <list>
+        <item>'Нет'</item>
+        <item>'Да'</item>
+        <item>'Да, только в некоторых районах'</item>
+        <item>'Хна не крымскотатарская традиция'</item>
+      </list>
+    </answerChoice>
+    <correctAnswer>'Да, только в некоторых районах'</correctAnswer>
+  </question>
+  <question>
+    <id>7</id>
+    <image>''</image>
+    <name>'Что значит обряд крымских татар «Сёз кесим»?'</name>
+    <answerChoice>
+      <list>
+        <item>'Дать слово, договориться'</item>
+        <item>'Расторгнуть помолвку'</item>
+        <item>'Вступить в законный брак'</item>
+        <item>'Ни один из вариантов'</item>
+      </list>
+    </answerChoice>
+    <correctAnswer>'Дать слово, договориться'</correctAnswer>
+  </question>
+  <question>
+    <id>8</id>
+    <image>''</image>
+    <name>'Что такое «Кобете»?'</name>
+    <answerChoice>
+      <list>
+        <item>'Традиционный танец'</item>
+        <item>'Имя'</item>
+        <item>'Пирог с мясом'</item>
+        <item>'Название города'</item>
+      </list>
+    </answerChoice>
+    <correctAnswer>'Пирог с мясом'</correctAnswer>
+  </question>
+  <question>
+    <id>9</id>
+    <image>''</image>
+    <name>'На сколько дней растягивается празднование крымскотатарской свадьбы в наши дни?'</name>
+    <answerChoice>
+      <list>
+        <item>'2'</item>
+        <item>'1'</item>
+        <item>'Неделя'</item>
+        <item>'4'</item>
+      </list>
+    </answerChoice>
+    <correctAnswer>'2'</correctAnswer>
+  </question>
+  <question>
+    <id>10</id>
+    <image>''</image>
+    <name>'Что такое «Никях»?'</name>
+    <answerChoice>
+      <list>
+        <item>'Свадьба'</item>
+        <item>'Праздник урожая'</item>
+        <item>'Мусульманский обряд бракосочетания'</item>
+        <item>'Сватовство'</item>
+      </list>
+    </answerChoice>
+    <correctAnswer>'Мусульманский обряд бракосочетания'</correctAnswer>
+  </question>
+  <question>
+    <id>11</id>
+    <image>''</image>
+    <name>'Кто, согласно крымскотатарским традициям, повязывает невесте красивый(зачастую красный) пояс?'</name>
+    <answerChoice>
+      <list>
+        <item>'Отец невесты'</item>
+        <item>'Мать невесты'</item>
+        <item>'Отец жениха'</item>
+        <item>'Старший брат невесты'</item>
+      </list>
+    </answerChoice>
+    <correctAnswer>'Отец невесты'</correctAnswer>
+  </question>
+  <question>
+    <id>12</id>
+    <image>''</image>
+    <name>'Как в средние века выражали уважение к женщине?'</name>
+    <answerChoice>
+      <list>
+        <item>'Разговаривали с почтением'</item>
+        <item>'Никак'</item>
+        <item>'Материальной заботой'</item>
+        <item>'Посвящали им стихи'</item>
+      </list>
+    </answerChoice>
+    <correctAnswer>'Материальной заботой'</correctAnswer>
+  </question>
+  <question>
+    <id>13</id>
+    <image>''</image>
+    <name>'Согласно крымскотатарским традициям, марама стоит надевать под фес или на него?'</name>
+    <answerChoice>
+      <list>
+        <item>'Крымские татарски не носили марама'</item>
+        <item>'Поверх феса'</item>
+        <item>'Фес надевается на марама'</item>
+        <item>'Оба варианта!!!!!!'</item>
+      </list>
+    </answerChoice>
+    <correctAnswer>'Поверх феса'</correctAnswer>
+  </question>
+  <question>
+    <id>14</id>
+    <image>''</image>
+    <name>'Какими монетами традиционно были уркашены женские шапочки – фес?'</name>
+    <answerChoice>
+      <list>
+        <item>'Медными'</item>
+        <item>'Золотыми'</item>
+        <item>'Серебряными'</item>
+        <item>'Деревянными'</item>
+      </list>
+    </answerChoice>
+    <correctAnswer>'Золотыми'</correctAnswer>
+  </question>
+  <question>
+    <id>15</id>
+    <image>''</image>
+    <name>'Можно ли дарить одежду, украшения, игрушки беременной женщине для будущего ребенка?'</name>
+    <answerChoice>
+      <list>
+        <item>'Можно'</item>
+        <item>'Нельзя'</item>
+        <item>'Можно только после рождения ребенка'</item>
+        <item>'Нельзя делать никаких подарков'</item>
+      </list>
+    </answerChoice>
+    <correctAnswer>'Можно только после рождения ребенка'</correctAnswer>
+  </question>
+  <question>
+    <id>16</id>
+    <image>''</image>
+    <name>'Разрешается ли согласно крымскотатарским традициям давать детям имена родителей?'</name>
+    <answerChoice>
+      <list>
+        <item>'Можно'</item>
+        <item>'Нельзя'</item>
+        <item>'Можно давать любые имена'</item>
+        <item>'Нельзя давать имена родственников'</item>
+      </list>
+    </answerChoice>
+    <correctAnswer>'Нельзя'</correctAnswer>
+  </question>
+  <question>
+    <id>17</id>
+    <image>''</image>
+    <name>'Когда празднуется календарный крымскотатарский праздник «Йыл геджеси»?'</name>
+    <answerChoice>
+      <list>
+        <item>'22 декабря'</item>
+        <item>'Весной'</item>
+        <item>'У крымскиз татар нет такого праздника'</item>
+        <item>'В конце лета'</item>
+      </list>
+    </answerChoice>
+    <correctAnswer>'У крымскиз татар нет такого праздника'</correctAnswer>
+  </question>
+  <question>
+    <id>18</id>
+    <image>''</image>
+    <name>'Как называется праздник осеннего солнцестояния?'</name>
+    <answerChoice>
+      <list>
+        <item>'Дервиза'</item>
+        <item>'Наврез'</item>
+        <item>'Хыдырлез'</item>
+        <item>'Къурбан байрам'</item>
+      </list>
+    </answerChoice>
+    <correctAnswer>'Дервиза'</correctAnswer>
+  </question>
+  <question>
+    <id>19</id>
+    <image>''</image>
+    <name>'Что такое «Къалакъай»?'</name>
+    <answerChoice>
+      <list>
+        <item>'Традиционный танец'</item>
+        <item>'Традиционный хлеб'</item>
+        <item>'Праздник'</item>
+        <item>'Песня'</item>
+      </list>
+    </answerChoice>
+    <correctAnswer>'Традиционный хлеб'</correctAnswer>
+  </question>
+  <question>
+    <id>20</id>
+    <image>''</image>
+    <name>'Как на крымскотатарском языке будет бабушка?'</name>
+    <answerChoice>
+      <list>
+        <item>'Къарт ана'</item>
+        <item>'Бита'</item>
+        <item>'Ката'</item>
+        <item>'Все варианты правильные'</item>
+      </list>
+    </answerChoice>
+    <correctAnswer>'Все варианты правильные'</correctAnswer>
+  </question>
+  <question>
+    <id>21</id>
+    <image>''</image>
+    <name>'Как на крымскотатарском языке называют дедушку?'</name>
+    <answerChoice>
+      <list>
+        <item>'Деде'</item>
+        <item>'Къартбаба'</item>
+        <item>'Ата'</item>
+        <item>'Все варианты правильные'</item>
+      </list>
+    </answerChoice>
+    <correctAnswer>'Все варианты правильные'</correctAnswer>
+  </question>
+  <question>
+    <id>22</id>
+    <image>''</image>
+    <name>'Как обращаются к незамужней крымской татарке?'</name>
+    <answerChoice>
+      <list>
+        <item>'Шерфе'</item>
+        <item>'Абла'</item>
+        <item>'Енге'</item>
+        <item>'По имени'</item>
+      </list>
+    </answerChoice>
+    <correctAnswer>'Шерфе'</correctAnswer>
+  </question>
+  <question>
+    <id>23</id>
+    <image>''</image>
+    <name>'Как обращаются к замужней крымской татарке?'</name>
+    <answerChoice>
+      <list>
+        <item>'Ханум эфенди'</item>
+        <item>'Тата'</item>
+        <item>'По имени'</item>
+        <item>'Это запрещено'</item>
+      </list>
+    </answerChoice>
+    <correctAnswer>'Ханум эфенди'</correctAnswer>
+  </question>
+  <question>
+    <id>24</id>
+    <image>''</image>
+    <name>'Если при подаче кофе ручку чашки отворачивают, что это значит?'</name>
+    <answerChoice>
+      <list>
+        <item>'Вам не рады'</item>
+        <item>'Радушный приём'</item>
+        <item>'Ничего не значит'</item>
+        <item>'Пора уходить'</item>
+      </list>
+    </answerChoice>
+    <correctAnswer>'Вам не рады'</correctAnswer>
+  </question>
+  <question>
+    <id>25</id>
+    <image>''</image>
+    <name>'Какой фразой крымские татары приветствуют гостей?'</name>
+    <answerChoice>
+      <list>
+        <item>'Хош кельдинъиз'</item>
+        <item>'Селям'</item>
+        <item>'Показывают жестом'</item>
+        <item>'Никак'</item>
+      </list>
+    </answerChoice>
+    <correctAnswer>'Хош кельдинъиз'</correctAnswer>
+  </question>
+  <question>
+    <id>26</id>
+    <image>''</image>
+    <name>'Дюгюн - это...'</name>
+    <answerChoice>
+      <list>
+        <item>'Поход'</item>
+        <item>'Свадьба'</item>
+        <item>'Животное'</item>
+        <item>'Праздник'</item>
+      </list>
+    </answerChoice>
+    <correctAnswer>'Свадьба'</correctAnswer>
+  </question>
+  <question>
+    <id>27</id>
+    <image>''</image>
+    <name>'Какой фразой крымские татары провожают гостей?'</name>
+    <answerChoice>
+      <list>
+        <item>'Алла къолай кетирсин'</item>
+        <item>'Даа келинъиз'</item>
+        <item>'Хош сефагъа кельдинъиз'</item>
+        <item>'Ёлунъыз ачыкъ олсун'</item>
+      </list>
+    </answerChoice>
+    <correctAnswer>'Ёлунъыз ачыкъ олсун'</correctAnswer>
+  </question>
+  <question>
+    <id>28</id>
+    <image>''</image>
+    <name>'Традиционный головной убор крымскотатарского мужчины?'</name>
+    <answerChoice>
+      <list>
+        <item>'Марама'</item>
+        <item>'Къалпакъ'</item>
+        <item>'Шапке'</item>
+        <item>'Кепка'</item>
+      </list>
+    </answerChoice>
+    <correctAnswer>'Къалпакъ'</correctAnswer>
+  </question>
+  <question>
+    <id>29</id>
+    <image>''</image>
+    <name>'Традиционный головной убор крымскотатарской девушки?'</name>
+    <answerChoice>
+      <list>
+        <item>'Шляпа'</item>
+        <item>'Фес'</item>
+        <item>'Марама'</item>
+        <item>'Шарф'</item>
+      </list>
+    </answerChoice>
+    <correctAnswer>'Фес'</correctAnswer>
+  </question>
+  <question>
+    <id>30</id>
+    <image>''</image>
+    <name>'Сколько существует этапов современной крымскотатарской свадьбы?'</name>
+    <answerChoice>
+      <list>
+        <item>'1'</item>
+        <item>'2'</item>
+        <item>'3'</item>
+        <item>'5'</item>
+      </list>
+    </answerChoice>
+    <correctAnswer>'5'</correctAnswer>
+  </question>
+  <question>
+    <id>31</id>
+    <image>''</image>
+    <name>'Преимущественно какого цвета носили халаты прибрежные рымские татарки?'</name>
+    <answerChoice>
+      <list>
+        <item>'Красного'</item>
+        <item>'Синего'</item>
+        <item>'Оранжевого'</item>
+        <item>'Белого'</item>
+      </list>
+    </answerChoice>
+    <correctAnswer>'Синего'</correctAnswer>
+  </question>
+  <question>
+    <id>32</id>
+    <image>''</image>
+    <name>'Как называется короткий южнобережный халат?'</name>
+    <answerChoice>
+      <list>
+        <item>'Тат'</item>
+        <item>'Денъиз'</item>
+        <item>'Халат'</item>
+        <item>'Къафтан'</item>
+      </list>
+    </answerChoice>
+    <correctAnswer>'Тат'</correctAnswer>
+  </question>
+  <question>
+    <id>33</id>
+    <image>''</image>
+    <name>'Из чего изготавливался традиционный мужской пояс - къушакъ?'</name>
+    <answerChoice>
+      <list>
+        <item>'Из ткани'</item>
+        <item>'Из золота'</item>
+        <item>'Мужчины не носили поясов'</item>
+        <item>'Сочетание ткани и железа'</item>
+      </list>
+    </answerChoice>
+    <correctAnswer>'Из ткани'</correctAnswer>
+  </question>
+  <question>
+    <id>34</id>
+    <image>''</image>
+    <name>'Как называлась рабочая обувь?'</name>
+    <answerChoice>
+      <list>
+        <item>'Къатыр'</item>
+        <item>'Терлик'</item>
+        <item>'Папуч'</item>
+        <item>'Чизма'</item>
+      </list>
+    </answerChoice>
+    <correctAnswer>'Къатыр'</correctAnswer>
+  </question>
+  <question>
+    <id>35</id>
+    <image>''</image>
+    <name>'Как называются высокие носки которые надевали под обувь?'</name>
+    <answerChoice>
+      <list>
+        <item>'Чораб'</item>
+        <item>'Кальчин'</item>
+        <item>'Мест'</item>
+        <item>'Кольмек'</item>
+      </list>
+    </answerChoice>
+    <correctAnswer>'Чораб'</correctAnswer>
+  </question>
+  <question>
+    <id>36</id>
+    <image>''</image>
+    <name>'Что выполняло роль къушакъа у степных крымских татар?'</name>
+    <answerChoice>
+      <list>
+        <item>'Разноцветный платок'</item>
+        <item>'Кусок ткани'</item>
+        <item>'Не носили къушакъ'</item>
+        <item>'Шарф'</item>
+      </list>
+    </answerChoice>
+    <correctAnswer>'Разноцветный платок'</correctAnswer>
+  </question>
+  <question>
+    <id>37</id>
+    <image>''</image>
+    <name>'Из чего шили традиционные мужские шапочки степных крымских татар?'</name>
+    <answerChoice>
+      <list>
+        <item>'Сукно'</item>
+        <item>'Шелк'</item>
+        <item>'Сукно и золото'</item>
+        <item>'Бархат'</item>
+      </list>
+    </answerChoice>
+    <correctAnswer>'Сукно и золото'</correctAnswer>
+  </question>
+  <question>
+    <id>38</id>
+    <image>''</image>
+    <name>'Как называется орнаментированный нарукавник в крымскотатарском костюме?'</name>
+    <answerChoice>
+      <list>
+        <item>'Къапакъ'</item>
+        <item>'Енъ'</item>
+        <item>'Мыкълама'</item>
+        <item>'Орьнек'</item>
+      </list>
+    </answerChoice>
+    <correctAnswer>'Къапакъ'</correctAnswer>
+  </question>
+  <question>
+    <id>39</id>
+    <image>''</image>
+    <name>'Кто носил шербенте(длинный, тонкий шарф)?'</name>
+    <answerChoice>
+      <list>
+        <item>'Молодые девушки'</item>
+        <item>'Взрослые женщины'</item>
+        <item>'Все'</item>
+        <item>'Только неветы'</item>
+      </list>
+    </answerChoice>
+    <correctAnswer>'Молодые девушки'</correctAnswer>
+  </question>
+  <question>
+    <id>40</id>
+    <image>''</image>
+    <name>'Степная группа женщин носила рубахи разных оттенков каких цветов?'</name>
+    <answerChoice>
+      <list>
+        <item>'Красный и жёлтый'</item>
+        <item>'Зеленый и оранжевый'</item>
+        <item>'Салатовый'</item>
+        <item>'Все цвета'</item>
+      </list>
+    </answerChoice>
+    <correctAnswer>'Красный и жёлтый'</correctAnswer>
+  </question>
+  <question>
+    <id>41</id>
+    <image>''</image>
+    <name>'Что такое "Мыкълама"?'</name>
+    <answerChoice>
+      <list>
+        <item>'Шитье золотыми нитями'</item>
+        <item>'Прибивать гвоздь'</item>
+        <item>'Битьё'</item>
+        <item>'Праздник'</item>
+      </list>
+    </answerChoice>
+    <correctAnswer>'Шитье золотыми нитями'</correctAnswer>
+  </question>
+  <question>
+    <id>42</id>
+    <image>''</image>
+    <name>'Вышивали ли узоры на традиционных высоких носках - чорабах?'</name>
+    <answerChoice>
+      <list>
+        <item>'Да'</item>
+        <item>'Нет'</item>
+        <item>'В зависимости от благосостояния семьи'</item>
+        <item>'Только невестам'</item>
+      </list>
+    </answerChoice>
+    <correctAnswer>'Да'</correctAnswer>
+  </question>
+  <question>
+    <id>43</id>
+    <image>''</image>
+    <name>'Носят ли орнаменты нанесённые на предметы какое либо значение?'</name>
+    <answerChoice>
+      <list>
+        <item>'Да'</item>
+        <item>'Нет'</item>
+        <item>'Они только для красоты'</item>
+        <item>'Смотря какой орнамент'</item>
+      </list>
+    </answerChoice>
+    <correctAnswer>'Да'</correctAnswer>
+  </question>
+  <question>
+    <id>44</id>
+    <image>''</image>
+    <name>'На какой праздник хозяйки готовят "Янъы кобетеси"?'</name>
+    <answerChoice>
+      <list>
+        <item>'Йыл геджеси'</item>
+        <item>'Наврез'</item>
+        <item>'Дервиза'</item>
+        <item>'На все праздники'</item>
+      </list>
+    </answerChoice>
+    <correctAnswer>'Йыл геджеси'</correctAnswer>
+  </question>
+  <question>
+    <id>45</id>
+    <image>''</image>
+    <name>'Наврез - это...'</name>
+    <answerChoice>
+      <list>
+        <item>'Крымскотатарское слово'</item>
+        <item>'Иранское слово'</item>
+        <item>'Тюркское слово'</item>
+        <item>'Узбецкое слово'</item>
+      </list>
+    </answerChoice>
+    <correctAnswer>'Иранское слово'</correctAnswer>
+  </question>
+  <question>
+    <id>46</id>
+    <image>''</image>
+    <name>'Чем завершаются весенние обряды крымских татар?'</name>
+    <answerChoice>
+      <list>
+        <item>'Праздником "Хыдырлез"'</item>
+        <item>'Праздником "Наврез"'</item>
+        <item>'Праздником "Къурбан байрам"'</item>
+        <item>'Ничем не завершаются'</item>
+      </list>
+    </answerChoice>
+    <correctAnswer>'Праздником "Хыдырлез"'</correctAnswer>
+  </question>
+  <question>
+    <id>47</id>
+    <image>''</image>
+    <name>'Какого цвета надевают одежду на традиционный праздник "Хыдырлез"?'</name>
+    <answerChoice>
+      <list>
+        <item>'Коричневого'</item>
+        <item>'Оранжевого'</item>
+        <item>'Зелёного'</item>
+        <item>'Чёрного'</item>
+      </list>
+    </answerChoice>
+    <correctAnswer>'Зелёного'</correctAnswer>
+  </question>
+  <question>
+    <id>48</id>
+    <image>''</image>
+    <name>'Что дарят победителям национальной крымскотатарской борьбы "Куреш"?'</name>
+    <answerChoice>
+      <list>
+        <item>'Верблюда'</item>
+        <item>'Козу'</item>
+        <item>'Лошадь'</item>
+        <item>'Барана'</item>
+      </list>
+    </answerChoice>
+    <correctAnswer>'Барана'</correctAnswer>
+  </question>
+  <question>
+    <id>49</id>
+    <image>''</image>
+    <name>'В каком крымскотатарском заведении мужчины проводили большое колличество времени: играли в шахмты, курили трубки, цитировали стихотворения, рассказывали сказки и различные истории из жизни?'</name>
+    <answerChoice>
+      <list>
+        <item>'Бар'</item>
+        <item>'Культурный клуб'</item>
+        <item>'Крымскотатарская кофейня'</item>
+        <item>'Они это делали дома'</item>
+      </list>
+    </answerChoice>
+    <correctAnswer>'Крымскотатарская кофейня'</correctAnswer>
+  </question>
+  <question>
+    <id>50</id>
+    <image>''</image>
+    <name>'Чем угощали друг друга крымские татарки в 1803-х годах во время "девичников"?'</name>
+    <answerChoice>
+      <list>
+        <item>'Шербетом'</item>
+        <item>'Шоколадом'</item>
+        <item>'Печеньем'</item>
+        <item>'Фруктами'</item>
+      </list>
+    </answerChoice>
+    <correctAnswer>'Шербетом'</correctAnswer>
+  </question>
+  <question>
+    <id>51</id>
+    <image>''</image>
+    <name>'"Алла бир, сёз бир" - когда произносились эти слова?'</name>
+    <answerChoice>
+      <list>
+        <item>'При сделке'</item>
+        <item>'При сватовстве'</item>
+        <item>'При принятии на работу'</item>
+        <item>'При расторжении договора'</item>
+      </list>
+    </answerChoice>
+    <correctAnswer>'При сватовстве'</correctAnswer>
+  </question>
+  <question>
+    <id>52</id>
+    <image>''</image>
+    <name>'Жених на 2-й стороне свадьбы, для доставки невесты и ее гостей предоставл​яет... ?'</name>
+    <answerChoice>
+      <list>
+        <item>'Лошадь'</item>
+        <item>'Телегу'</item>
+        <item>'Машины и музыкантов'</item>
+        <item>'Невеста сама добирается'</item>
+      </list>
+    </answerChoice>
+    <correctAnswer>'Машины и музыкантов'</correctAnswer>
+  </question>
+  <question>
+    <id>53</id>
+    <image>''</image>
+    <name>'Что дарят невесте подружки и сёстры на третий день после свадьбы?'</name>
+    <answerChoice>
+      <list>
+        <item>'Платье'</item>
+        <item>'Пылесос'</item>
+        <item>'Красиво оформленный веник'</item>
+        <item>'Золото'</item>
+      </list>
+    </answerChoice>
+    <correctAnswer>'Красиво оформленный веник'</correctAnswer>
+  </question>
+  <question>
+    <id>54</id>
+    <image>''</image>
+    <name>'На какой день после свадьбы подружки и сёстры дарят невесте красиво оформленный веник?'</name>
+    <answerChoice>
+      <list>
+        <item>'Через неделю'</item>
+        <item>'На третий день'</item>
+        <item>'На следующий день после свадьбы'</item>
+        <item>'Веник никто не дарит'</item>
+      </list>
+    </answerChoice>
+    <correctAnswer>'На третий день'</correctAnswer>
+  </question>
+  <question>
+    <id>55</id>
+    <image>''</image>
+    <name>'Как называется послесвадебный обряд, когда невеста варит родственникам кофе?'</name>
+    <answerChoice>
+      <list>
+        <item>'Саба къавеси'</item>
+        <item>'Келин къавеси'</item>
+        <item>'Сыйляма'</item>
+        <item>'Мусафирченлик'</item>
+      </list>
+    </answerChoice>
+    <correctAnswer>'Келин къавеси'</correctAnswer>
+  </question>
+  <question>
+    <id>56</id>
+    <image>''</image>
+    <name>'Что Наврез (21 марта) первоначально означал для крымских татар?'</name>
+    <answerChoice>
+      <list>
+        <item>'Праздник праздников'</item>
+        <item>'Праздник рукоделия'</item>
+        <item>'Хозяйственный новый год'</item>
+        <item>'Праздник марта'</item>
+      </list>
+    </answerChoice>
+    <correctAnswer>'Хозяйственный новый год'</correctAnswer>
+  </question>
+  <question>
+    <id>57</id>
+    <image>''</image>
+    <name>'Красят ли крымские татары на праздник "Наврез" яйца?'</name>
+    <answerChoice>
+      <list>
+        <item>'Красят'</item>
+        <item>'Не красят'</item>
+        <item>'Варят, но не красят'</item>
+        <item>'Крымские татары не едят яиц'</item>
+      </list>
+    </answerChoice>
+    <correctAnswer>'Варят, но не красят'</correctAnswer>
+  </question>
+  <question>
+    <id>58</id>
+    <image>''</image>
+    <name>'Какой праздник является первым месяцем начала полевых работ?'</name>
+    <answerChoice>
+      <list>
+        <item>'Наврез'</item>
+        <item>'Хыдырлез'</item>
+        <item>'Дервиза'</item>
+        <item>'Къурбан байрам'</item>
+      </list>
+    </answerChoice>
+    <correctAnswer>'Наврез'</correctAnswer>
+  </question>
+  <question>
+    <id>59</id>
+    <image>''</image>
+    <name>'У крымских татар имелся закон, согласно которому жена могла подать на развод, если супруг ограничивал ее в...'</name>
+    <answerChoice>
+      <list>
+        <item>'В одежде'</item>
+        <item>'В разговорах'</item>
+        <item>'В приготовлении кофе'</item>
+        <item>'В свободном времени'</item>
+      </list>
+    </answerChoice>
+    <correctAnswer>'В приготовлении кофе'</correctAnswer>
+  </question>
+  <question>
+    <id>60</id>
+    <image>''</image>
+    <name>'В какое время суток произносится фраза: "Саба шерифинъиз хаырлы олсун!"?'</name>
+    <answerChoice>
+      <list>
+        <item>'Вечером'</item>
+        <item>'Утром'</item>
+        <item>'Влюбое время суток'</item>
+        <item>'Днём'</item>
+      </list>
+    </answerChoice>
+    <correctAnswer>'Утром'</correctAnswer>
+  </question>
+  <question>
+    <id>61</id>
+    <image>''</image>
+    <name>'Прийдя в гости в крымскотатарскую семью, кому принято целовать руки?'</name>
+    <answerChoice>
+      <list>
+        <item>'Всем членам семьи'</item>
+        <item>'Самым старшим'</item>
+        <item>'Только женщинам'</item>
+        <item>'Никому'</item>
+      </list>
+    </answerChoice>
+    <correctAnswer>'Самым старшим'</correctAnswer>
+  </question>
+  <question>
+    <id>62</id>
+    <image>''</image>
+    <name>'Когда произносится фраза "Козюнъиз айдын олсун"?'</name>
+    <answerChoice>
+      <list>
+        <item>'Приходя в гости'</item>
+        <item>'Уходя из гостей'</item>
+        <item>'При возвращении кого либо из далека'</item>
+        <item>'При подаче кофе'</item>
+      </list>
+    </answerChoice>
+    <correctAnswer>'При возвращении кого либо из далека'</correctAnswer>
+  </question>
+  <question>
+    <id>63</id>
+    <image>''</image>
+    <name>'Чего не делают сразу после ухода гостей из дома в крымскотатарской семье?'</name>
+    <answerChoice>
+      <list>
+        <item>'Не едят'</item>
+        <item>'Непьют кофе'</item>
+        <item>'Не подметают'</item>
+        <item>'Не разговаривают'</item>
+      </list>
+    </answerChoice>
+    <correctAnswer>'Не подметают'</correctAnswer>
+  </question>
+  <question>
+    <id>64</id>
+    <image>''</image>
+    <name>'На какое мероприятие поют эту песню: Кельсин, кельсин къызлар къына къоюджы,
+Бу гедже къызымыз мусафир, ярын ёлджы.'</name>
+    <answerChoice>
+      <list>
+        <item>'На свадьбу'</item>
+        <item>'На къына геджеси'</item>
+        <item>'На день рождения'</item>
+        <item>'На рождение ребёнка'</item>
+      </list>
+    </answerChoice>
+    <correctAnswer>'На къына геджеси'</correctAnswer>
+  </question>
+  <question>
+    <id>65</id>
+    <image>''</image>
+    <name>'Что такое "Тыраш мерасими"?'</name>
+    <answerChoice>
+      <list>
+        <item>'"Мальчишник"'</item>
+        <item>'Бритьё'</item>
+        <item>'Утренник'</item>
+        <item>'Праздник'</item>
+      </list>
+    </answerChoice>
+    <correctAnswer>'"Мальчишник"'</correctAnswer>
+  </question>
+  <question>
+    <id>66</id>
+    <image>''</image>
+    <name>'В какой день традиционно в крымскотатарских семьях делали "Агъыр нишан"?'</name>
+    <answerChoice>
+      <list>
+        <item>'В понедельник или четверг'</item>
+        <item>'В субботу или воскресенье'</item>
+        <item>'В среду'</item>
+        <item>'Во вторник'</item>
+      </list>
+    </answerChoice>
+    <correctAnswer>'В понедельник или четверг'</correctAnswer>
+  </question>
+  <question>
+    <id>67</id>
+    <image>''</image>
+    <name>'Как назывался коллективный процесс прессования войлока в крымскотатарских сёлах?'</name>
+    <answerChoice>
+      <list>
+        <item>'"Талакъа"'</item>
+        <item>'"Толок"'</item>
+        <item>'"Арепене"'</item>
+        <item>'"Коллектив иши"'</item>
+      </list>
+    </answerChoice>
+    <correctAnswer>'"Талакъа"'</correctAnswer>
+  </question>
+  <question>
+    <id>68</id>
+    <image>''</image>
+    <name>'Как назывались традиционные гуляния молодёжи устраиваемые в складчину?'</name>
+    <answerChoice>
+      <list>
+        <item>'"Арепене"'</item>
+        <item>'"Толок"'</item>
+        <item>'"Талакъа"'</item>
+        <item>'"Чынълама"'</item>
+      </list>
+    </answerChoice>
+    <correctAnswer>'"Арепене"'</correctAnswer>
+  </question>
+  <question>
+    <id>69</id>
+    <image>''</image>
+    <name>'Как у крымских татар называю посланников жениха (сватов)?'</name>
+    <answerChoice>
+      <list>
+        <item>'Къудалар'</item>
+        <item>'Сойлар'</item>
+        <item>'Тувгъанлар'</item>
+        <item>'Къомшулар'</item>
+      </list>
+    </answerChoice>
+    <correctAnswer>'Къудалар'</correctAnswer>
+  </question>
+  <question>
+    <id>70</id>
+    <image>''</image>
+    <name>'Сколько раз мулла спрашивает у невесты о её согласии выйти замуж?'</name>
+    <answerChoice>
+      <list>
+        <item>'3'</item>
+        <item>'1'</item>
+        <item>'2'</item>
+        <item>'5'</item>
+      </list>
+    </answerChoice>
+    <correctAnswer>'3'</correctAnswer>
+  </question>
+  <question>
+    <id>71</id>
+    <image>''</image>
+    <name>'Если в крымскотатарский дом пришли гости, а ответила им хозяйка, гость стоя за дверью должен...'</name>
+    <answerChoice>
+      <list>
+        <item>'дать знать что это мужчина'</item>
+        <item>'войти в дом'</item>
+        <item>'дождаться пока выйдет хозяин'</item>
+        <item>'уйти'</item>
+      </list>
+    </answerChoice>
+    <correctAnswer>'дать знать что это мужчина'</correctAnswer>
+  </question>
+  <question>
+    <id>72</id>
+    <image>''</image>
+    <name>'Вы являетесь гостем в крымскотатарской семье. Кто начнёт трапезу первым за обеденным столом?'</name>
+    <answerChoice>
+      <list>
+        <item>'Я'</item>
+        <item>'Хозяева'</item>
+        <item>'Старший член семьи'</item>
+        <item>'Дети'</item>
+      </list>
+    </answerChoice>
+    <correctAnswer>'Я'</correctAnswer>
+  </question>
+  <question>
+    <id>73</id>
+    <image>''</image>
+    <name>'Принято ли у крымских татар уходить из гостей сразу по окончании застолья?'</name>
+    <answerChoice>
+      <list>
+        <item>'Нет'</item>
+        <item>'Да'</item>
+        <item>'Когда захочу, тогда и уйду'</item>
+        <item>'Остаёмся гостить на несколько дней'</item>
+      </list>
+    </answerChoice>
+    <correctAnswer>'Нет'</correctAnswer>
+  </question>
+  <question>
+    <id>74</id>
+    <image>''</image>
+    <name>'Какую фразу крымские татары говорят после купания?'</name>
+    <answerChoice>
+      <list>
+        <item>'Сагълыкъ сувлар олсун'</item>
+        <item>'Чокъ яша'</item>
+        <item>'Машалла, ювундынъ'</item>
+        <item>'Темизлигинъ хайырлы олсун'</item>
+      </list>
+    </answerChoice>
+    <correctAnswer>'Сагълыкъ сувлар олсун'</correctAnswer>
+  </question>
+  <question>
+    <id>75</id>
+    <image>''</image>
+    <name>'Какого цвета традиционно должно быть платье крымскотатарской невесты?'</name>
+    <answerChoice>
+      <list>
+        <item>'Крассного'</item>
+        <item>'Зелёного'</item>
+        <item>'Белого'</item>
+        <item>'Оранжевого'</item>
+      </list>
+    </answerChoice>
+    <correctAnswer>'Крассного'</correctAnswer>
+  </question>
+  <question>
+    <id>76</id>
+    <image>''</image>
+    <name>'Как крымскотатарские парни давали знать девушке что она ему нравится?'</name>
+    <answerChoice>
+      <list>
+        <item>'Сажали под окном цветок'</item>
+        <item>'Дарили букет цветов'</item>
+        <item>'Писали под окном признание'</item>
+        <item>'Подходили и говорили прямо'</item>
+      </list>
+    </answerChoice>
+    <correctAnswer>'Сажали под окном цветок'</correctAnswer>
+  </question>
+  <question>
+    <id>77</id>
+    <image>''</image>
+    <name>'Какое транспортное средство традиционно подавалось к крыльцу невесты в день свадьбы?'</name>
+    <answerChoice>
+      <list>
+        <item>'Крытый фаэтон'</item>
+        <item>'Дилижанс'</item>
+        <item>'Лошадь'</item>
+        <item>'Мэрседес'</item>
+      </list>
+    </answerChoice>
+    <correctAnswer>'Крытый фаэтон'</correctAnswer>
+  </question>
+  <question>
+    <id>78</id>
+    <image>''</image>
+    <name>'Как крымскотатарскую невесту традиционно провожали из дома?'</name>
+    <answerChoice>
+      <list>
+        <item>'Выносили на руках'</item>
+        <item>'Прощались у порога'</item>
+        <item>'Прощались в её комнате'</item>
+        <item>'Не прощались, ехали вместе с ней'</item>
+      </list>
+    </answerChoice>
+    <correctAnswer>'Выносили на руках'</correctAnswer>
+  </question>
+  <question>
+    <id>79</id>
+    <image>''</image>
+    <name>'Кто выносил невесту из дома на руках и доносил до свадебного фаэтона?'</name>
+    <answerChoice>
+      <list>
+        <item>'Брат невесты'</item>
+        <item>'Отец невесты'</item>
+        <item>'Близкий дядя невесты'</item>
+        <item>'Все ответы верны'</item>
+      </list>
+    </answerChoice>
+    <correctAnswer>'Все ответы верны'</correctAnswer>
+  </question>
+  <question>
+    <id>80</id>
+    <image>''</image>
+    <name>'Как называется свадебный набор состоящий из девяти вышитых предметов?'</name>
+    <answerChoice>
+      <list>
+        <item>'Токуз'</item>
+        <item>'Бахшыш'</item>
+        <item>'Эдие'</item>
+        <item>'Шал'</item>
+      </list>
+    </answerChoice>
+    <correctAnswer>'Токуз'</correctAnswer>
+  </question>
+  <question>
+    <id>81</id>
+    <image>''</image>
+    <name>'Прибыв в деревню жениха, где первым делом останавливается свадебная процессия?'</name>
+    <answerChoice>
+      <list>
+        <item>'Возле мечети'</item>
+        <item>'Возле дома жениха'</item>
+        <item>'Возле въезда в деревню'</item>
+        <item>'Возле колодца'</item>
+      </list>
+    </answerChoice>
+    <correctAnswer>'Возле мечети'</correctAnswer>
+  </question>
+  <question>
+    <id>82</id>
+    <image>''</image>
+    <name>'Из чего делаются две своеобразные стены которые протягиваются от крыльца до свадебного фаэтона, которые служили защитой для невесты от посторонних глаз?'</name>
+    <answerChoice>
+      <list>
+        <item>'Ковры'</item>
+        <item>'Простыни'</item>
+        <item>'Вышитые золотой нитью платки'</item>
+        <item>'Доски'</item>
+      </list>
+    </answerChoice>
+    <correctAnswer>'Ковры'</correctAnswer>
+  </question>
+  <question>
+    <id>83</id>
+    <image>''</image>
+    <name>'Для чего по приезду в деревню жениха невесту прятали от посторонних глаз?'</name>
+    <answerChoice>
+      <list>
+        <item>'Уберегали от сглаза'</item>
+        <item>'Невеста стеснялась'</item>
+        <item>'Её прятали и после свадьбы'</item>
+        <item>'Уберегали от сплетен и слухов'</item>
+      </list>
+    </answerChoice>
+    <correctAnswer>'Уберегали от сглаза'</correctAnswer>
+  </question>
+  <question>
+    <id>84</id>
+    <image>''</image>
+    <name>'Какое животное традиционно прикладывают к различным частям тела невесты в 3-й свадебный день?'</name>
+    <answerChoice>
+      <list>
+        <item>'Курицу'</item>
+        <item>'Кошку'</item>
+        <item>'Лошадь'</item>
+        <item>'Собаку'</item>
+      </list>
+    </answerChoice>
+    <correctAnswer>'Курицу'</correctAnswer>
+  </question>
+  <question>
+    <id>85</id>
+    <image>''</image>
+    <name>'Для чего невесте в 3-й день свадьбы, по приезду в дом жениха говорили: "Оп къоркъулыкъ, оп къоркъулыкъ, къайдан кельдинъ анда кет"?'</name>
+    <answerChoice>
+      <list>
+        <item>'Отогнать страх'</item>
+        <item>'Убедиться в её решимости'</item>
+        <item>'Испугать её'</item>
+        <item>'Заставить её улыбнуться'</item>
+      </list>
+    </answerChoice>
+    <correctAnswer>'Отогнать страх'</correctAnswer>
+  </question>
+  <question>
+    <id>86</id>
+    <image>''</image>
+    <name>'Как называют женщин которые приезжают вместе с невестой в дом жениха?'</name>
+    <answerChoice>
+      <list>
+        <item>'Къудагъыйлер'</item>
+        <item>'Къудалар'</item>
+        <item>'Якъынлар'</item>
+        <item>'Тейзелер'</item>
+      </list>
+    </answerChoice>
+    <correctAnswer>'Къудагъыйлер'</correctAnswer>
+  </question>
+  <question>
+    <id>87</id>
+    <image>''</image>
+    <name>'Как называется маленький, круглый, традиционный крымскотатарский столик?'</name>
+    <answerChoice>
+      <list>
+        <item>'Хона'</item>
+        <item>'Софра'</item>
+        <item>'Маса'</item>
+        <item>'Томалакъ'</item>
+      </list>
+    </answerChoice>
+    <correctAnswer>'Хона'</correctAnswer>
+  </question>
+  <question>
+    <id>88</id>
+    <image>''</image>
+    <name>'Как называется широкая скатерть для традиционного стола которая должна покрывать ноги?'</name>
+    <answerChoice>
+      <list>
+        <item>'Пешкир'</item>
+        <item>'Ортю'</item>
+        <item>'Маса ортюси'</item>
+        <item>'Софра ортюси'</item>
+      </list>
+    </answerChoice>
+    <correctAnswer>'Пешкир'</correctAnswer>
+  </question>
+</list>
