@@ -3,33 +3,41 @@
 	<theme >
         <id>literature</id>
         <name>Литература</name>
+        <lastResult>0</lastResult>
     </theme>
     <theme >
         <id>history</id>
         <name>История</name>
+        <lastResult>0</lastResult>
     </theme>
     <theme>
         <id>toponimika</id>
         <name>Топонимика</name>
+        <lastResult>0</lastResult>
     </theme>
     <theme>
         <id>islam</id>
         <name>Ислам</name>
+        <lastResult>0</lastResult>
     </theme>
     <theme>
         <id>kitchen</id>
         <name>Кухня</name>
+        <lastResult>0</lastResult>
     </theme>
     <theme>
         <id>language</id>
         <name>Язык</name>
+        <lastResult>0</lastResult>
     </theme>
     <theme>
         <id>music</id>
         <name>Музыка</name>
+        <lastResult>0</lastResult>
     </theme>
     <theme>
         <id>tradition</id>
         <name>Традиция</name>
+        <lastResult>0</lastResult>
     </theme>
 </list>
