@@ -231,7 +231,7 @@ class QuestionViewController: UIViewController, XMLParserDelegate {
                 isLongQuestion = false
                 
             }
-            nameQuestion.text = "№ " + String(number + 1) + " " + questions[currentIndex].Name.replacingOccurrences(of: "'", with: "")
+            nameQuestion.text = String(number + 1) + ". " + questions[currentIndex].Name.replacingOccurrences(of: "'", with: "")
             nameAnswer1.text = questions[currentIndex].AnswersChoice[0].Item.replacingOccurrences(of: "'", with: "")
             nameAnswer2.text = questions[currentIndex].AnswersChoice[1].Item.replacingOccurrences(of: "'", with: "")
             nameAnswer3.text = questions[currentIndex].AnswersChoice[2].Item.replacingOccurrences(of: "'", with: "")
