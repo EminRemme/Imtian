@@ -2,7 +2,7 @@
 //  QuestionDataClass.swift
 //  Imtian
 //
-//  Created by Alet on 12.08.17.
+//  Created by MQ on 12.08.17.
 //  Copyright © 2017 MQ. All rights reserved.
 //
 

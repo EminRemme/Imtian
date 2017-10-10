@@ -875,12 +875,12 @@
     <answerChoice>
       <list>
         <item>'Къыймалы кебаб'</item>
-        <item>'Къавурылгъан балыкъ'</item>
+        <item>'Къавурылгъан балыкъ '</item>
         <item>'Исленген балыкъ'</item>
         <item>'Дженнет ашы'</item>
       </list>
     </answerChoice>
-    <correctAnswer>'Къавурылгъан балыкъ'</correctAnswer>
+    <correctAnswer>'Къавурылгъан балыкъ '</correctAnswer>
   </question>
   <question>
     <id>64</id>

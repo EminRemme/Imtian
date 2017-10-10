@@ -2,7 +2,7 @@
 //  QuestionViewController.swift
 //  Imtian
 //
-//  Created by Alet on 22.07.17.
+//  Created by MQ on 22.07.17.
 //  Copyright © 2017 MQ. All rights reserved.
 //
 
@@ -10,6 +10,7 @@ import UIKit
 
 class QuestionViewController: UIViewController, XMLParserDelegate {
     
+    var questionsNumber: Int = 10
     var questions: [Question] = []
     var eName: String = String()
     var Name = String()
@@ -222,7 +223,7 @@ class QuestionViewController: UIViewController, XMLParserDelegate {
         
     }
     func nextQuestion() {
-        if(questions.count != 0 && number < 10) {
+        if(questions.count != 0 && number < questionsNumber) {
             currentIndex = Int(arc4random_uniform(UInt32(Int32(questions.count))))
             if questions[currentIndex].Name.characters.count > 90 {
                 isLongQuestion = true
@@ -245,7 +246,7 @@ class QuestionViewController: UIViewController, XMLParserDelegate {
             }
             number = number + 1
         }else {
-            showActiveMessage(title: "Результат", message: "Правильно: " + String(mark) + " из 10", isNext: false)
+            showActiveMessage(title: "Результат", message: "Правильно: " + String(mark) + " из " + String(questionsNumber), isNext: false)
         }
     }
     
@@ -255,10 +256,10 @@ class QuestionViewController: UIViewController, XMLParserDelegate {
         if (variant == correctAnswer) {
             mark = mark + 1
             animationOut()
-            if(number + 1 < 10) {
+            if(number + 1 < questionsNumber) {
                 animationIn()
             }else {
-                showActiveMessage(title: "Результат", message: "Правильно: " + String(mark) + " из 10", isNext: false)
+                showActiveMessage(title: "Результат", message: "Правильно: " + String(mark) + " из " + String(questionsNumber), isNext: false)
             }
         }else {
             showActiveMessage(title: "", message: "Неверно", isNext: true)

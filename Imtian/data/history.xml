@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <list>
   <question>
     <id>1</id>
@@ -73,7 +73,7 @@
   <question>
     <id>6</id>
     <image>''</image>
-    <name>'Почти трижды герой СССР, кто?'</name>
+    <name>'Почти трижды герой СССР'</name>
     <answerChoice>
       <list>
         <item>'Амет-Хан Султан'</item>
@@ -115,7 +115,7 @@
   <question>
     <id>9</id>
     <image>''</image>
-    <name>'Последний хан Крымского ханства, кто?'</name>
+    <name>'Последний правитель Крымского ханства?'</name>
     <answerChoice>
       <list>
         <item>'Менгли Герай'</item>
@@ -654,8 +654,8 @@
       <list>
         <item>'в Дании'</item>
         <item>'в Уганде'</item>
-        <item>'в Бразилии '</item>
-        <item>'в Астралии '</item>
+        <item>'в Бразилии'</item>
+        <item>'в Астралии'</item>
       </list>
     </answerChoice>
     <correctAnswer>'в Дании'</correctAnswer>

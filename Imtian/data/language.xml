@@ -553,9 +553,9 @@
     <answerChoice>
       <list>
         <item>'Бу ода авадар'</item>
-        <item>''</item>
-        <item>''</item>
-        <item>''</item>
+        <item>'Бу ода пек ачыкъ'</item>
+        <item>'Бу одада сыджакъ дегиль'</item>
+        <item>'Бу одада пек сувукъ'</item>
       </list>
     </answerChoice>
     <correctAnswer>'Бу ода авадар'</correctAnswer>

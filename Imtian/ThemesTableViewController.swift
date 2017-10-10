@@ -2,7 +2,7 @@
 //  ThemesTableViewController.swift
 //  Imtian
 //
-//  Created by Alet on 22.07.17.
+//  Created by MQ on 22.07.17.
 //  Copyright © 2017 MQ. All rights reserved.
 //
 
