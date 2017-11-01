@@ -3,10 +3,18 @@
    version = "1.0">
    <ContextStates>
       <ContextState
-         contextName = "QuestionViewController.nextQuestion() -&gt; ():QuestionViewController.swift">
+         contextName = "QuestionViewController.parser(XMLParser, foundCharacters : String) -&gt; ():QuestionViewController.swift">
       </ContextState>
       <ContextState
-         contextName = "QuestionViewController.parser(XMLParser, foundCharacters : String) -&gt; ():QuestionViewController.swift">
+         contextName = "QuestionViewController.nextQuestion():QuestionViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "choisenTheme.id.substring(to: index)">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "QuestionViewController.nextQuestion() -&gt; ():QuestionViewController.swift">
       </ContextState>
    </ContextStates>
 </VariablesViewState>

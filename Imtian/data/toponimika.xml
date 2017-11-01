@@ -1,8 +1,8 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <list>
   <question>
     <id>1</id>
-    <image>''</image>
+    <image>'1'</image>
     <name>'Крымскотатарское название селения Перевальное'</name>
     <answerChoice>
       <list>
@@ -16,7 +16,7 @@
   </question>
   <question>
     <id>2</id>
-    <image>''</image>
+    <image>'1'</image>
     <name>'Историческое название селения Каменка'</name>
     <answerChoice>
       <list>
@@ -30,7 +30,7 @@
   </question>
   <question>
     <id>3</id>
-    <image>''</image>
+    <image>'1'</image>
     <name>'Поселение в Юго-Западном Крыму, в новое время — упразднённое впоследствии село Подгородное, ныне исторический район в западной части города Бахчисарая'</name>
     <answerChoice>
       <list>
@@ -44,7 +44,7 @@
   </question>
   <question>
     <id>4</id>
-    <image>''</image>
+    <image>'1'</image>
     <name>'Наиболее представительный памятник Золотой орды в Крыму
 '</name>
     <answerChoice>
@@ -59,7 +59,7 @@
   </question>
   <question>
     <id>5</id>
-    <image>''</image>
+    <image>'1'</image>
     <name>'Крымскотатарское название города Симферополь'</name>
     <answerChoice>
       <list>
@@ -87,7 +87,7 @@
   </question>
   <question>
     <id>7</id>
-    <image>''</image>
+    <image>'1'</image>
     <name>'Крымскотатарское название селения Пионерское'</name>
     <answerChoice>
       <list>
@@ -129,7 +129,7 @@
   </question>
   <question>
     <id>10</id>
-    <image>''</image>
+    <image>'1'</image>
     <name>'Самая длинная река полуострова'</name>
     <answerChoice>
       <list>
@@ -143,7 +143,7 @@
   </question>
   <question>
     <id>11</id>
-    <image>''</image>
+    <image>'1'</image>
     <name>'Крымскотатарское название селения Доброе'</name>
     <answerChoice>
       <list>
@@ -157,7 +157,7 @@
   </question>
   <question>
     <id>12</id>
-    <image>''</image>
+    <image>'1'</image>
     <name>'Историческое название города Керчь'</name>
     <answerChoice>
       <list>
@@ -171,7 +171,7 @@
   </question>
   <question>
     <id>13</id>
-    <image>''</image>
+    <image>'1'</image>
     <name>'Самая большая пещера в Крыму'</name>
     <answerChoice>
       <list>
@@ -185,7 +185,7 @@
   </question>
   <question>
     <id>14</id>
-    <image>''</image>
+    <image>'1'</image>
     <name>'Крымскотатарское название селения Укромное'</name>
     <answerChoice>
       <list>
@@ -199,7 +199,7 @@
   </question>
   <question>
     <id>15</id>
-    <image>''</image>
+    <image>'1'</image>
     <name>'Красные пещеры так же известны под названием'</name>
     <answerChoice>
       <list>
@@ -213,7 +213,7 @@
   </question>
   <question>
     <id>16</id>
-    <image>''</image>
+    <image>'1'</image>
     <name>'Крымскотатарское название селения Партизанское'</name>
     <answerChoice>
       <list>
@@ -227,7 +227,7 @@
   </question>
   <question>
     <id>17</id>
-    <image>''</image>
+    <image>'1'</image>
     <name>'Историческое название селения Морское'</name>
     <answerChoice>
       <list>
@@ -241,7 +241,7 @@
   </question>
   <question>
     <id>18</id>
-    <image>''</image>
+    <image>'1'</image>
     <name>'Старое название города Старый Крым
 '</name>
     <answerChoice>
@@ -256,7 +256,7 @@
   </question>
   <question>
     <id>19</id>
-    <image>''</image>
+    <image>'1'</image>
     <name>'Крымскотатарское название города Феодосия'</name>
     <answerChoice>
       <list>
@@ -270,7 +270,7 @@
   </question>
   <question>
     <id>20</id>
-    <image>''</image>
+    <image>'1'</image>
     <name>'Древнее поселение у подножия Чуфут-Кале и первая столица Крымского ханства'</name>
     <answerChoice>
       <list>
@@ -284,7 +284,7 @@
   </question>
   <question>
     <id>21</id>
-    <image>''</image>
+    <image>'1'</image>
     <name>'Крымскотатарское название селения Лозовое'</name>
     <answerChoice>
       <list>
@@ -298,7 +298,7 @@
   </question>
   <question>
     <id>22</id>
-    <image>''</image>
+    <image>'1'</image>
     <name>'«Симферополь» в переводе с греческого'</name>
     <answerChoice>
       <list>
@@ -312,7 +312,7 @@
   </question>
   <question>
     <id>23</id>
-    <image>''</image>
+    <image>'1'</image>
     <name>'Историческое название деревни, в которой с 1806 года компактно проживала колония немецких эмигрантов (ныне село в Белогорском районе)'</name>
     <answerChoice>
       <list>
@@ -326,7 +326,7 @@
   </question>
   <question>
     <id>24</id>
-    <image>''</image>
+    <image>'1'</image>
     <name>'Крымскотатарское название селения Угловое'</name>
     <answerChoice>
       <list>
@@ -340,7 +340,7 @@
   </question>
   <question>
     <id>25</id>
-    <image>''</image>
+    <image>'1'</image>
     <name>'Наивысшая точка протянувшейся вдоль Южного берега Крыма Главной гряды — это гора'</name>
     <answerChoice>
       <list>
@@ -354,7 +354,7 @@
   </question>
   <question>
     <id>26</id>
-    <image>''</image>
+    <image>'1'</image>
     <name>'Самый высокий водопад Крыма'</name>
     <answerChoice>
       <list>
@@ -368,7 +368,7 @@
   </question>
   <question>
     <id>27</id>
-    <image>''</image>
+    <image>'1'</image>
     <name>'Какую пещеру поначалу также называли «Афганка»'</name>
     <answerChoice>
       <list>
@@ -382,7 +382,7 @@
   </question>
   <question>
     <id>28</id>
-    <image>''</image>
+    <image>'1'</image>
     <name>'Крымскотатарское название селения Песчаное'</name>
     <answerChoice>
       <list>
@@ -396,7 +396,7 @@
   </question>
   <question>
     <id>29</id>
-    <image>''</image>
+    <image>'1'</image>
     <name>'Историческое название селения Орловка'</name>
     <answerChoice>
       <list>
@@ -410,7 +410,7 @@
   </question>
   <question>
     <id>30</id>
-    <image>''</image>
+    <image>'1'</image>
     <name>'Где располагается Азиз Малик-Аштера: большое кладбище, центром которого считалась символическая могила Малика Аштера эн-Нахаи (618—657), сподвижника и военачальника халифа Али?'</name>
     <answerChoice>
       <list>
@@ -424,7 +424,7 @@
   </question>
   <question>
     <id>31</id>
-    <image>1</image>
+    <image>'1'</image>
     <name>'Какой исторический памятник изображен на фото?'</name>
     <answerChoice>
       <list>
@@ -438,7 +438,7 @@
   </question>
   <question>
     <id>32</id>
-    <image>1</image>
+    <image>'1'</image>
     <name>'Какой исторический памятник изображен на фото?'</name>
     <answerChoice>
       <list>
@@ -452,7 +452,7 @@
   </question>
   <question>
     <id>33</id>
-    <image>''</image>
+    <image>'1'</image>
     <name>'Крымскотатарское название города Евпатория'</name>
     <answerChoice>
       <list>
@@ -466,7 +466,7 @@
   </question>
   <question>
     <id>34</id>
-    <image>''</image>
+    <image>'1'</image>
     <name>'Историческое название селения Скалистое'</name>
     <answerChoice>
       <list>
@@ -480,7 +480,7 @@
   </question>
   <question>
     <id>35</id>
-    <image>''</image>
+    <image>'1'</image>
     <name>'Крымскотатарские название селения Староселье'</name>
     <answerChoice>
       <list>
@@ -494,7 +494,7 @@
   </question>
   <question>
     <id>36</id>
-    <image>''</image>
+    <image>'1'</image>
     <name>'Узкая и длинная коса в северо-восточной части полуострова состоящая в основном из ракушечного материала, отделяющая залив Сиваш от Азовского моря'</name>
     <answerChoice>
       <list>
@@ -508,7 +508,7 @@
   </question>
   <question>
     <id>37</id>
-    <image>''</image>
+    <image>'1'</image>
     <name>'Крайняя южная точка Крыма'</name>
     <answerChoice>
       <list>
@@ -522,7 +522,7 @@
   </question>
   <question>
     <id>38</id>
-    <image>''</image>
+    <image>'1'</image>
     <name>'Крайняя западная точка Крыма'</name>
     <answerChoice>
       <list>
@@ -536,7 +536,7 @@
   </question>
   <question>
     <id>39</id>
-    <image>''</image>
+    <image>'1'</image>
     <name>'Крайняя восточная точка Крыма'</name>
     <answerChoice>
       <list>
@@ -550,7 +550,7 @@
   </question>
   <question>
     <id>40</id>
-    <image>''</image>
+    <image>'1'</image>
     <name>'Крайняя северная точка Крыма'</name>
     <answerChoice>
       <list>
@@ -564,7 +564,7 @@
   </question>
   <question>
     <id>41</id>
-    <image>''</image>
+    <image>'1'</image>
     <name>'Крымскотатарское название селения Подгородгое
 '</name>
     <answerChoice>
@@ -579,7 +579,7 @@
   </question>
   <question>
     <id>42</id>
-    <image>''</image>
+    <image>'1'</image>
     <name>'Место расположения Зынджырлы Медресе'</name>
     <answerChoice>
       <list>
@@ -593,7 +593,7 @@
   </question>
   <question>
     <id>43</id>
-    <image>''</image>
+    <image>'1'</image>
     <name>'Крымскотатарское название Перекопского перешейка'</name>
     <answerChoice>
       <list>
@@ -607,7 +607,7 @@
   </question>
   <question>
     <id>44</id>
-    <image>''</image>
+    <image>'1'</image>
     <name>'Историческое название селения Оползневое'</name>
     <answerChoice>
       <list>
@@ -621,7 +621,7 @@
   </question>
   <question>
     <id>45</id>
-    <image>''</image>
+    <image>'1'</image>
     <name>'Название города Севастополь с греческого означает'</name>
     <answerChoice>
       <list>
@@ -635,7 +635,7 @@
   </question>
   <question>
     <id>46</id>
-    <image>''</image>
+    <image>'1'</image>
     <name>'На месте крымскотатарского села Ахтиар (Ак-Яр), как крепость с адмиралтейством, был основан нынешний город'</name>
     <answerChoice>
       <list>
@@ -663,7 +663,7 @@
   </question>
   <question>
     <id>48</id>
-    <image>''</image>
+    <image>'1'</image>
     <name>'Крымскотатарское название памятника архитектуры и истории, расположенного на отвесной 40-метровой Аврориной скале мыса Ай-Тодор в посёлке Гаспра на южном берегу Крыма'</name>
     <answerChoice>
       <list>
@@ -677,7 +677,7 @@
   </question>
   <question>
     <id>49</id>
-    <image>''</image>
+    <image>'1'</image>
     <name>'Название какого города по одной из версий происходит из крымскотатарского языка, на котором дословно означает «рыбная погода»?'</name>
     <answerChoice>
       <list>
@@ -691,7 +691,7 @@
   </question>
   <question>
     <id>50</id>
-    <image>''</image>
+    <image>'1'</image>
     <name>'В 1475г. Каламиту захватили турки и переименовали в «Инкерман», что переводится как'</name>
     <answerChoice>
       <list>
@@ -705,7 +705,7 @@
   </question>
   <question>
     <id>51</id>
-    <image>''</image>
+    <image>'1'</image>
     <name>'Крымскотатарское название селения Черноморское'</name>
     <answerChoice>
       <list>
@@ -733,7 +733,7 @@
   </question>
   <question>
     <id>53</id>
-    <image>''</image>
+    <image>'1'</image>
     <name>'Историческое название селения Межводное'</name>
     <answerChoice>
       <list>
@@ -747,7 +747,7 @@
   </question>
   <question>
     <id>54</id>
-    <image>''</image>
+    <image>'1'</image>
     <name>'Какое самое глубокое озеро в Крыму и крупнейшее озеро Черноморского района?'</name>
     <answerChoice>
       <list>
@@ -761,7 +761,7 @@
   </question>
   <question>
     <id>55</id>
-    <image>''</image>
+    <image>'1'</image>
     <name>'Название какого озера в переводе с крымскотатарского языка означает «расколовшийся», «треснувший»?'</name>
     <answerChoice>
       <list>
@@ -775,25 +775,24 @@
   </question>
   <question>
     <id>56</id>
-    <image>''</image>
-    <name>'
-Какое высказывание является одной из гипотез возникновения названия «Къара дениз»?
+    <image>'1'</image>
+    <name>'Какой вариант является одной из гипотез возникновения названия «Къара дениз»?
 '</name>
     <answerChoice>
       <list>
-        <item>'в ряде азиатских стран принято «цветовое» обозначение сторон света, где «чёрный» обозначал север, соответственно Чёрное море — северное море'</item>
+        <item>'«цветовое» обозначение сторон света, где «чёрный» обозначал север'</item>
         <item>'название дали турки, так как из-за сильной бури их корабли не могли переплыть море'</item>
         <item>'из-за сильных штормов, в которых потонуло множество кораблей'</item>
         <item>'Название морю дали древние греки из-за его свечения в ночи'</item>
       </list>
     </answerChoice>
-    <correctAnswer>'в ряде азиатских стран принято «цветовое» обозначение сторон света, где «чёрный» обозначал север, соответственно Чёрное море — северное море'</correctAnswer>
+    <correctAnswer>
+    </correctAnswer>
   </question>
   <question>
     <id>57</id>
-    <image>''</image>
-    <name>'
-Крымскотатарское название мыса Прибойный
+    <image>'1'</image>
+    <name>'Крымскотатарское название мыса Прибойный
 '</name>
     <answerChoice>
       <list>
@@ -807,13 +806,13 @@
   </question>
   <question>
     <id>58</id>
-    <image>''</image>
+    <image>'1'</image>
     <name>'Что означает название Тарханкутского полуострова (Тархан Къут ярымадасы)'</name>
     <answerChoice>
       <list>
         <item>'В честь известного золотоордынского правителя Тар-Хана'</item>
         <item>'Тархан — территория, место, освобождённое от налогов'</item>
-        <item>'В честь иранского халифа Тархана, посетившего мыс Тарханкут'</item>
+        <item>'В честь иранского халифа Тархана'</item>
         <item>'Тархан – в переводе с греческого «полуостров»'</item>
       </list>
     </answerChoice>
@@ -836,7 +835,7 @@
   </question>
   <question>
     <id>60</id>
-    <image>''</image>
+    <image>'1'</image>
     <name>'В переводе с крымскотатарского «Кефе корьфези» это'</name>
     <answerChoice>
       <list>
@@ -850,7 +849,7 @@
   </question>
   <question>
     <id>61</id>
-    <image>''</image>
+    <image>'1'</image>
     <name>'Крымскотатарское название города Белогорск'</name>
     <answerChoice>
       <list>
@@ -892,7 +891,7 @@
   </question>
   <question>
     <id>64</id>
-    <image>''</image>
+    <image>'1'</image>
     <name>'Историческое название города — Карасубазар в переводе с крымскотатарского означает'</name>
     <answerChoice>
       <list>
@@ -920,7 +919,7 @@
   </question>
   <question>
     <id>66</id>
-    <image>''</image>
+    <image>'1'</image>
     <name>'Крымскотатарское название селения Давыдово'</name>
     <answerChoice>
       <list>
@@ -934,7 +933,7 @@
   </question>
   <question>
     <id>67</id>
-    <image>''</image>
+    <image>'1'</image>
     <name>'На степном диалекте крымскотатарского языка название города Джанкой означает'</name>
     <answerChoice>
       <list>
@@ -976,7 +975,7 @@
   </question>
   <question>
     <id>70</id>
-    <image>''</image>
+    <image>'1'</image>
     <name>'Крымскотатарское название селения Азовское'</name>
     <answerChoice>
       <list>
@@ -1018,7 +1017,7 @@
   </question>
   <question>
     <id>73</id>
-    <image>''</image>
+    <image>'1'</image>
     <name>'Название какого города по одной из версий в переводе с тюркского дословно означает «вода и нагорный лес»?'</name>
     <answerChoice>
       <list>
@@ -1032,7 +1031,7 @@
   </question>
   <question>
     <id>74</id>
-    <image>''</image>
+    <image>'1'</image>
     <name>'Какую гору в средние века греки называли «Фуна»?'</name>
     <answerChoice>
       <list>
@@ -1060,7 +1059,7 @@
   </question>
   <question>
     <id>76</id>
-    <image>''</image>
+    <image>'1'</image>
     <name>'Как переводится с крымскотатарского название горного массива «Демирджи»?'</name>
     <answerChoice>
       <list>
@@ -1088,7 +1087,7 @@
   </question>
   <question>
     <id>78</id>
-    <image>''</image>
+    <image>'1'</image>
     <name>'Крымскотатарское название селения Лучистое'</name>
     <answerChoice>
       <list>
@@ -1116,7 +1115,7 @@
   </question>
   <question>
     <id>80</id>
-    <image>''</image>
+    <image>'1'</image>
     <name>'Крымскотатарское название селения Солнечногорское'</name>
     <answerChoice>
       <list>
@@ -1144,7 +1143,7 @@
   </question>
   <question>
     <id>82</id>
-    <image>''</image>
+    <image>'1'</image>
     <name>'Крымскотатарское название селения Орлиное'</name>
     <answerChoice>
       <list>
@@ -1158,8 +1157,8 @@
   </question>
   <question>
     <id>83</id>
-    <image>''</image>
-    <name>'Крымскотатарское название селения Кировские'</name>
+    <image>'1'</image>
+    <name>'Крымскотатарское название селения Кировское'</name>
     <answerChoice>
       <list>
         <item>'Ислям Терек'</item>
@@ -1183,5 +1182,103 @@
       </list>
     </answerChoice>
     <correctAnswer>'4'</correctAnswer>
+  </question>
+  <question>
+    <id>85</id>
+    <image>''</image>
+    <name>'Историческое название села Соколиное, что в переводе означает "голубой глаз"'</name>
+    <answerChoice>
+      <list>
+        <item>'Коккозь'</item>
+        <item>'Коклуз'</item>
+        <item>'Мавыкозь'</item>
+        <item>'Ешильозен'</item>
+      </list>
+    </answerChoice>
+    <correctAnswer>'Коккозь'</correctAnswer>
+  </question>
+  <question>
+    <id>86</id>
+    <image>''</image>
+    <name>'На какой реке находится водопад "Серебряные струи", что в ущелье "Малого каньона" (фото до катастрофы 2016 года)'</name>
+    <answerChoice>
+      <list>
+        <item>'Коккозь'</item>
+        <item>'Сары-Узень'</item>
+        <item>'Кок-Узень'</item>
+        <item>'Улу-Узень'</item>
+      </list>
+    </answerChoice>
+    <correctAnswer>'Сары-Узень'</correctAnswer>
+  </question>
+  <question>
+    <id>87</id>
+    <image>''</image>
+    <name>'Мечеть, построенная по иницииативе князя Феликса Юсупова в Соколином, называется'</name>
+    <answerChoice>
+      <list>
+        <item>'Хан Джами'</item>
+        <item>'Юсуф Джами'</item>
+        <item>'Коккозь Джами'</item>
+        <item>'Кок Джами'</item>
+      </list>
+    </answerChoice>
+    <correctAnswer>'Коккозь Джами'</correctAnswer>
+  </question>
+  <question>
+    <id>88</id>
+    <image>''</image>
+    <name>'Какой знаменательный географический объект находится в окресностях села Соколиное, Бахчисарайского района'</name>
+    <answerChoice>
+      <list>
+        <item>'Большой каньон Крыма'</item>
+        <item>'Гора Демирджи'</item>
+        <item>'Река Улу-Узень'</item>
+        <item>'Гора Роман-Кош'</item>
+      </list>
+    </answerChoice>
+    <correctAnswer>'Большой каньон Крыма'</correctAnswer>
+  </question>
+  <question>
+    <id>89</id>
+    <image>''</image>
+    <name>'Назовите гору, высота которой 1234м, через которую проходит трасса Ялта-Бахчисарай'</name>
+    <answerChoice>
+      <list>
+        <item>'Роман-Кош'</item>
+        <item>'Ай-Петри'</item>
+        <item>'Карадаг'</item>
+        <item>'Чатырдаг'</item>
+      </list>
+    </answerChoice>
+    <correctAnswer>'Ай-Петри'</correctAnswer>
+  </question>
+  <question>
+    <id>90</id>
+    <image>''</image>
+    <name>'Из какого языка исходит название горы Ай-Петри'</name>
+    <answerChoice>
+      <list>
+        <item>'Крымскотатарского'</item>
+        <item>'Турецкого'</item>
+        <item>'Греческого'</item>
+        <item>'Итальянского'</item>
+      </list>
+    </answerChoice>
+    <correctAnswer>'Греческого'</correctAnswer>
+  </question>
+  <question>
+    <id>91</id>
+    <image>''</image>
+    <name>'Плато какой горы является популярным туристическим объектом близ Ангарского перевала'</name>
+    <answerChoice>
+      <list>
+        <item>'Чатыр-Даг'</item>
+        <item>'Демерджи'</item>
+        <item>'Аю-Даг'</item>
+        <item>'Парагильмен'</item>
+      </list>
+    </answerChoice>
+    <correctAnswer>'Чатыр-Даг'</correctAnswer>
   </question>
 </list>

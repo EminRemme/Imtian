@@ -149,7 +149,7 @@
 				TargetAttributes = {
 					F80B17161F234ED7003892AA = {
 						CreatedOnToolsVersion = 8.3.2;
-						DevelopmentTeam = KUPE5Y2TZW;
+						DevelopmentTeam = ZXDE6L7K5K;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -329,11 +329,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = KUPE5Y2TZW;
+				DEVELOPMENT_TEAM = ZXDE6L7K5K;
 				INFOPLIST_FILE = Imtian/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = mq.self.Imtian;
+				PRODUCT_BUNDLE_IDENTIFIER = ey.self.Imtian;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -343,11 +343,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = KUPE5Y2TZW;
+				DEVELOPMENT_TEAM = ZXDE6L7K5K;
 				INFOPLIST_FILE = Imtian/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = mq.self.Imtian;
+				PRODUCT_BUNDLE_IDENTIFIER = ey.self.Imtian;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
