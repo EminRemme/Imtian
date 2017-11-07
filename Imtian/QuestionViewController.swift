@@ -15,6 +15,8 @@ class QuestionViewController: UIViewController, XMLParserDelegate {
     var eName: String = String()
     var Name = String()
     var id = String()
+    var correctAnswerNumber = Int()
+    var choisenAnswerNumber = Int()
     
     var answers: [Answer] = []
     var correctAnswer = String()
@@ -32,13 +34,13 @@ class QuestionViewController: UIViewController, XMLParserDelegate {
     var test = 1
     @IBOutlet weak var nameQuestion: UILabel!
     
-    @IBOutlet weak var nameAnswer1: UILabel!
+    @IBOutlet weak var nameAnswer1: SpringLabel!
     
-    @IBOutlet weak var nameAnswer2: UILabel!
+    @IBOutlet weak var nameAnswer2: SpringLabel!
     
-    @IBOutlet weak var nameAnswer3: UILabel!
+    @IBOutlet weak var nameAnswer3: SpringLabel!
     
-    @IBOutlet weak var nameAnswer4: UILabel!
+    @IBOutlet weak var nameAnswer4: SpringLabel!
     
     @IBOutlet weak var imageQuestion: UIImageView!
     @IBOutlet weak var buttonAnswer1: UIButton!
@@ -46,19 +48,19 @@ class QuestionViewController: UIViewController, XMLParserDelegate {
     @IBOutlet weak var buttonAnswer3: UIButton!
     @IBOutlet weak var buttonAnswer4: UIButton!
     @IBAction func buttonAnswer1Taped(_ sender: Any) {
-        checkAnswer(variant: nameAnswer1.text!)
+        checkAnswer(variant: nameAnswer1.text!, variantNumber: 1)
     }
     
     @IBAction func buttonAnswer2Taped(_ sender: Any) {
-        checkAnswer(variant: nameAnswer2.text!)
+        checkAnswer(variant: nameAnswer2.text!, variantNumber: 2)
     }
     
     @IBAction func buttonAnswer3Taped(_ sender: Any) {
-        checkAnswer(variant: nameAnswer3.text!)
+        checkAnswer(variant: nameAnswer3.text!, variantNumber: 3)
     }
     
     @IBAction func buttonAnswer4Taped(_ sender: Any) {
-        checkAnswer(variant: nameAnswer4.text!)
+        checkAnswer(variant: nameAnswer4.text!, variantNumber: 4)
     }
     
     @IBAction func buttonQuestionTaped(_ sender: Any) {
@@ -78,15 +80,7 @@ class QuestionViewController: UIViewController, XMLParserDelegate {
         // Do any additional setup after loading the view.
         nameQuestion.layer.masksToBounds = true
         nameQuestion.layer.cornerRadius = nameAnswer1.bounds.height / 4
-        /*nameAnswer1.layer.masksToBounds = true
-        nameAnswer1.layer.cornerRadius = nameAnswer1.bounds.height / 4
-        nameAnswer2.layer.masksToBounds = true
-        nameAnswer2.layer.cornerRadius = nameAnswer2.bounds.height / 4
-        nameAnswer3.layer.masksToBounds = true
-        nameAnswer3.layer.cornerRadius = nameAnswer3.bounds.height / 4
-        nameAnswer4.layer.masksToBounds = true
-        nameAnswer4.layer.cornerRadius = nameAnswer4.bounds.height / 4
-        */
+        
         buttonAnswer1.showsTouchWhenHighlighted = true
         buttonAnswer2.showsTouchWhenHighlighted = true
         buttonAnswer3.showsTouchWhenHighlighted = true
@@ -112,31 +106,31 @@ class QuestionViewController: UIViewController, XMLParserDelegate {
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
         
-        UIView.animate(withDuration: 0.8) {
+        UIView.animate(withDuration: 0.5) {
             self.nameQuestion.center.x += self.view.bounds.width
         }
-        UIView.animate(withDuration: 0.8) {
+        UIView.animate(withDuration: 0.5) {
             self.imageQuestion.center.x -= self.view.bounds.width
         }
-        UIView.animate(withDuration: 0.8, delay: 0.3, options: [],
+        UIView.animate(withDuration: 0.5, delay: 0.3, options: [],
                        animations: {
                         self.nameAnswer1.center.x -= self.view.bounds.width
         },
                        completion: nil
         )
-        UIView.animate(withDuration: 0.8, delay: 0.4, options: [],
+        UIView.animate(withDuration: 0.5, delay: 0.4, options: [],
                        animations: {
                         self.nameAnswer2.center.x -= self.view.bounds.width
         },
                        completion: nil
         )
-        UIView.animate(withDuration: 0.8, delay: 0.5, options: [],
+        UIView.animate(withDuration: 0.5, delay: 0.5, options: [],
                        animations: {
                         self.nameAnswer3.center.x -= self.view.bounds.width
         },
                        completion: nil
         )
-        UIView.animate(withDuration: 0.8, delay: 0.6, options: [],
+        UIView.animate(withDuration: 0.5, delay: 0.6, options: [],
                        animations: {
                         self.nameAnswer4.center.x -= self.view.bounds.width
         },
@@ -148,31 +142,96 @@ class QuestionViewController: UIViewController, XMLParserDelegate {
         // Dispose of any resources that can be recreated.
     }
     func animationOut() {
-        UIView.animate(withDuration: 0.8) {
+        if(correctAnswerNumber == choisenAnswerNumber) {
+            switch (correctAnswerNumber) {
+            case 1:
+                nameAnswer1.backgroundColor = .green
+                break
+            case 2:
+                nameAnswer2.backgroundColor = .green
+                break
+            case 3:
+                nameAnswer3.backgroundColor = .green
+                break
+            case 4:
+                nameAnswer4.backgroundColor = .green
+                break
+            default:
+                break
+            }
+        } else {
+            switch (choisenAnswerNumber) {
+            case 1:
+                nameAnswer1.backgroundColor = .red
+                break
+            case 2:
+                nameAnswer2.backgroundColor = .red
+                break
+            case 3:
+                nameAnswer3.backgroundColor = .red
+                break
+            case 4:
+                nameAnswer4.backgroundColor = .red
+                break
+            default:
+                break
+            }
+            switch (correctAnswerNumber) {
+            case 0:
+                nameAnswer1.backgroundColor = .green
+                break
+            case 1:
+                nameAnswer2.backgroundColor = .green
+                break
+            case 2:
+                nameAnswer3.backgroundColor = .green
+                break
+            case 3:
+                nameAnswer4.backgroundColor = .green
+                break
+            default:
+                break
+            }
+        }
+        
+        /*UIView.animate(withDuration: 0.5) {
             self.nameQuestion.center.x -= self.view.bounds.width
         }
-        UIView.animate(withDuration: 0.8) {
+        UIView.animate(withDuration: 0.5) {
             self.imageQuestion.center.x += self.view.bounds.width
-        }
-        UIView.animate(withDuration: 0.8, delay: 0.3, options: [],
+        }*/
+        UIView.animate(withDuration: 0.5, delay: 1, options: [],
+                       animations: {
+                        self.imageQuestion.center.x += self.view.bounds.width
+        },
+                       completion: nil
+        )
+        UIView.animate(withDuration: 0.5, delay: 1, options: [],
+                       animations: {
+                        self.nameQuestion.center.x -= self.view.bounds.width
+        },
+                       completion: nil
+        )
+        
+        UIView.animate(withDuration: 0.5, delay: 1.3, options: [],
                        animations: {
                         self.nameAnswer1.center.x += self.view.bounds.width
         },
                        completion: nil
         )
-        UIView.animate(withDuration: 0.8, delay: 0.4, options: [],
+        UIView.animate(withDuration: 0.5, delay: 1.4, options: [],
                        animations: {
                         self.nameAnswer2.center.x += self.view.bounds.width
         },
                        completion: nil
         )
-        UIView.animate(withDuration: 0.8, delay: 0.5, options: [],
-                       animations: {
-                        self.nameAnswer3.center.x += self.view.bounds.width
-        },
-                       completion: nil
+        UIView.animate(withDuration: 0.5, delay: 1.5, options: [],
+            animations: {
+                self.nameAnswer3.center.x += self.view.bounds.width
+            },
+            completion: nil
         )
-        UIView.animate(withDuration: 0.8, delay: 0.6, options: [],
+        UIView.animate(withDuration: 0.5, delay: 1.6, options: [],
                        animations: {
                         self.nameAnswer4.center.x += self.view.bounds.width
         },
@@ -180,44 +239,51 @@ class QuestionViewController: UIViewController, XMLParserDelegate {
         )
     }
     func animationIn() {
-        UIView.animate(withDuration: 0.8, delay: 1, options: [],
+        
+        
+        UIView.animate(withDuration: 0.5, delay: 2, options: [],
                        animations: {
                         self.nameQuestion.center.x += self.view.bounds.width
         },
                        completion: nil
         )
-        UIView.animate(withDuration: 0.8, delay: 1, options: [],
+        UIView.animate(withDuration: 0.5, delay: 2, options: [],
                        animations: {
+                        
                         self.imageQuestion.center.x -= self.view.bounds.width
         },
                        completion: nil
         )
-        UIView.animate(withDuration: 0.8, delay: 1.1, options: [],
+        UIView.animate(withDuration: 0.5, delay: 2.1, options: [],
                        animations: {
                         self.nameAnswer1.center.x -= self.view.bounds.width
         },
                        completion: nil
         )
-        UIView.animate(withDuration: 0.8, delay: 1.2, options: [],
+        UIView.animate(withDuration: 0.5, delay: 2.2, options: [],
                        animations: {
                         self.nameAnswer2.center.x -= self.view.bounds.width
         },
                        completion: nil
         )
-        UIView.animate(withDuration: 0.8, delay: 1.3, options: [],
+        UIView.animate(withDuration: 0.5, delay: 2.3, options: [],
                        animations: {
                         self.nameAnswer3.center.x -= self.view.bounds.width
         },
                        completion: nil
         )
-        UIView.animate(withDuration: 0.8, delay: 1.4, options: [],
+        UIView.animate(withDuration: 0.5, delay: 2.4, options: [],
                        animations: {
                         self.nameAnswer4.center.x -= self.view.bounds.width
         },
                        completion: nil
         )
         
-        DispatchQueue.main.asyncAfter(deadline: .now() + 1.0, execute: {
+        DispatchQueue.main.asyncAfter(deadline: .now() + 1.7, execute: {
+            self.nameAnswer1.backgroundColor = UIColorFromRGB(rgbValue: 0x1589FF)
+            self.nameAnswer2.backgroundColor = UIColorFromRGB(rgbValue: 0x1589FF)
+            self.nameAnswer3.backgroundColor = UIColorFromRGB(rgbValue: 0x1589FF)
+            self.nameAnswer4.backgroundColor = UIColorFromRGB(rgbValue: 0x1589FF)
             self.nextQuestion()
         })
         
@@ -227,16 +293,16 @@ class QuestionViewController: UIViewController, XMLParserDelegate {
             currentIndex = Int(arc4random_uniform(UInt32(Int32(questions.count))))
             if questions[currentIndex].Name.characters.count > 90 {
                 isLongQuestion = true
-                
             } else {
                 isLongQuestion = false
-                
             }
             nameQuestion.text = String(number + 1) + ". " + questions[currentIndex].Name.replacingOccurrences(of: "'", with: "")
             nameAnswer1.text = questions[currentIndex].AnswersChoice[0].Item.replacingOccurrences(of: "'", with: "")
+            
             nameAnswer2.text = questions[currentIndex].AnswersChoice[1].Item.replacingOccurrences(of: "'", with: "")
             nameAnswer3.text = questions[currentIndex].AnswersChoice[2].Item.replacingOccurrences(of: "'", with: "")
             nameAnswer4.text = questions[currentIndex].AnswersChoice[3].Item.replacingOccurrences(of: "'", with: "")
+            setCorrectAnswerNumber(index: currentIndex)
             if(questions[currentIndex].IsImage == "1") {
                 let index = choisenTheme.id.index(choisenTheme.id.startIndex, offsetBy: 5)
                 imageQuestion.isHidden = false
@@ -246,11 +312,23 @@ class QuestionViewController: UIViewController, XMLParserDelegate {
             }
             number = number + 1
         }else {
-            showActiveMessage(title: "Результат", message: "Правильно: " + String(mark) + " из " + String(questionsNumber), isNext: false)
+            /*showActiveMessage(title: "Результат", message: "Правильно: " + String(mark) + " из " + String(questionsNumber), isNext: false)*/
+            let storyBoard: UIStoryboard = UIStoryboard(name: "Main", bundle: nil)
+            let resultViewController = storyBoard.instantiateViewController(withIdentifier: "ResultViewId") as! ResultViewController
+            resultViewController.mark = mark
+            self.navigationController?.pushViewController(resultViewController, animated: true)
         }
     }
-    
-    func checkAnswer(variant: String) {
+    func setCorrectAnswerNumber(index: Int) {
+        for i in 0 ... 3 {
+            if(questions[currentIndex].CorrectAnswer == questions[currentIndex].AnswersChoice[i].Item) {
+                correctAnswerNumber = i + 1
+                break
+            }
+        }
+    }
+    func checkAnswer(variant: String, variantNumber: Int) {
+        choisenAnswerNumber = variantNumber
         let correctAnswer = questions[currentIndex].CorrectAnswer.replacingOccurrences(of: "'", with: "")
         questions.remove(at: currentIndex)
         if (variant == correctAnswer) {
@@ -259,10 +337,17 @@ class QuestionViewController: UIViewController, XMLParserDelegate {
             if(number + 1 < questionsNumber) {
                 animationIn()
             }else {
-                showActiveMessage(title: "Результат", message: "Правильно: " + String(mark) + " из " + String(questionsNumber), isNext: false)
+                //showActiveMessage(title: "Результат", message: "Правильно: " + String(mark) + " из " + String(questionsNumber), isNext: false)
+                let storyBoard: UIStoryboard = UIStoryboard(name: "Main", bundle: nil)
+                let resultViewController = storyBoard.instantiateViewController(withIdentifier: "ResultViewId") as! ResultViewController
+                resultViewController.mark = mark
+                self.navigationController?.pushViewController(resultViewController, animated: true)
+                //self.present(resultViewController, animated: true, completion: nil)
             }
         }else {
-            showActiveMessage(title: "", message: "Неверно", isNext: true)
+            animationOut()
+            animationIn()
+            //showActiveMessage(title: "", message: "Неверно", isNext: true)
         }
     }
     func showActiveMessage(title: String, message: String, isNext: Bool) {
@@ -277,8 +362,6 @@ class QuestionViewController: UIViewController, XMLParserDelegate {
                                             self.animationIn()
                                             
                                         }else {
-                                            /*let viewControllerYouWantToPresent = self.storyboard!.instantiateViewController(withIdentifier: "LevelViewId")
-                                            self.show(viewControllerYouWantToPresent, sender: self)*/
                                             _ = self.navigationController?.popViewController(animated: false)
                                         }
         }
@@ -302,6 +385,13 @@ class QuestionViewController: UIViewController, XMLParserDelegate {
         present(alert,
                               animated: true,
                               completion: nil)
+    }
+    func animateAnswerLabel(choisenNumber: Int) {
+        // songLabel animate
+        //songLabel.animation = "flash"
+        //songLabel.repeatCount = 3
+        //songLabel.animate()
+        
     }
     //for XML
     // 1

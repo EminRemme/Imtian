@@ -131,7 +131,6 @@ class ThemesTableViewController: UITableViewController, XMLParserDelegate {
             let destViewController:QuestionViewController! = segue.destination as! QuestionViewController
             destViewController.choisenTheme = themes[(indexPath?.row)!]
             destViewController.title = themes[indexPath!.row].Name
-            
         }
     }
  

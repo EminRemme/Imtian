@@ -29,12 +29,6 @@ class LevelViewController: UIViewController, XMLParserDelegate {
                 parser.parse()
             }
         }
-        //ChoiseThemeButton?.layer.masksToBounds = true
-        //ChoiseThemeButton?.layer.cornerRadius = ChoiseThemeButton.bounds.height / 4
-        
-        //RandomThemeButton?.layer.masksToBounds = true
-        //RandomThemeButton?.layer.cornerRadius = RandomThemeButton.bounds.height / 4
-        
     }
 
     override func didReceiveMemoryWarning() {
