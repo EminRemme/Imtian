@@ -85,6 +85,7 @@ class ThemesTableViewController: UITableViewController, XMLParserDelegate {
         cell.textLabel?.adjustsFontSizeToFitWidth = true
         let theme = themes[indexPath.row]
         cell.textLabel?.text = theme.Name
+        //cell.
         return cell
     }
     

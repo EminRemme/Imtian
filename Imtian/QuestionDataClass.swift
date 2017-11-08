@@ -19,3 +19,8 @@ class Question {
 class Answer {
     var Item: String = String()
 }
+
+/*class AllQuestions {
+    var themeName: String = String()
+    var question: Question = Question()
+}*/

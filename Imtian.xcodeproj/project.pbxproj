@@ -38,6 +38,7 @@
 		CCA0896C1FB1C82700D34E7A /* DesignableTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCA0894F1FB1C82700D34E7A /* DesignableTextField.swift */; };
 		CCA0896D1FB1C82700D34E7A /* LoadingView.xib in Resources */ = {isa = PBXBuildFile; fileRef = CCA089501FB1C82700D34E7A /* LoadingView.xib */; };
 		CCA089791FB1EA4400D34E7A /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCA089781FB1EA4400D34E7A /* ResultViewController.swift */; };
+		CCF537DB1FB2F292004A2012 /* ThemeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCF537DA1FB2F292004A2012 /* ThemeCell.swift */; };
 		F80B171B1F234ED7003892AA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F80B171A1F234ED7003892AA /* AppDelegate.swift */; };
 		F80B171D1F234ED7003892AA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F80B171C1F234ED7003892AA /* ViewController.swift */; };
 		F80B17201F234ED7003892AA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F80B171E1F234ED7003892AA /* Main.storyboard */; };
@@ -93,6 +94,7 @@
 		CCA0894F1FB1C82700D34E7A /* DesignableTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DesignableTextField.swift; path = Imtian/Libraries/Spring/DesignableTextField.swift; sourceTree = SOURCE_ROOT; };
 		CCA089501FB1C82700D34E7A /* LoadingView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = LoadingView.xib; path = Imtian/Libraries/Spring/LoadingView.xib; sourceTree = SOURCE_ROOT; };
 		CCA089781FB1EA4400D34E7A /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
+		CCF537DA1FB2F292004A2012 /* ThemeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeCell.swift; sourceTree = "<group>"; };
 		F80B17171F234ED7003892AA /* Imtian.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Imtian.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F80B171A1F234ED7003892AA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F80B171C1F234ED7003892AA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -204,6 +206,7 @@
 				F80B17391F23A369003892AA /* ThemesTableViewController.swift */,
 				F80B17371F23A33F003892AA /* LevelViewController.swift */,
 				F80B17351F23A290003892AA /* QuestionViewController.swift */,
+				CCF537DA1FB2F292004A2012 /* ThemeCell.swift */,
 				F80B17241F234ED7003892AA /* Assets.xcassets */,
 				F80B17261F234ED7003892AA /* LaunchScreen.storyboard */,
 				F80B17291F234ED7003892AA /* Info.plist */,
@@ -336,6 +339,7 @@
 				CCA089631FB1C82700D34E7A /* DesignableTabBarController.swift in Sources */,
 				CCA089651FB1C82700D34E7A /* BlurView.swift in Sources */,
 				CCA0895B1FB1C82700D34E7A /* LoadingView.swift in Sources */,
+				CCF537DB1FB2F292004A2012 /* ThemeCell.swift in Sources */,
 				CCA089561FB1C82700D34E7A /* DesignableLabel.swift in Sources */,
 				CCA089571FB1C82700D34E7A /* DesignableButton.swift in Sources */,
 				CCA089671FB1C82700D34E7A /* SpringImageView.swift in Sources */,

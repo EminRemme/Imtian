@@ -18,6 +18,7 @@ class QuestionViewController: UIViewController, XMLParserDelegate {
     var correctAnswerNumber = Int()
     var choisenAnswerNumber = Int()
     
+    var isTapped = Bool()
     var answers: [Answer] = []
     var correctAnswer = String()
     var isImage = String()
@@ -48,19 +49,31 @@ class QuestionViewController: UIViewController, XMLParserDelegate {
     @IBOutlet weak var buttonAnswer3: UIButton!
     @IBOutlet weak var buttonAnswer4: UIButton!
     @IBAction func buttonAnswer1Taped(_ sender: Any) {
-        checkAnswer(variant: nameAnswer1.text!, variantNumber: 1)
+        if isTapped == false {
+            checkAnswer(variant: nameAnswer1.text!, variantNumber: 1)
+        }
+        isTapped = true
     }
     
     @IBAction func buttonAnswer2Taped(_ sender: Any) {
-        checkAnswer(variant: nameAnswer2.text!, variantNumber: 2)
+        if isTapped == false {
+            checkAnswer(variant: nameAnswer2.text!, variantNumber: 2)
+        }
+        isTapped = true
     }
     
     @IBAction func buttonAnswer3Taped(_ sender: Any) {
-        checkAnswer(variant: nameAnswer3.text!, variantNumber: 3)
+        if isTapped == false {
+            checkAnswer(variant: nameAnswer3.text!, variantNumber: 3)
+        }
+        isTapped = true
     }
     
     @IBAction func buttonAnswer4Taped(_ sender: Any) {
-        checkAnswer(variant: nameAnswer4.text!, variantNumber: 4)
+        if isTapped == false {
+            checkAnswer(variant: nameAnswer4.text!, variantNumber: 4)
+        }
+        isTapped = true
     }
     
     @IBAction func buttonQuestionTaped(_ sender: Any) {
@@ -69,6 +82,7 @@ class QuestionViewController: UIViewController, XMLParserDelegate {
         }
     }
     override func viewDidLoad() {
+        isTapped = false
         self.title = choisenTheme.Name
         if let path = Bundle.main.url(forResource: choisenTheme.id, withExtension: "xml") {
             if let parser = XMLParser(contentsOf: path) {
@@ -177,16 +191,16 @@ class QuestionViewController: UIViewController, XMLParserDelegate {
                 break
             }
             switch (correctAnswerNumber) {
-            case 0:
+            case 1:
                 nameAnswer1.backgroundColor = .green
                 break
-            case 1:
+            case 2:
                 nameAnswer2.backgroundColor = .green
                 break
-            case 2:
+            case 3:
                 nameAnswer3.backgroundColor = .green
                 break
-            case 3:
+            case 4:
                 nameAnswer4.backgroundColor = .green
                 break
             default:
@@ -194,12 +208,6 @@ class QuestionViewController: UIViewController, XMLParserDelegate {
             }
         }
         
-        /*UIView.animate(withDuration: 0.5) {
-            self.nameQuestion.center.x -= self.view.bounds.width
-        }
-        UIView.animate(withDuration: 0.5) {
-            self.imageQuestion.center.x += self.view.bounds.width
-        }*/
         UIView.animate(withDuration: 0.5, delay: 1, options: [],
                        animations: {
                         self.imageQuestion.center.x += self.view.bounds.width
@@ -279,16 +287,20 @@ class QuestionViewController: UIViewController, XMLParserDelegate {
                        completion: nil
         )
         
-        DispatchQueue.main.asyncAfter(deadline: .now() + 1.7, execute: {
+        DispatchQueue.main.asyncAfter(deadline: .now() + 2.3, execute: {
             self.nameAnswer1.backgroundColor = UIColorFromRGB(rgbValue: 0x1589FF)
             self.nameAnswer2.backgroundColor = UIColorFromRGB(rgbValue: 0x1589FF)
             self.nameAnswer3.backgroundColor = UIColorFromRGB(rgbValue: 0x1589FF)
             self.nameAnswer4.backgroundColor = UIColorFromRGB(rgbValue: 0x1589FF)
             self.nextQuestion()
         })
+        DispatchQueue.main.asyncAfter(deadline: .now() + 2.8, execute: {
+            self.isTapped = false
+        })
         
     }
     func nextQuestion() {
+        
         if(questions.count != 0 && number < questionsNumber) {
             currentIndex = Int(arc4random_uniform(UInt32(Int32(questions.count))))
             if questions[currentIndex].Name.characters.count > 90 {
@@ -297,11 +309,17 @@ class QuestionViewController: UIViewController, XMLParserDelegate {
                 isLongQuestion = false
             }
             nameQuestion.text = String(number + 1) + ". " + questions[currentIndex].Name.replacingOccurrences(of: "'", with: "")
-            nameAnswer1.text = questions[currentIndex].AnswersChoice[0].Item.replacingOccurrences(of: "'", with: "")
             
+            questions[currentIndex].AnswersChoice[0].Item = questions[currentIndex].AnswersChoice[0].Item.replacingOccurrences(of: "'", with: "")
+            nameAnswer1.text = questions[currentIndex].AnswersChoice[0].Item.replacingOccurrences(of: "'", with: "")
+            questions[currentIndex].AnswersChoice[1].Item = questions[currentIndex].AnswersChoice[1].Item.replacingOccurrences(of: "'", with: "")
             nameAnswer2.text = questions[currentIndex].AnswersChoice[1].Item.replacingOccurrences(of: "'", with: "")
+            questions[currentIndex].AnswersChoice[2].Item = questions[currentIndex].AnswersChoice[2].Item.replacingOccurrences(of: "'", with: "")
             nameAnswer3.text = questions[currentIndex].AnswersChoice[2].Item.replacingOccurrences(of: "'", with: "")
+            questions[currentIndex].AnswersChoice[3].Item = questions[currentIndex].AnswersChoice[3].Item.replacingOccurrences(of: "'", with: "")
             nameAnswer4.text = questions[currentIndex].AnswersChoice[3].Item.replacingOccurrences(of: "'", with: "")
+            questions[currentIndex].CorrectAnswer = questions[currentIndex].CorrectAnswer.replacingOccurrences(of: "'", with: "")
+            //questions[currentIndex].CorrectAnswer
             setCorrectAnswerNumber(index: currentIndex)
             if(questions[currentIndex].IsImage == "1") {
                 let index = choisenTheme.id.index(choisenTheme.id.startIndex, offsetBy: 5)
@@ -312,12 +330,12 @@ class QuestionViewController: UIViewController, XMLParserDelegate {
             }
             number = number + 1
         }else {
-            /*showActiveMessage(title: "Результат", message: "Правильно: " + String(mark) + " из " + String(questionsNumber), isNext: false)*/
             let storyBoard: UIStoryboard = UIStoryboard(name: "Main", bundle: nil)
             let resultViewController = storyBoard.instantiateViewController(withIdentifier: "ResultViewId") as! ResultViewController
             resultViewController.mark = mark
             self.navigationController?.pushViewController(resultViewController, animated: true)
         }
+        
     }
     func setCorrectAnswerNumber(index: Int) {
         for i in 0 ... 3 {
@@ -337,17 +355,14 @@ class QuestionViewController: UIViewController, XMLParserDelegate {
             if(number + 1 < questionsNumber) {
                 animationIn()
             }else {
-                //showActiveMessage(title: "Результат", message: "Правильно: " + String(mark) + " из " + String(questionsNumber), isNext: false)
                 let storyBoard: UIStoryboard = UIStoryboard(name: "Main", bundle: nil)
                 let resultViewController = storyBoard.instantiateViewController(withIdentifier: "ResultViewId") as! ResultViewController
                 resultViewController.mark = mark
                 self.navigationController?.pushViewController(resultViewController, animated: true)
-                //self.present(resultViewController, animated: true, completion: nil)
             }
         }else {
             animationOut()
             animationIn()
-            //showActiveMessage(title: "", message: "Неверно", isNext: true)
         }
     }
     func showActiveMessage(title: String, message: String, isNext: Bool) {
