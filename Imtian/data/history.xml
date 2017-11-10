@@ -3,7 +3,7 @@
   <question>
     <id>1</id>
     <image>''</image>
-    <name>'Когда произошла депортация крымстатарского народа?'</name>
+    <questionName>'Когда произошла депортация крымстатарского народа?'</questionName>
     <answerChoice>
       <list>
         <item>'11 сентября 1944 г.'</item>
@@ -17,7 +17,7 @@
   <question>
     <id>2</id>
     <image>''</image>
-    <name>'Какая династия  правила крымским ханством?'</name>
+    <questionName>'Какая династия  правила крымским ханством?'</questionName>
     <answerChoice>
       <list>
         <item>'Шырин'</item>
@@ -31,7 +31,7 @@
   <question>
     <id>3</id>
     <image>''</image>
-    <name>'Кто издавал газету терджиман?'</name>
+    <questionName>'Кто издавал газету терджиман?'</questionName>
     <answerChoice>
       <list>
         <item>'Номан Челибиджихан'</item>
@@ -45,7 +45,7 @@
   <question>
     <id>4</id>
     <image>''</image>
-    <name>'Президент крымскотатарской республики?'</name>
+    <questionName>'Президент крымскотатарской республики?'</questionName>
     <answerChoice>
       <list>
         <item>'Джафер Сейдамет'</item>
@@ -59,7 +59,7 @@
   <question>
     <id>5</id>
     <image>''</image>
-    <name>'Как звали известную крымскотатарскую разведчицу?'</name>
+    <questionName>'Как звали известную крымскотатарскую разведчицу?'</questionName>
     <answerChoice>
       <list>
         <item>'Сабрие Эреджепова'</item>
@@ -73,7 +73,7 @@
   <question>
     <id>6</id>
     <image>''</image>
-    <name>'Почти трижды герой СССР'</name>
+    <questionName>'Почти трижды герой СССР'</questionName>
     <answerChoice>
       <list>
         <item>'Амет-Хан Султан'</item>
@@ -87,7 +87,7 @@
   <question>
     <id>7</id>
     <image>''</image>
-    <name>'Основатель Крымского инженерно-педагогического университета?'</name>
+    <questionName>'Основатель Крымского инженерно-педагогического университета?'</questionName>
     <answerChoice>
       <list>
         <item>'Якубов Чингиз '</item>
@@ -101,7 +101,7 @@
   <question>
     <id>8</id>
     <image>''</image>
-    <name>'Советский борец классического стиля, победивший в олимпиаде 1972?'</name>
+    <questionName>'Советский борец классического стиля, победивший в олимпиаде 1972?'</questionName>
     <answerChoice>
       <list>
         <item>'Бувайсар Сайтиев'</item>
@@ -115,7 +115,7 @@
   <question>
     <id>9</id>
     <image>''</image>
-    <name>'Последний правитель Крымского ханства?'</name>
+    <questionName>'Последний правитель Крымского ханства?'</questionName>
     <answerChoice>
       <list>
         <item>'Менгли Герай'</item>
@@ -129,7 +129,7 @@
   <question>
     <id>10</id>
     <image>''</image>
-    <name>'Скакой из ханов напал на Ивана Грозного и сжег Москву?'</name>
+    <questionName>'Скакой из ханов напал на Ивана Грозного и сжег Москву?'</questionName>
     <answerChoice>
       <list>
         <item>'Девлет Герай'</item>
@@ -143,7 +143,7 @@
   <question>
     <id>11</id>
     <image>''</image>
-    <name>'У какого хана Богдан Хмельницкий просил военную помощь?'</name>
+    <questionName>'У какого хана Богдан Хмельницкий просил военную помощь?'</questionName>
     <answerChoice>
       <list>
         <item>'Гази Герай'</item>
@@ -158,7 +158,7 @@
   <question>
     <id>12</id>
     <image>''</image>
-    <name>'Какую мечеть в Крыму построил султан Египта?'</name>
+    <questionName>'Какую мечеть в Крыму построил султан Египта?'</questionName>
     <answerChoice>
       <list>
         <item>'Узбек Хан джамиси'</item>
@@ -172,7 +172,7 @@
   <question>
     <id>13</id>
     <image>''</image>
-    <name>'Первое высшее учебное заведение в восточной Европе?'</name>
+    <questionName>'Первое высшее учебное заведение в восточной Европе?'</questionName>
     <answerChoice>
       <list>
         <item>'Зынджирлы Медресе'</item>
@@ -186,7 +186,7 @@
   <question>
     <id>14</id>
     <image>''</image>
-    <name>'Кто основал династию Герай?'</name>
+    <questionName>'Кто основал династию Герай?'</questionName>
     <answerChoice>
       <list>
         <item>'Хаджи Герай'</item>
@@ -200,7 +200,7 @@
   <question>
     <id>15</id>
     <image>''</image>
-    <name>'Столица крымского улуса Золотой Орды?'</name>
+    <questionName>'Столица крымского улуса Золотой Орды?'</questionName>
     <answerChoice>
       <list>
         <item>'Бахчисарай'</item>
@@ -214,7 +214,7 @@
   <question>
     <id>16</id>
     <image>''</image>
-    <name>'Первая столица крымского ханства?'</name>
+    <questionName>'Первая столица крымского ханства?'</questionName>
     <answerChoice>
       <list>
         <item>'Къыркъ Ер'</item>
@@ -228,7 +228,7 @@
   <question>
     <id>17</id>
     <image>''</image>
-    <name>'Годы правления Хаджи Герай хана?'</name>
+    <questionName>'Годы правления Хаджи Герай хана?'</questionName>
     <answerChoice>
       <list>
         <item>'1441-1466'</item>
@@ -242,7 +242,7 @@
   <question>
     <id>18</id>
     <image>''</image>
-    <name>'Год собрания первого къурултая крымскотатарского народа?'</name>
+    <questionName>'Год собрания первого къурултая крымскотатарского народа?'</questionName>
     <answerChoice>
       <list>
         <item>'1919'</item>
@@ -256,7 +256,7 @@
   <question>
     <id>19</id>
     <image>''</image>
-    <name>'Как назывался женский журнал, издаваемый Шефикой Гаспринской?'</name>
+    <questionName>'Как назывался женский журнал, издаваемый Шефикой Гаспринской?'</questionName>
     <answerChoice>
       <list>
         <item>'Алем-и Субьян'</item>
@@ -270,7 +270,7 @@
   <question>
     <id>20</id>
     <image>''</image>
-    <name>'Крымский "Робин Гуд"?'</name>
+    <questionName>'Крымский "Робин Гуд"?'</questionName>
     <answerChoice>
       <list>
         <item>'Алим Айдамакъ'</item>
@@ -284,7 +284,7 @@
   <question>
     <id>21</id>
     <image>''</image>
-    <name>'Тамгъа - это…?'</name>
+    <questionName>'Тамгъа - это…?'</questionName>
     <answerChoice>
       <list>
         <item>'Родовой герб'</item>
@@ -298,7 +298,7 @@
   <question>
     <id>22</id>
     <image>''</image>
-    <name>'Древняя религия тюрков?'</name>
+    <questionName>'Древняя религия тюрков?'</questionName>
     <answerChoice>
       <list>
         <item>'Зароастризм'</item>
@@ -312,7 +312,7 @@
   <question>
     <id>23</id>
     <image>''</image>
-    <name>'Архитектор Джума Джами (Кезлев)?'</name>
+    <questionName>'Архитектор Джума Джами (Кезлев)?'</questionName>
     <answerChoice>
       <list>
         <item>'Мимар Сеннан'</item>
@@ -326,7 +326,7 @@
   <question>
     <id>24</id>
     <image>''</image>
-    <name>'Какой город был ставкой Калга Султана?'</name>
+    <questionName>'Какой город был ставкой Калга Султана?'</questionName>
     <answerChoice>
       <list>
         <item>'Акъ Яр'</item>
@@ -340,7 +340,7 @@
   <question>
     <id>25</id>
     <image>''</image>
-    <name>'Кто такая Ненкеджан-ханым?'</name>
+    <questionName>'Кто такая Ненкеджан-ханым?'</questionName>
     <answerChoice>
       <list>
         <item>'дочь Тохтамыш хана'</item>
@@ -354,7 +354,7 @@
   <question>
     <id>26</id>
     <image>''</image>
-    <name>'Первый крымскотатарский художественный фильм'</name>
+    <questionName>'Первый крымскотатарский художественный фильм'</questionName>
     <answerChoice>
       <list>
         <item>'Хайтарма'</item>
@@ -369,7 +369,7 @@
   <question>
     <id>27</id>
     <image>''</image>
-    <name>'Кто из крымских ханов был поэтом?'</name>
+    <questionName>'Кто из крымских ханов был поэтом?'</questionName>
     <answerChoice>
       <list>
         <item>'Крым Герай'</item>
@@ -383,7 +383,7 @@
   <question>
     <id>28</id>
     <image>''</image>
-    <name>'В каком городе Крыма находится Текие Дервиш?'</name>
+    <questionName>'В каком городе Крыма находится Текие Дервиш?'</questionName>
     <answerChoice>
       <list>
         <item>'Кезлев'</item>
@@ -397,7 +397,7 @@
   <question>
     <id>29</id>
     <image>''</image>
-    <name>'В каком году была основана газета Терджиман?'</name>
+    <questionName>'В каком году была основана газета Терджиман?'</questionName>
     <answerChoice>
       <list>
         <item>'1883'</item>
@@ -411,7 +411,7 @@
   <question>
     <id>30</id>
     <image>''</image>
-    <name>'Первым муфтие мусульман Крымской Народной Республики был...'</name>
+    <questionName>'Первым муфтие мусульман Крымской Народной Республики был...'</questionName>
     <answerChoice>
       <list>
         <item>'Номан Челебиджихан'</item>
@@ -425,7 +425,7 @@
   <question>
     <id>31</id>
     <image>''</image>
-    <name>'На каких языках издавалась газета Терджиман?'</name>
+    <questionName>'На каких языках издавалась газета Терджиман?'</questionName>
     <answerChoice>
       <list>
         <item>'русский, крымскотатарский'</item>
@@ -439,7 +439,7 @@
   <question>
     <id>32</id>
     <image>''</image>
-    <name>'Какая письменность не использовалась тюркскими языками?'</name>
+    <questionName>'Какая письменность не использовалась тюркскими языками?'</questionName>
     <answerChoice>
       <list>
         <item>'Руны'</item>
@@ -453,7 +453,7 @@
   <question>
     <id>33</id>
     <image>''</image>
-    <name>'Крымский художник-моренист.'</name>
+    <questionName>'Крымский художник-моренист.'</questionName>
     <answerChoice>
       <list>
         <item>'Иван Айвазовский'</item>
@@ -467,7 +467,7 @@
   <question>
     <id>34</id>
     <image>''</image>
-    <name>'Как в древности называли Черное море?'</name>
+    <questionName>'Как в древности называли Черное море?'</questionName>
     <answerChoice>
       <list>
         <item>'Порт Артур'</item>
@@ -481,7 +481,7 @@
   <question>
     <id>35</id>
     <image>''</image>
-    <name>'В каком году состоялись первые протесты крымских татар в Москве?'</name>
+    <questionName>'В каком году состоялись первые протесты крымских татар в Москве?'</questionName>
     <answerChoice>
       <list>
         <item>'1956'</item>
@@ -495,7 +495,7 @@
   <question>
     <id>36</id>
     <image>''</image>
-    <name>'Какой из перечисленных народов не является коренным в Крыму? '</name>
+    <questionName>'Какой из перечисленных народов не является коренным в Крыму? '</questionName>
     <answerChoice>
       <list>
         <item>'Крымские татары'</item>
@@ -509,7 +509,7 @@
   <question>
     <id>37</id>
     <image>''</image>
-    <name>'Какой общественно-политический деятель был убит 9 мая 1928-го года?  '</name>
+    <questionName>'Какой общественно-политический деятель был убит 9 мая 1928-го года?  '</questionName>
     <answerChoice>
       <list>
         <item>'Джафер Сейдамет'</item>
@@ -523,7 +523,7 @@
   <question>
     <id>38</id>
     <image>''</image>
-    <name>'Основную силу армии Крымского ханства составляла...'</name>
+    <questionName>'Основную силу армии Крымского ханства составляла...'</questionName>
     <answerChoice>
       <list>
         <item>'Тяжёлая пехота '</item>
@@ -537,7 +537,7 @@
   <question>
     <id>39</id>
     <image>''</image>
-    <name>'Кто был известным крымским полководцем и политическим деятелем? '</name>
+    <questionName>'Кто был известным крымским полководцем и политическим деятелем? '</questionName>
     <answerChoice>
       <list>
         <item>'Халид ибн аль-Валид'</item>
@@ -551,7 +551,7 @@
   <question>
     <id>40</id>
     <image>''</image>
-    <name>'Какое княжество существовало в Крыму? '</name>
+    <questionName>'Какое княжество существовало в Крыму? '</questionName>
     <answerChoice>
       <list>
         <item>'Галицко-Волынское княжество'</item>
@@ -565,7 +565,7 @@
   <question>
     <id>41</id>
     <image>''</image>
-    <name>'Кто был старшим сыном Чингисхана, его наследником? '</name>
+    <questionName>'Кто был старшим сыном Чингисхана, его наследником? '</questionName>
     <answerChoice>
       <list>
         <item>'Хан Тохтамыш '</item>
@@ -579,7 +579,7 @@
   <question>
     <id>42</id>
     <image>''</image>
-    <name>'Мечеть хана Узбека построил... '</name>
+    <questionName>'Мечеть хана Узбека построил... '</questionName>
     <answerChoice>
       <list>
         <item>'Узбек Хан'</item>
@@ -593,7 +593,7 @@
   <question>
     <id>43</id>
     <image>''</image>
-    <name>'Второй титул в иерархии Крымского ханства после хана это... '</name>
+    <questionName>'Второй титул в иерархии Крымского ханства после хана это... '</questionName>
     <answerChoice>
       <list>
         <item>'Муфтий '</item>
@@ -607,7 +607,7 @@
   <question>
     <id>44</id>
     <image>''</image>
-    <name>'Кто является автором поэмы "Бахчисарайский фонтан"?'</name>
+    <questionName>'Кто является автором поэмы "Бахчисарайский фонтан"?'</questionName>
     <answerChoice>
       <list>
         <item>'Сергей Есенин '</item>
@@ -621,7 +621,7 @@
   <question>
     <id>45</id>
     <image>''</image>
-    <name>'Кто из перечисленных офицеров был Героем Советского Союза?'</name>
+    <questionName>'Кто из перечисленных офицеров был Героем Советского Союза?'</questionName>
     <answerChoice>
       <list>
         <item>'Абдураим Решидов '</item>
@@ -635,7 +635,7 @@
   <question>
     <id>46</id>
     <image>''</image>
-    <name>'Где был казнён хан Шахин Герай? '</name>
+    <questionName>'Где был казнён хан Шахин Герай? '</questionName>
     <answerChoice>
       <list>
         <item>'В Румынии'</item>
@@ -649,7 +649,7 @@
   <question>
     <id>47</id>
     <image>''</image>
-    <name>'В какой стране было посольства Крымского ханства? '</name>
+    <questionName>'В какой стране было посольства Крымского ханства? '</questionName>
     <answerChoice>
       <list>
         <item>'в Дании'</item>
@@ -663,7 +663,7 @@
   <question>
     <id>48</id>
     <image>''</image>
-    <name>'Политическое течение тюрксков, призывающее к консолидации это...'</name>
+    <questionName>'Политическое течение тюрксков, призывающее к консолидации это...'</questionName>
     <answerChoice>
       <list>
         <item>'Панисламизм'</item>
@@ -677,7 +677,7 @@
   <question>
     <id>49</id>
     <image>''</image>
-    <name>'Движением за распространение просвещения, изучение светских дисциплин... '</name>
+    <questionName>'Движением за распространение просвещения, изучение светских дисциплин... '</questionName>
     <answerChoice>
       <list>
         <item>'Панисламизм'</item>
@@ -691,7 +691,7 @@
   <question>
     <id>50</id>
     <image>''</image>
-    <name>'Консервативное движение, что боролось против религиозного реформаторства это...'</name>
+    <questionName>'Консервативное движение, что боролось против религиозного реформаторства это...'</questionName>
     <answerChoice>
       <list>
         <item>'Панисламизм'</item>

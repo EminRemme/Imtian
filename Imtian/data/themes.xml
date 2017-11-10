@@ -1,43 +1,39 @@
 <?xml version="1.0"?>
 <list>
+    <theme >
+        <themeId>RandomTheme</themeId>
+        <name>Случайная тема</name>
+    </theme>
 	<theme >
-        <id>literature</id>
+        <themeId>literature</themeId>
         <name>Литература</name>
-        <lastResult>0</lastResult>
     </theme>
     <theme >
-        <id>history</id>
+        <themeId>history</themeId>
         <name>История</name>
-        <lastResult>0</lastResult>
     </theme>
     <theme>
-        <id>toponimika</id>
+        <themeId>toponimika</themeId>
         <name>Топонимика</name>
-        <lastResult>0</lastResult>
     </theme>
     <theme>
-        <id>islam</id>
+        <themeId>islam</themeId>
         <name>Ислам</name>
-        <lastResult>0</lastResult>
     </theme>
     <theme>
-        <id>kitchen</id>
+        <themeId>kitchen</themeId>
         <name>Кухня</name>
-        <lastResult>0</lastResult>
     </theme>
     <theme>
-        <id>language</id>
+        <themeId>language</themeId>
         <name>Язык</name>
-        <lastResult>0</lastResult>
     </theme>
     <theme>
-        <id>music</id>
+        <themeId>music</themeId>
         <name>Музыка</name>
-        <lastResult>0</lastResult>
     </theme>
     <theme>
-        <id>tradition</id>
+        <themeId>tradition</themeId>
         <name>Традиция</name>
-        <lastResult>0</lastResult>
     </theme>
 </list>

@@ -2,15 +2,16 @@
 //  QuestionViewController.swift
 //  Imtian
 //
-//  Created by MQ on 22.07.17.
-//  Copyright © 2017 MQ. All rights reserved.
+//  Created by EY on 22.07.17.
+//  Copyright © 2017 EY. All rights reserved.
 //
 
 import UIKit
 
-class QuestionViewController: UIViewController, XMLParserDelegate {
+class QuestionViewController: UIViewController, UIGestureRecognizerDelegate {
     
     var questionsNumber: Int = 10
+    var isExam: Bool = false
     var questions: [Question] = []
     var eName: String = String()
     var Name = String()
@@ -24,7 +25,6 @@ class QuestionViewController: UIViewController, XMLParserDelegate {
     var isImage = String()
     var answer = Answer()
     
-    var parser : XMLParser = XMLParser()
     var currentIndex = 0
     
     var choisenTheme = Theme()
@@ -82,23 +82,25 @@ class QuestionViewController: UIViewController, XMLParserDelegate {
         }
     }
     override func viewDidLoad() {
+        navigationController?.interactivePopGestureRecognizer?.isEnabled = false
         isTapped = false
         self.title = choisenTheme.Name
-        if let path = Bundle.main.url(forResource: choisenTheme.id, withExtension: "xml") {
-            if let parser = XMLParser(contentsOf: path) {
-                parser.delegate = self
-                parser.parse()
+        if choisenTheme.id == "AllQuestions" {
+            //Планирование вопросов для Тренировки или Экзамена
+            prepareExamQuestions()
+        } else {
+            for questionsTemp in QuestionsStructure.questionDict[choisenTheme.id]! {
+                questions.append(questionsTemp)
             }
         }
+        self.nameAnswer1.backgroundColor = UIColorFromRGB(rgbValue: 0x2d4059)
+        self.nameAnswer2.backgroundColor = UIColorFromRGB(rgbValue: 0x2d4059)
+        self.nameAnswer3.backgroundColor = UIColorFromRGB(rgbValue: 0x2d4059)
+        self.nameAnswer4.backgroundColor = UIColorFromRGB(rgbValue: 0x2d4059)
         super.viewDidLoad()
         // Do any additional setup after loading the view.
         nameQuestion.layer.masksToBounds = true
         nameQuestion.layer.cornerRadius = nameAnswer1.bounds.height / 4
-        
-        buttonAnswer1.showsTouchWhenHighlighted = true
-        buttonAnswer2.showsTouchWhenHighlighted = true
-        buttonAnswer3.showsTouchWhenHighlighted = true
-        buttonAnswer4.showsTouchWhenHighlighted = true
         
         imageQuestion.layer.masksToBounds = true
         imageQuestion.layer.cornerRadius = nameAnswer1.bounds.height / 4
@@ -156,56 +158,15 @@ class QuestionViewController: UIViewController, XMLParserDelegate {
         // Dispose of any resources that can be recreated.
     }
     func animationOut() {
-        if(correctAnswerNumber == choisenAnswerNumber) {
-            switch (correctAnswerNumber) {
-            case 1:
-                nameAnswer1.backgroundColor = .green
-                break
-            case 2:
-                nameAnswer2.backgroundColor = .green
-                break
-            case 3:
-                nameAnswer3.backgroundColor = .green
-                break
-            case 4:
-                nameAnswer4.backgroundColor = .green
-                break
-            default:
-                break
+        if !self.isExam {
+            if correctAnswerNumber == choisenAnswerNumber {
+                self.lightButtons(color: .green, lightButtonNum: correctAnswerNumber)
+            } else {
+                self.lightButtons(color: .red, lightButtonNum: choisenAnswerNumber)
+                self.lightButtons(color: .green, lightButtonNum: correctAnswerNumber)
             }
         } else {
-            switch (choisenAnswerNumber) {
-            case 1:
-                nameAnswer1.backgroundColor = .red
-                break
-            case 2:
-                nameAnswer2.backgroundColor = .red
-                break
-            case 3:
-                nameAnswer3.backgroundColor = .red
-                break
-            case 4:
-                nameAnswer4.backgroundColor = .red
-                break
-            default:
-                break
-            }
-            switch (correctAnswerNumber) {
-            case 1:
-                nameAnswer1.backgroundColor = .green
-                break
-            case 2:
-                nameAnswer2.backgroundColor = .green
-                break
-            case 3:
-                nameAnswer3.backgroundColor = .green
-                break
-            case 4:
-                nameAnswer4.backgroundColor = .green
-                break
-            default:
-                break
-            }
+            self.lightButtons(color: .cyan, lightButtonNum: choisenAnswerNumber)
         }
         
         UIView.animate(withDuration: 0.5, delay: 1, options: [],
@@ -248,7 +209,6 @@ class QuestionViewController: UIViewController, XMLParserDelegate {
     }
     func animationIn() {
         
-        
         UIView.animate(withDuration: 0.5, delay: 2, options: [],
                        animations: {
                         self.nameQuestion.center.x += self.view.bounds.width
@@ -287,11 +247,11 @@ class QuestionViewController: UIViewController, XMLParserDelegate {
                        completion: nil
         )
         
-        DispatchQueue.main.asyncAfter(deadline: .now() + 2.3, execute: {
-            self.nameAnswer1.backgroundColor = UIColorFromRGB(rgbValue: 0x1589FF)
-            self.nameAnswer2.backgroundColor = UIColorFromRGB(rgbValue: 0x1589FF)
-            self.nameAnswer3.backgroundColor = UIColorFromRGB(rgbValue: 0x1589FF)
-            self.nameAnswer4.backgroundColor = UIColorFromRGB(rgbValue: 0x1589FF)
+        DispatchQueue.main.asyncAfter(deadline: .now() + 1.8, execute: {
+            self.nameAnswer1.backgroundColor = UIColorFromRGB(rgbValue: 0x2d4059)
+            self.nameAnswer2.backgroundColor = UIColorFromRGB(rgbValue: 0x2d4059)
+            self.nameAnswer3.backgroundColor = UIColorFromRGB(rgbValue: 0x2d4059)
+            self.nameAnswer4.backgroundColor = UIColorFromRGB(rgbValue: 0x2d4059)
             self.nextQuestion()
         })
         DispatchQueue.main.asyncAfter(deadline: .now() + 2.8, execute: {
@@ -300,16 +260,17 @@ class QuestionViewController: UIViewController, XMLParserDelegate {
         
     }
     func nextQuestion() {
-        
-        if(questions.count != 0 && number < questionsNumber) {
+        number = number + 1
+        if(questions.count != 0 && number <= questionsNumber) {
             currentIndex = Int(arc4random_uniform(UInt32(Int32(questions.count))))
-            if questions[currentIndex].Name.characters.count > 90 {
+            if questions[currentIndex].Name.length > 90 {
+            //characters.count > 90 {
                 isLongQuestion = true
             } else {
                 isLongQuestion = false
             }
-            nameQuestion.text = String(number + 1) + ". " + questions[currentIndex].Name.replacingOccurrences(of: "'", with: "")
-            
+            self.title = self.choisenTheme.Name + ": " + String(number)  + " из " + String(self.questionsNumber)
+            nameQuestion.text = questions[currentIndex].Name.replacingOccurrences(of: "'", with: "")
             questions[currentIndex].AnswersChoice[0].Item = questions[currentIndex].AnswersChoice[0].Item.replacingOccurrences(of: "'", with: "")
             nameAnswer1.text = questions[currentIndex].AnswersChoice[0].Item.replacingOccurrences(of: "'", with: "")
             questions[currentIndex].AnswersChoice[1].Item = questions[currentIndex].AnswersChoice[1].Item.replacingOccurrences(of: "'", with: "")
@@ -319,23 +280,16 @@ class QuestionViewController: UIViewController, XMLParserDelegate {
             questions[currentIndex].AnswersChoice[3].Item = questions[currentIndex].AnswersChoice[3].Item.replacingOccurrences(of: "'", with: "")
             nameAnswer4.text = questions[currentIndex].AnswersChoice[3].Item.replacingOccurrences(of: "'", with: "")
             questions[currentIndex].CorrectAnswer = questions[currentIndex].CorrectAnswer.replacingOccurrences(of: "'", with: "")
-            //questions[currentIndex].CorrectAnswer
+           
             setCorrectAnswerNumber(index: currentIndex)
             if(questions[currentIndex].IsImage == "1") {
-                let index = choisenTheme.id.index(choisenTheme.id.startIndex, offsetBy: 5)
                 imageQuestion.isHidden = false
-                imageQuestion.image = UIImage(named: choisenTheme.id.substring(to: index) + questions[currentIndex].id)
+                imageQuestion.image = UIImage(named: choisenTheme.id.prefix(5) + questions[currentIndex].id)
             }else {
                 imageQuestion.isHidden = true
             }
-            number = number + 1
-        }else {
-            let storyBoard: UIStoryboard = UIStoryboard(name: "Main", bundle: nil)
-            let resultViewController = storyBoard.instantiateViewController(withIdentifier: "ResultViewId") as! ResultViewController
-            resultViewController.mark = mark
-            self.navigationController?.pushViewController(resultViewController, animated: true)
+            
         }
-        
     }
     func setCorrectAnswerNumber(index: Int) {
         for i in 0 ... 3 {
@@ -345,24 +299,25 @@ class QuestionViewController: UIViewController, XMLParserDelegate {
             }
         }
     }
+    // 
     func checkAnswer(variant: String, variantNumber: Int) {
         choisenAnswerNumber = variantNumber
         let correctAnswer = questions[currentIndex].CorrectAnswer.replacingOccurrences(of: "'", with: "")
         questions.remove(at: currentIndex)
+        animationOut()
         if (variant == correctAnswer) {
             mark = mark + 1
-            animationOut()
-            if(number + 1 < questionsNumber) {
-                animationIn()
-            }else {
+        }
+        if(number < questionsNumber) {
+            animationIn()
+        }else {
+            DispatchQueue.main.asyncAfter(deadline: .now() + 1.8, execute: {
                 let storyBoard: UIStoryboard = UIStoryboard(name: "Main", bundle: nil)
                 let resultViewController = storyBoard.instantiateViewController(withIdentifier: "ResultViewId") as! ResultViewController
-                resultViewController.mark = mark
+                resultViewController.mark = self.mark
+                resultViewController.questionCount = self.questionsNumber
                 self.navigationController?.pushViewController(resultViewController, animated: true)
-            }
-        }else {
-            animationOut()
-            animationIn()
+            })
         }
     }
     func showActiveMessage(title: String, message: String, isNext: Bool) {
@@ -401,76 +356,24 @@ class QuestionViewController: UIViewController, XMLParserDelegate {
                               animated: true,
                               completion: nil)
     }
-    func animateAnswerLabel(choisenNumber: Int) {
-        // songLabel animate
-        //songLabel.animation = "flash"
-        //songLabel.repeatCount = 3
-        //songLabel.animate()
-        
-    }
-    //for XML
-    // 1
-    func parser(_ parser: XMLParser, didStartElement elementName: String, namespaceURI: String?, qualifiedName qName: String?, attributes attributeDict: [String : String]) {
-        eName = elementName
-        if elementName == "question" {
-            Name = String()
-            id = String()
-            isImage = String()
-            answers.removeAll()
-            
-            correctAnswer = String()
-        }
-        if elementName == "item" {
-            answer = Answer()
+    func lightButtons(color: UIColor, lightButtonNum: Int) {
+        switch (lightButtonNum) {
+        case 1:
+            nameAnswer1.backgroundColor = color
+            break
+        case 2:
+            nameAnswer2.backgroundColor = color
+            break
+        case 3:
+            nameAnswer3.backgroundColor = color
+            break
+        case 4:
+            nameAnswer4.backgroundColor = color
+            break
+        default:
+            break
         }
     }
-    
-    // 2
-    func parser(_ parser: XMLParser, didEndElement elementName: String, namespaceURI: String?, qualifiedName qName: String?) {
-        if elementName == "question" {
-            
-            let question = Question()
-            question.Name = Name
-            question.id = id
-            isImage = (isImage as NSString).replacingOccurrences(of: "'", with: "")
-            isImage = (isImage as NSString).replacingOccurrences(of: " ", with: "")
-            //isImage = (isImage as NSString).replacingOccurrences(of: "\\", with: "")
-            question.IsImage = isImage
-            question.AnswersChoice = answers
-            question.CorrectAnswer = correctAnswer
-            
-            questions.append(question)
-        }
-        if elementName == "item" {
-            answers.append(answer)
-        }
-    }
-    
-    // 3
-    func parser(_ parser: XMLParser, foundCharacters string: String) {
-        var data = String()
-        if string.contains("'") {
-            data = string
-        }
-        else {
-            data = string.trimmingCharacters(in: NSCharacterSet.whitespacesAndNewlines)
-        }
-        if (!data.isEmpty) {
-            if eName == "name" {
-                Name += data
-            } else if eName == "id" {
-                id += data
-            }else if eName == "image" {
-                isImage += " " + data
-            }else if eName == "item" {
-                answer.Item += " " + data
-            } else if eName == "correctAnswer" {
-                correctAnswer += " " + data
-            }
-        }
-    }
-    //____________________
-
     /*
     // MARK: - Navigation
 
@@ -480,5 +383,23 @@ class QuestionViewController: UIViewController, XMLParserDelegate {
         // Pass the selected object to the new view controller.
     }
     */
-
+    func prepareExamQuestions() {
+        var tempQuestions: [Question] = [Question]()
+        var tempTheme: [String] = [String]()
+        for theme in ThemeStructure.themes {
+            tempTheme.append(theme.id)
+        }
+        tempTheme.remove(at: tempTheme.index(of: "RandomTheme")!)
+        while questions.count < questionsNumber {
+            let currentThemeIndex = Int(arc4random_uniform(UInt32(Int32(tempTheme.count))))
+            tempQuestions = QuestionsStructure.questionDict[tempTheme[currentThemeIndex]]!
+            for _ in 1 ... 5 {
+                let currentIndex = Int(arc4random_uniform(UInt32(Int32(tempQuestions.count))))
+                questions.append(tempQuestions[currentIndex])
+                tempQuestions.remove(at: currentIndex)
+            }
+            tempTheme.remove(at: currentThemeIndex)
+            
+        }
+    }
 }

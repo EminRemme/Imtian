@@ -1,9 +1,9 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <list>
   <question>
     <id>1</id>
     <image>''</image>
-    <name>'Традиционный напиток крымских татар?'</name>
+    <questionName>'Традиционный напиток крымских татар?'</questionName>
     <answerChoice>
       <list>
         <item>'Буза'</item>
@@ -17,7 +17,7 @@
   <question>
     <id>2</id>
     <image>''</image>
-    <name>'Что такое "Джезве"?'</name>
+    <questionName>'Что такое "Джезве"?'</questionName>
     <answerChoice>
       <list>
         <item>'Орех'</item>
@@ -31,7 +31,7 @@
   <question>
     <id>3</id>
     <image>''</image>
-    <name>'Какое блюда НЕ относится к мучным?'</name>
+    <questionName>'Какое блюда НЕ относится к мучным?'</questionName>
     <answerChoice>
       <list>
         <item>'Сарма'</item>
@@ -45,7 +45,7 @@
   <question>
     <id>4</id>
     <image>''</image>
-    <name>'Манты, пиляв, лагман пришли в Крым из:'</name>
+    <questionName>'Манты, пиляв, лагман пришли в Крым из:'</questionName>
     <answerChoice>
       <list>
         <item>'Украины'</item>
@@ -59,7 +59,7 @@
   <question>
     <id>5</id>
     <image>''</image>
-    <name>'Как переводится "Хыяр туршусы"?'</name>
+    <questionName>'Как переводится "Хыяр туршусы"?'</questionName>
     <answerChoice>
       <list>
         <item>'Рассол'</item>
@@ -73,7 +73,7 @@
   <question>
     <id>6</id>
     <image>''</image>
-    <name>'На этом фото изображено?'</name>
+    <questionName>'На этом фото изображено?'</questionName>
     <answerChoice>
       <list>
         <item>'Манты'</item>
@@ -87,7 +87,7 @@
   <question>
     <id>7</id>
     <image>''</image>
-    <name>'Ислам запрещает употребление:'</name>
+    <questionName>'Ислам запрещает употребление:'</questionName>
     <answerChoice>
       <list>
         <item>'Баранины'</item>
@@ -101,7 +101,7 @@
   <question>
     <id>8</id>
     <image>''</image>
-    <name>'Янтыкъ готовится...?'</name>
+    <questionName>'Янтыкъ готовится...?'</questionName>
     <answerChoice>
       <list>
         <item>'На сухой сковороде'</item>
@@ -115,7 +115,7 @@
   <question>
     <id>9</id>
     <image>''</image>
-    <name>'Что изображено на фото?'</name>
+    <questionName>'Что изображено на фото?'</questionName>
     <answerChoice>
       <list>
         <item>'Лагман'</item>
@@ -129,7 +129,7 @@
   <question>
     <id>10</id>
     <image>''</image>
-    <name>'Как правильно произносится слово..'</name>
+    <questionName>'Как правильно произносится слово..'</questionName>
     <answerChoice>
       <list>
         <item>'Чебурек'</item>
@@ -143,7 +143,7 @@
   <question>
     <id>11</id>
     <image>''</image>
-    <name>'"Имам баялды" это:'</name>
+    <questionName>'"Имам баялды" это:'</questionName>
     <answerChoice>
       <list>
         <item>'Фаршированые баклажаны'</item>
@@ -157,7 +157,7 @@
   <question>
     <id>12</id>
     <image>''</image>
-    <name>'Жители какой части Крыма отдавали приоритет овощам, фруктам и рыбе?'</name>
+    <questionName>'Жители какой части Крыма отдавали приоритет овощам, фруктам и рыбе?'</questionName>
     <answerChoice>
       <list>
         <item>'Степной'</item>
@@ -171,7 +171,7 @@
   <question>
     <id>13</id>
     <image>''</image>
-    <name>'После сцеживания къатыкъа получается..'</name>
+    <questionName>'После сцеживания къатыкъа получается..'</questionName>
     <answerChoice>
       <list>
         <item>'Буза'</item>
@@ -185,7 +185,7 @@
   <question>
     <id>14</id>
     <image>''</image>
-    <name>'Хошаф-это..?'</name>
+    <questionName>'Хошаф-это..?'</questionName>
     <answerChoice>
       <list>
         <item>'Компот из сухофруктов'</item>
@@ -199,7 +199,7 @@
   <question>
     <id>15</id>
     <image>''</image>
-    <name>'Что изображено на фото?'</name>
+    <questionName>'Что изображено на фото?'</questionName>
     <answerChoice>
       <list>
         <item>'Хинкали'</item>
@@ -213,7 +213,7 @@
   <question>
     <id>16</id>
     <image>''</image>
-    <name>'Как переводится "хлеб"?'</name>
+    <questionName>'Как переводится "хлеб"?'</questionName>
     <answerChoice>
       <list>
         <item>'Захире'</item>
@@ -227,7 +227,7 @@
   <question>
     <id>17</id>
     <image>''</image>
-    <name>'Къызылык-это...?'</name>
+    <questionName>'Къызылык-это...?'</questionName>
     <answerChoice>
       <list>
         <item>'Вяленая колбаса из конины'</item>
@@ -241,7 +241,7 @@
   <question>
     <id>18</id>
     <image>''</image>
-    <name>'Основной пищей степных татар было:'</name>
+    <questionName>'Основной пищей степных татар было:'</questionName>
     <answerChoice>
       <list>
         <item>'Фрукты и овощи'</item>
@@ -255,7 +255,7 @@
   <question>
     <id>19</id>
     <image>''</image>
-    <name>'Знаменитый крымскотатарский суп с маленькими пельменями...?'</name>
+    <questionName>'Знаменитый крымскотатарский суп с маленькими пельменями...?'</questionName>
     <answerChoice>
       <list>
         <item>'А) Юфакъ аш'</item>
@@ -269,7 +269,7 @@
   <question>
     <id>20</id>
     <image>''</image>
-    <name>'Домашняя лапша, залитая соусом из измельчённых овощей и мяса-это..?'</name>
+    <questionName>'Домашняя лапша, залитая соусом из измельчённых овощей и мяса-это..?'</questionName>
     <answerChoice>
       <list>
         <item>'Шурпа'</item>
@@ -283,7 +283,7 @@
   <question>
     <id>21</id>
     <image>''</image>
-    <name>'Ашхане -это...?'</name>
+    <questionName>'Ашхане -это...?'</questionName>
     <answerChoice>
       <list>
         <item>'Съедобный'</item>
@@ -297,7 +297,7 @@
   <question>
     <id>22</id>
     <image>''</image>
-    <name>'Сарма готовится из...'</name>
+    <questionName>'Сарма готовится из...'</questionName>
     <answerChoice>
       <list>
         <item>'Виноградных листьев'</item>
@@ -311,7 +311,7 @@
   <question>
     <id>23</id>
     <image>''</image>
-    <name>'Четырёхугольная слоённая лепешка'</name>
+    <questionName>'Четырёхугольная слоённая лепешка'</questionName>
     <answerChoice>
       <list>
         <item>'Тандырная лепешка'</item>
@@ -325,7 +325,7 @@
   <question>
     <id>24</id>
     <image>''</image>
-    <name>'Как переводится"дрожжи"'</name>
+    <questionName>'Как переводится"дрожжи"'</questionName>
     <answerChoice>
       <list>
         <item>'А) Мая'</item>
@@ -339,7 +339,7 @@
   <question>
     <id>25</id>
     <image>''</image>
-    <name>'Что изображено на фото?'</name>
+    <questionName>'Что изображено на фото?'</questionName>
     <answerChoice>
       <list>
         <item>'Большая булочка'</item>
@@ -353,7 +353,7 @@
   <question>
     <id>26</id>
     <image>''</image>
-    <name>'Ингридиенты блюда "Дженнет ашы"'</name>
+    <questionName>'Ингридиенты блюда "Дженнет ашы"'</questionName>
     <answerChoice>
       <list>
         <item>'Тыква, рис, фасоль, мясо'</item>
@@ -367,7 +367,7 @@
   <question>
     <id>27</id>
     <image>''</image>
-    <name>'Ответ на благодарность за выпитую воду, кофе, чай..?'</name>
+    <questionName>'Ответ на благодарность за выпитую воду, кофе, чай..?'</questionName>
     <answerChoice>
       <list>
         <item>'Аллах къолай кетерсин'</item>
@@ -381,7 +381,7 @@
   <question>
     <id>28</id>
     <image>''</image>
-    <name>'Что такое "Гуль татлысы"?'</name>
+    <questionName>'Что такое "Гуль татлысы"?'</questionName>
     <answerChoice>
       <list>
         <item>'Мёд'</item>
@@ -395,7 +395,7 @@
   <question>
     <id>29</id>
     <image>''</image>
-    <name>'Как переводится слово "Мейва"?'</name>
+    <questionName>'Как переводится слово "Мейва"?'</questionName>
     <answerChoice>
       <list>
         <item>'Фрукт'</item>
@@ -409,7 +409,7 @@
   <question>
     <id>30</id>
     <image>''</image>
-    <name>'Сколько пельменей(юфакъ аш)должно поместиться на ложку?'</name>
+    <questionName>'Сколько пельменей(юфакъ аш)должно поместиться на ложку?'</questionName>
     <answerChoice>
       <list>
         <item>'Девять'</item>
@@ -423,7 +423,7 @@
   <question>
     <id>31</id>
     <image>''</image>
-    <name>'Что изображено на данном фото?'</name>
+    <questionName>'Что изображено на данном фото?'</questionName>
     <answerChoice>
       <list>
         <item>'Бойнузчыкълар'</item>
@@ -437,7 +437,7 @@
   <question>
     <id>32</id>
     <image>''</image>
-    <name>'Что на этом фото?'</name>
+    <questionName>'Что на этом фото?'</questionName>
     <answerChoice>
       <list>
         <item>'Къоюн этинден шорба'</item>
@@ -451,7 +451,7 @@
   <question>
     <id>33</id>
     <image>''</image>
-    <name>'Татар аш-это...?'</name>
+    <questionName>'Татар аш-это...?'</questionName>
     <answerChoice>
       <list>
         <item>'Вид пельменей'</item>
@@ -465,7 +465,7 @@
   <question>
     <id>34</id>
     <image>''</image>
-    <name>'Лакомство из слоёного теста, орехов и мёда называется...?'</name>
+    <questionName>'Лакомство из слоёного теста, орехов и мёда называется...?'</questionName>
     <answerChoice>
       <list>
         <item>'Локъум'</item>
@@ -479,7 +479,7 @@
   <question>
     <id>35</id>
     <image>''</image>
-    <name>'Как крымские татары называли печь для выпечки хлеба?'</name>
+    <questionName>'Как крымские татары называли печь для выпечки хлеба?'</questionName>
     <answerChoice>
       <list>
         <item>'Фурун '</item>
@@ -493,7 +493,7 @@
   <question>
     <id>36</id>
     <image>''</image>
-    <name>'Пиляв-это...?'</name>
+    <questionName>'Пиляв-это...?'</questionName>
     <answerChoice>
       <list>
         <item>'Рис'</item>
@@ -507,7 +507,7 @@
   <question>
     <id>37</id>
     <image>''</image>
-    <name>'Мерджимек-это...?'</name>
+    <questionName>'Мерджимек-это...?'</questionName>
     <answerChoice>
       <list>
         <item>'Кастрюля'</item>
@@ -521,7 +521,7 @@
   <question>
     <id>38</id>
     <image>''</image>
-    <name>'Пенка с кипячённого молока:'</name>
+    <questionName>'Пенка с кипячённого молока:'</questionName>
     <answerChoice>
       <list>
         <item>'Шубат'</item>
@@ -535,7 +535,7 @@
   <question>
     <id>39</id>
     <image>''</image>
-    <name>'Кто защитил докторскую диссертацию,посвещённую традиционной системе питания крымских татар?'</name>
+    <questionName>'Кто защитил докторскую диссертацию,посвещённую традиционной системе питания крымских татар?'</questionName>
     <answerChoice>
       <list>
         <item>'А.Гирай-бай'</item>
@@ -549,7 +549,7 @@
   <question>
     <id>40</id>
     <image>''</image>
-    <name>'Густой сироп из сока фруктов, разведённый водой- это...?'</name>
+    <questionName>'Густой сироп из сока фруктов, разведённый водой- это...?'</questionName>
     <answerChoice>
       <list>
         <item>'Шербет'</item>
@@ -563,7 +563,7 @@
   <question>
     <id>41</id>
     <image>''</image>
-    <name>'Чем богат Крымский полуостров?'</name>
+    <questionName>'Чем богат Крымский полуостров?'</questionName>
     <answerChoice>
       <list>
         <item>'А) Растительностью и мясом'</item>
@@ -577,7 +577,7 @@
   <question>
     <id>42</id>
     <image>''</image>
-    <name>'Печь с открытой топкой..?'</name>
+    <questionName>'Печь с открытой топкой..?'</questionName>
     <answerChoice>
       <list>
         <item>'Чагъаракъ'</item>
@@ -591,7 +591,7 @@
   <question>
     <id>43</id>
     <image>''</image>
-    <name>'Кто изображен на данной фотографии?'</name>
+    <questionName>'Кто изображен на данной фотографии?'</questionName>
     <answerChoice>
       <list>
         <item>'Продавец пахлавы'</item>
@@ -605,7 +605,7 @@
   <question>
     <id>44</id>
     <image>''</image>
-    <name>'Прием пищи проходит за...'</name>
+    <questionName>'Прием пищи проходит за...'</questionName>
     <answerChoice>
       <list>
         <item>'Къазаном'</item>
@@ -619,7 +619,7 @@
   <question>
     <id>45</id>
     <image>''</image>
-    <name>'Для разогрева пищи или воды наши предки использовали...'</name>
+    <questionName>'Для разогрева пищи или воды наши предки использовали...'</questionName>
     <answerChoice>
       <list>
         <item>'Мердане'</item>
@@ -633,7 +633,7 @@
   <question>
     <id>46</id>
     <image>''</image>
-    <name>'Что из перечисленного относится к принадлежностям для военных походов?'</name>
+    <questionName>'Что из перечисленного относится к принадлежностям для военных походов?'</questionName>
     <answerChoice>
       <list>
         <item>'Асма къазан'</item>
@@ -647,7 +647,7 @@
   <question>
     <id>47</id>
     <image>''</image>
-    <name>'Как называется небольшой нож для разделки мяса?'</name>
+    <questionName>'Как называется небольшой нож для разделки мяса?'</questionName>
     <answerChoice>
       <list>
         <item>'Пычах'</item>
@@ -661,7 +661,7 @@
   <question>
     <id>48</id>
     <image>''</image>
-    <name>'В чём хранились напитки?'</name>
+    <questionName>'В чём хранились напитки?'</questionName>
     <answerChoice>
       <list>
         <item>'Сурахы'</item>
@@ -675,7 +675,7 @@
   <question>
     <id>49</id>
     <image>''</image>
-    <name>'Цельно кусковое вяленое мясо-это?'</name>
+    <questionName>'Цельно кусковое вяленое мясо-это?'</questionName>
     <answerChoice>
       <list>
         <item>'Къакъач'</item>
@@ -689,7 +689,7 @@
   <question>
     <id>50</id>
     <image>''</image>
-    <name>'Забой животных у крымских татар производится:'</name>
+    <questionName>'Забой животных у крымских татар производится:'</questionName>
     <answerChoice>
       <list>
         <item>'Как получится'</item>
@@ -703,7 +703,7 @@
   <question>
     <id>51</id>
     <image>''</image>
-    <name>'На похороны обычно готовят...'</name>
+    <questionName>'На похороны обычно готовят...'</questionName>
     <answerChoice>
       <list>
         <item>'Эльва и къатлама'</item>
@@ -717,7 +717,7 @@
   <question>
     <id>52</id>
     <image>''</image>
-    <name>'Что из перечисленного выращивается в Крыму?'</name>
+    <questionName>'Что из перечисленного выращивается в Крыму?'</questionName>
     <answerChoice>
       <list>
         <item>'Баклажаны, помидоры, грейпфрукт'</item>
@@ -731,7 +731,7 @@
   <question>
     <id>53</id>
     <image>''</image>
-    <name>'По традициям, после окончания трапезы нельзя вставать из-за стола..'</name>
+    <questionName>'По традициям, после окончания трапезы нельзя вставать из-за стола..'</questionName>
     <answerChoice>
       <list>
         <item>'Пока всё не съешь'</item>
@@ -745,7 +745,7 @@
   <question>
     <id>54</id>
     <image>''</image>
-    <name>'По приходу гостя нужно:'</name>
+    <questionName>'По приходу гостя нужно:'</questionName>
     <answerChoice>
       <list>
         <item>'Подать угощение как можно скорее'</item>
@@ -759,7 +759,7 @@
   <question>
     <id>55</id>
     <image>''</image>
-    <name>'Отношение крымских татар к еде:'</name>
+    <questionName>'Отношение крымских татар к еде:'</questionName>
     <answerChoice>
       <list>
         <item>'Небрежное'</item>
@@ -773,7 +773,7 @@
   <question>
     <id>56</id>
     <image>''</image>
-    <name>'Сдобные пшеничные лепешки, пекутся на масле и курдючном жире -это...'</name>
+    <questionName>'Сдобные пшеничные лепешки, пекутся на масле и курдючном жире -это...'</questionName>
     <answerChoice>
       <list>
         <item>'Пеныр-борек'</item>
@@ -787,7 +787,7 @@
   <question>
     <id>57</id>
     <image>''</image>
-    <name>'Какие блюда подают к Йыл геджеси?'</name>
+    <questionName>'Какие блюда подают к Йыл геджеси?'</questionName>
     <answerChoice>
       <list>
         <item>'Белая халва'</item>
@@ -801,7 +801,7 @@
   <question>
     <id>58</id>
     <image>''</image>
-    <name>'Вместо растительного масла раньше использовали...?'</name>
+    <questionName>'Вместо растительного масла раньше использовали...?'</questionName>
     <answerChoice>
       <list>
         <item>'Балыкъ ягъы'</item>
@@ -815,7 +815,7 @@
   <question>
     <id>59</id>
     <image>''</image>
-    <name>'Суджукъ-это...?'</name>
+    <questionName>'Суджукъ-это...?'</questionName>
     <answerChoice>
       <list>
         <item>'Остывшее блюдо'</item>
@@ -829,7 +829,7 @@
   <question>
     <id>60</id>
     <image>''</image>
-    <name>'Как дословно переводится "Чиберек"?'</name>
+    <questionName>'Как дословно переводится "Чиберек"?'</questionName>
     <answerChoice>
       <list>
         <item>'Поджаренное в масле'</item>
@@ -843,7 +843,7 @@
   <question>
     <id>61</id>
     <image>''</image>
-    <name>'Что изображено на фото?'</name>
+    <questionName>'Что изображено на фото?'</questionName>
     <answerChoice>
       <list>
         <item>'Рахат лукум'</item>
@@ -857,7 +857,7 @@
   <question>
     <id>62</id>
     <image>''</image>
-    <name>'Манты...'</name>
+    <questionName>'Манты...'</questionName>
     <answerChoice>
       <list>
         <item>'Жарят на сковороде'</item>
@@ -871,7 +871,7 @@
   <question>
     <id>63</id>
     <image>''</image>
-    <name>'Что это за блюдо?'</name>
+    <questionName>'Что это за блюдо?'</questionName>
     <answerChoice>
       <list>
         <item>'Къыймалы кебаб'</item>
@@ -885,7 +885,7 @@
   <question>
     <id>64</id>
     <image>''</image>
-    <name>'Прессованное и пропитанное специями вяленое мясо-это?'</name>
+    <questionName>'Прессованное и пропитанное специями вяленое мясо-это?'</questionName>
     <answerChoice>
       <list>
         <item>'Люля кебаб'</item>
@@ -899,7 +899,7 @@
   <question>
     <id>65</id>
     <image>''</image>
-    <name>'Кислое молоко разведённое с водой, чесноком и солью?'</name>
+    <questionName>'Кислое молоко разведённое с водой, чесноком и солью?'</questionName>
     <answerChoice>
       <list>
         <item>'Сарымсакълы сут'</item>
@@ -913,7 +913,7 @@
   <question>
     <id>66</id>
     <image>''</image>
-    <name>'Что на фото?'</name>
+    <questionName>'Что на фото?'</questionName>
     <answerChoice>
       <list>
         <item>'Тандырная лепёшка'</item>
@@ -927,7 +927,7 @@
   <question>
     <id>67</id>
     <image>''</image>
-    <name>'Что изображено на данном фото?'</name>
+    <questionName>'Что изображено на данном фото?'</questionName>
     <answerChoice>
       <list>
         <item>'Къызартылгъан себзелер'</item>
@@ -941,7 +941,7 @@
   <question>
     <id>68</id>
     <image>''</image>
-    <name>'Фиде шорбасы-это?'</name>
+    <questionName>'Фиде шорбасы-это?'</questionName>
     <answerChoice>
       <list>
         <item>'Суп из зелени'</item>
@@ -955,7 +955,7 @@
   <question>
     <id>69</id>
     <image>''</image>
-    <name>'Къалакъай...это?'</name>
+    <questionName>'Къалакъай...это?'</questionName>
     <answerChoice>
       <list>
         <item>'Зелень'</item>
@@ -969,7 +969,7 @@
   <question>
     <id>70</id>
     <image>''</image>
-    <name>'Первый этап формирования крымскотатарской кухни:'</name>
+    <questionName>'Первый этап формирования крымскотатарской кухни:'</questionName>
     <answerChoice>
       <list>
         <item>'1783-1944 гг.'</item>
@@ -983,7 +983,7 @@
   <question>
     <id>71</id>
     <image>''</image>
-    <name>'Какой напиток крымские татары готовили только летом?'</name>
+    <questionName>'Какой напиток крымские татары готовили только летом?'</questionName>
     <answerChoice>
       <list>
         <item>'Чай'</item>
@@ -997,7 +997,7 @@
   <question>
     <id>72</id>
     <image>''</image>
-    <name>'О чём говорил В.А Щепетов:"Нечто среднее между пивом и квасом"?'</name>
+    <questionName>'О чём говорил В.А Щепетов:"Нечто среднее между пивом и квасом"?'</questionName>
     <answerChoice>
       <list>
         <item>'О квасе'</item>
@@ -1011,7 +1011,7 @@
   <question>
     <id>73</id>
     <image>''</image>
-    <name>'Знатные ели хлеб, а простой народ...'</name>
+    <questionName>'Знатные ели хлеб, а простой народ...'</questionName>
     <answerChoice>
       <list>
         <item>'Толчёное пшено'</item>
@@ -1025,7 +1025,7 @@
   <question>
     <id>74</id>
     <image>''</image>
-    <name>'Как называлось толчёное пшено?'</name>
+    <questionName>'Как называлось толчёное пшено?'</questionName>
     <answerChoice>
       <list>
         <item>'Дане'</item>
@@ -1039,7 +1039,7 @@
   <question>
     <id>75</id>
     <image>''</image>
-    <name>'Татлы максима...'</name>
+    <questionName>'Татлы максима...'</questionName>
     <answerChoice>
       <list>
         <item>'Вызывало опьянение'</item>
@@ -1053,7 +1053,7 @@
   <question>
     <id>76</id>
     <image>''</image>
-    <name>'Что делали жители южного берега Крыма с собиранными дикими яблоками, рябиной и вишней?'</name>
+    <questionName>'Что делали жители южного берега Крыма с собиранными дикими яблоками, рябиной и вишней?'</questionName>
     <answerChoice>
       <list>
         <item>'Они собирали только виноград'</item>
@@ -1067,7 +1067,7 @@
   <question>
     <id>77</id>
     <image>''</image>
-    <name>'Кто написал стихотворение "Чиберек"?'</name>
+    <questionName>'Кто написал стихотворение "Чиберек"?'</questionName>
     <answerChoice>
       <list>
         <item>'Абдулла Лятиф-заде'</item>
@@ -1081,7 +1081,7 @@
   <question>
     <id>78</id>
     <image>''</image>
-    <name>'Тава-это...?'</name>
+    <questionName>'Тава-это...?'</questionName>
     <answerChoice>
       <list>
         <item>'Кастрюля'</item>
@@ -1095,7 +1095,7 @@
   <question>
     <id>79</id>
     <image>''</image>
-    <name>'К мясным блюдам относится:'</name>
+    <questionName>'К мясным блюдам относится:'</questionName>
     <answerChoice>
       <list>
         <item>'Орман кебабы'</item>
@@ -1109,7 +1109,7 @@
   <question>
     <id>80</id>
     <image>''</image>
-    <name>'С баранины можно приготовить?'</name>
+    <questionName>'С баранины можно приготовить?'</questionName>
     <answerChoice>
       <list>
         <item>'Бакъла эзмеси'</item>
@@ -1123,7 +1123,7 @@
   <question>
     <id>81</id>
     <image>''</image>
-    <name>'Дере оту-это...?'</name>
+    <questionName>'Дере оту-это...?'</questionName>
     <answerChoice>
       <list>
         <item>'Тимьян'</item>
@@ -1137,7 +1137,7 @@
   <question>
     <id>82</id>
     <image>''</image>
-    <name>'Как называется специальная железка для жарки лепёшки?'</name>
+    <questionName>'Как называется специальная железка для жарки лепёшки?'</questionName>
     <answerChoice>
       <list>
         <item>'Садж'</item>
@@ -1151,7 +1151,7 @@
   <question>
     <id>83</id>
     <image>''</image>
-    <name>'Аш тербиесы-это...?'</name>
+    <questionName>'Аш тербиесы-это...?'</questionName>
     <answerChoice>
       <list>
         <item>'Сладости'</item>
@@ -1165,7 +1165,7 @@
   <question>
     <id>84</id>
     <image>''</image>
-    <name>'Как называется приспособление для взбивания яиц и прочего?'</name>
+    <questionName>'Как называется приспособление для взбивания яиц и прочего?'</questionName>
     <answerChoice>
       <list>
         <item>'Йымырта кесмек'</item>
@@ -1179,7 +1179,7 @@
   <question>
     <id>85</id>
     <image>''</image>
-    <name>'Как называются блюда, приготовленные на растительном масле с луком и лимоном?'</name>
+    <questionName>'Как называются блюда, приготовленные на растительном масле с луком и лимоном?'</questionName>
     <answerChoice>
       <list>
         <item>'Ягълы лимон'</item>
@@ -1193,7 +1193,7 @@
   <question>
     <id>86</id>
     <image>''</image>
-    <name>'Как называются блюда с мясом и овощами?'</name>
+    <questionName>'Как называются блюда с мясом и овощами?'</questionName>
     <answerChoice>
       <list>
         <item>'Себзели'</item>
@@ -1207,7 +1207,7 @@
   <question>
     <id>87</id>
     <image>''</image>
-    <name>'Кувшин для воды-это...?'</name>
+    <questionName>'Кувшин для воды-это...?'</questionName>
     <answerChoice>
       <list>
         <item>'Куп'</item>
@@ -1221,7 +1221,7 @@
   <question>
     <id>88</id>
     <image>''</image>
-    <name>'Изделие из теста, сходное по форме с сарма-...?'</name>
+    <questionName>'Изделие из теста, сходное по форме с сарма-...?'</questionName>
     <answerChoice>
       <list>
         <item>'Долма'</item>
@@ -1235,7 +1235,7 @@
   <question>
     <id>89</id>
     <image>''</image>
-    <name>'Как называлась крымская минеральная вода, которая была удостоена золотой медали?'</name>
+    <questionName>'Как называлась крымская минеральная вода, которая была удостоена золотой медали?'</questionName>
     <answerChoice>
       <list>
         <item>'Нарзан'</item>
@@ -1249,7 +1249,7 @@
   <question>
     <id>90</id>
     <image>''</image>
-    <name>'Мясо с мозговыми костями-это...?'</name>
+    <questionName>'Мясо с мозговыми костями-это...?'</questionName>
     <answerChoice>
       <list>
         <item>'Испанакъ'</item>
@@ -1263,7 +1263,7 @@
   <question>
     <id>91</id>
     <image>''</image>
-    <name>'Выберите правильный ответ(слева на право)'</name>
+    <questionName>'Выберите правильный ответ(слева на право)'</questionName>
     <answerChoice>
       <list>
         <item>'Вареники, шурпа, лагман,сарма'</item>
@@ -1277,7 +1277,7 @@
   <question>
     <id>92</id>
     <image>''</image>
-    <name>'Кто написал книгу "Къырымтатар емеклеры"?'</name>
+    <questionName>'Кто написал книгу "Къырымтатар емеклеры"?'</questionName>
     <answerChoice>
       <list>
         <item>'Араджиони М.А'</item>
@@ -1291,7 +1291,7 @@
   <question>
     <id>93</id>
     <image>''</image>
-    <name>'К мучным блюдам относятся:'</name>
+    <questionName>'К мучным блюдам относятся:'</questionName>
     <answerChoice>
       <list>
         <item>'Патылджан къаурмасы, нохут бастырмасы'</item>
@@ -1305,7 +1305,7 @@
   <question>
     <id>94</id>
     <image>''</image>
-    <name>'Как правильно произносится слово..'</name>
+    <questionName>'Как правильно произносится слово..'</questionName>
     <answerChoice>
       <list>
         <item>'Кубете'</item>
@@ -1319,7 +1319,7 @@
   <question>
     <id>95</id>
     <image>''</image>
-    <name>'Ак-алва - это...?'</name>
+    <questionName>'Ак-алва - это...?'</questionName>
     <answerChoice>
       <list>
         <item>'Белая халва из пережаренной муки или яичных белков'</item>
@@ -1333,7 +1333,7 @@
   <question>
     <id>96</id>
     <image>''</image>
-    <name>'Как называется чай, приготовленный из горных трав?'</name>
+    <questionName>'Как называется чай, приготовленный из горных трав?'</questionName>
     <answerChoice>
       <list>
         <item>'Ешиль чай'</item>
@@ -1347,7 +1347,7 @@
   <question>
     <id>97</id>
     <image>''</image>
-    <name>'Что такое "деве тиши"?'</name>
+    <questionName>'Что такое "деве тиши"?'</questionName>
     <answerChoice>
       <list>
         <item>'Чёрный ячмень'</item>
@@ -1361,7 +1361,7 @@
   <question>
     <id>98</id>
     <image>''</image>
-    <name>'Из мяса крымские татары употребляют, преимущественно...'</name>
+    <questionName>'Из мяса крымские татары употребляют, преимущественно...'</questionName>
     <answerChoice>
       <list>
         <item>'Конину'</item>
@@ -1375,7 +1375,7 @@
   <question>
     <id>99</id>
     <image>''</image>
-    <name>'Когда на полуострове перестали делать бузу?'</name>
+    <questionName>'Когда на полуострове перестали делать бузу?'</questionName>
     <answerChoice>
       <list>
         <item>'После 2000'</item>
@@ -1389,7 +1389,7 @@
   <question>
     <id>100</id>
     <image>''</image>
-    <name>'Сладкий напиток из разведённого и сброженного виноградного сока-это...?'</name>
+    <questionName>'Сладкий напиток из разведённого и сброженного виноградного сока-это...?'</questionName>
     <answerChoice>
       <list>
         <item>'Вино'</item>
@@ -1403,7 +1403,7 @@
   <question>
     <id>101</id>
     <image>''</image>
-    <name>'Жители какой части Крыма отдавали предпочтение мясомолочным и зерновым продуктам?'</name>
+    <questionName>'Жители какой части Крыма отдавали предпочтение мясомолочным и зерновым продуктам?'</questionName>
     <answerChoice>
       <list>
         <item>'Предгорной'</item>
@@ -1417,7 +1417,7 @@
   <question>
     <id>102</id>
     <image>''</image>
-    <name>'Как правило, первое знакомство путешественника с культурой народа начиналось с...'</name>
+    <questionName>'Как правило, первое знакомство путешественника с культурой народа начиналось с...'</questionName>
     <answerChoice>
       <list>
         <item>'Приветствия'</item>
@@ -1431,7 +1431,7 @@
   <question>
     <id>103</id>
     <image>''</image>
-    <name>'Издавна излюбленным продуктом крымскотатарской кухни был(о)?'</name>
+    <questionName>'Издавна излюбленным продуктом крымскотатарской кухни был(о)?'</questionName>
     <answerChoice>
       <list>
         <item>'Творог'</item>
@@ -1445,7 +1445,7 @@
   <question>
     <id>104</id>
     <image>''</image>
-    <name>'Нарезанная на мелкие куски, поджаренная баранина,залитая жиром-это...?'</name>
+    <questionName>'Нарезанная на мелкие куски, поджаренная баранина,залитая жиром-это...?'</questionName>
     <answerChoice>
       <list>
         <item>'Къавурма'</item>
@@ -1459,7 +1459,7 @@
   <question>
     <id>105</id>
     <image>''</image>
-    <name>'В чём заготавливали и хранили къавурму?'</name>
+    <questionName>'В чём заготавливали и хранили къавурму?'</questionName>
     <answerChoice>
       <list>
         <item>'В рассоле'</item>
@@ -1473,7 +1473,7 @@
   <question>
     <id>106</id>
     <image>''</image>
-    <name>'Венецианец Амвросий Контарини отмечал, что основной пищей степных татар было...'</name>
+    <questionName>'Венецианец Амвросий Контарини отмечал, что основной пищей степных татар было...'</questionName>
     <answerChoice>
       <list>
         <item>'Овощи'</item>
@@ -1487,7 +1487,7 @@
   <question>
     <id>107</id>
     <image>''</image>
-    <name>'Что в Крымском ханстве считалось обязательной добавкой ко многим блюдам?'</name>
+    <questionName>'Что в Крымском ханстве считалось обязательной добавкой ко многим блюдам?'</questionName>
     <answerChoice>
       <list>
         <item>'Курдючный жир'</item>
@@ -1501,7 +1501,7 @@
   <question>
     <id>108</id>
     <image>''</image>
-    <name>'В чём хранили сливочное масло?'</name>
+    <questionName>'В чём хранили сливочное масло?'</questionName>
     <answerChoice>
       <list>
         <item>'В металлической кастрюле'</item>
@@ -1515,7 +1515,7 @@
   <question>
     <id>109</id>
     <image>''</image>
-    <name>'Как крымские татары называют чайную ложку?'</name>
+    <questionName>'Как крымские татары называют чайную ложку?'</questionName>
     <answerChoice>
       <list>
         <item>'Чайлы къашыкъ'</item>
@@ -1529,7 +1529,7 @@
   <question>
     <id>110</id>
     <image>''</image>
-    <name>'В кофейнях Крымского ханства не устанавливали плату за кофе и болюда. Как расплачивались посетители?'</name>
+    <questionName>'В кофейнях Крымского ханства не устанавливали плату за кофе и болюда. Как расплачивались посетители?'</questionName>
     <answerChoice>
       <list>
         <item>'Благодарностью'</item>
@@ -1543,7 +1543,7 @@
   <question>
     <id>111</id>
     <image>''</image>
-    <name>'Посетители чибиречных оставляли на тарелке уголок от каждого съеденного ими чиберека. Для чего?'</name>
+    <questionName>'Посетители чибиречных оставляли на тарелке уголок от каждого съеденного ими чиберека. Для чего?'</questionName>
     <answerChoice>
       <list>
         <item>'Чибереки были слишком большие и сытные'</item>
@@ -1557,7 +1557,7 @@
   <question>
     <id>112</id>
     <image>''</image>
-    <name>'В начале прошлого века крымские татары вывели уникальный сорт слив, который занимал более 30% промышленных площадей полуострова.Как назывался эот сорт?'</name>
+    <questionName>'В начале прошлого века крымские татары вывели уникальный сорт слив, который занимал более 30% промышленных площадей полуострова.Как назывался эот сорт?'</questionName>
     <answerChoice>
       <list>
         <item>'Дамасцена'</item>
@@ -1571,7 +1571,7 @@
   <question>
     <id>113</id>
     <image>''</image>
-    <name>'Как назывался сыр, высушенный в виде тонких ломтей, который не подвергался порче?'</name>
+    <questionName>'Как назывался сыр, высушенный в виде тонких ломтей, который не подвергался порче?'</questionName>
     <answerChoice>
       <list>
         <item>'Брынза'</item>
@@ -1585,7 +1585,7 @@
   <question>
     <id>114</id>
     <image>''</image>
-    <name>'Кто изобрёл бузу?'</name>
+    <questionName>'Кто изобрёл бузу?'</questionName>
     <answerChoice>
       <list>
         <item>'Народ'</item>
@@ -1599,7 +1599,7 @@
   <question>
     <id>115</id>
     <image>''</image>
-    <name>'Какой напиток в Крыму не пользовался популярностью?'</name>
+    <questionName>'Какой напиток в Крыму не пользовался популярностью?'</questionName>
     <answerChoice>
       <list>
         <item>'Кофе'</item>
@@ -1613,7 +1613,7 @@
   <question>
     <id>116</id>
     <image>''</image>
-    <name>'Как назывался сыр, который изготавливали наши предки из кобыльего и коровьего молока?'</name>
+    <questionName>'Как назывался сыр, который изготавливали наши предки из кобыльего и коровьего молока?'</questionName>
     <answerChoice>
       <list>
         <item>'Пошехонский'</item>
@@ -1627,7 +1627,7 @@
   <question>
     <id>117</id>
     <image>''</image>
-    <name>'Крымские татары питались кониной, верблюжатиной, телятиной и бараниной'</name>
+    <questionName>'Крымские татары питались кониной, верблюжатиной, телятиной и бараниной'</questionName>
     <answerChoice>
       <list>
         <item>'Верно'</item>

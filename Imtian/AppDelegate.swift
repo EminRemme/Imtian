@@ -2,26 +2,59 @@
 //  AppDelegate.swift
 //  Imtian
 //
-//  Created by MQ on 22.07.17.
-//  Copyright © 2017 MQ. All rights reserved.
+//  Created by EY on 22.07.17.
+//  Copyright © 2017 EY. All rights reserved.
 //
 
 import UIKit
 import CoreData
 
 @UIApplicationMain
-class AppDelegate: UIResponder, UIApplicationDelegate {
-
+class AppDelegate: UIResponder, UIApplicationDelegate, XMLParserDelegate {
+    
     var window: UIWindow?
-    //var allQuestions = [Question]()
-    var allQuestions = [String: String]()
+    var eName: String = String()
+    var Name = String()
+    var questionName = String()
+    var id = String()
+    var themeId = String()
+    var currentTheme = String()
+    
+    var answers: [Answer] = []
+    var correctAnswer = String()
+    var isImage = String()
+    var answer = Answer()
     
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
-        //UINavigationBar.appearance().barStyle = .black
+        let userDefaults = UserDefaults.standard
+        let isLaunched = userDefaults.bool(forKey: "IsLaunched")
+        IsLaunchedBefore.isWasLaunched = isLaunched
+        if !IsLaunchedBefore.isWasLaunched {
+            userDefaults.set(true, forKey: "IsLaunched")
+            IsLaunchedBefore.isWasLaunched = true
+        }
         //load allQuestions
+        var parser : XMLParser = XMLParser()
         
-        
+        if let path = Bundle.main.url(forResource: "themes", withExtension: "xml") {
+            if let parser = XMLParser(contentsOf: path) {
+                parser.delegate = self
+                parser.parse()
+            }
+        }
+        for theme in ThemeStructure.themes {
+            if theme.id == "RandomTheme" {
+                continue
+            }
+            self.currentTheme = theme.id
+            if let path = Bundle.main.url(forResource: theme.id, withExtension: "xml") {
+                if let parser = XMLParser(contentsOf: path) {
+                    parser.delegate = self
+                    parser.parse()
+                }
+            }
+        }
         return true
     }
 
@@ -93,6 +126,78 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
             }
         }
     }*/
-
+    //for XML
+    // 1
+    func parser(_ parser: XMLParser, didStartElement elementName: String, namespaceURI: String?, qualifiedName qName: String?, attributes attributeDict: [String : String]) {
+        eName = elementName
+        if elementName == "theme" {
+            Name = String()
+            themeId = String()
+            
+        }
+        if elementName == "question" {
+            questionName = String()
+            id = String()
+            isImage = String()
+            answers.removeAll()
+            
+            correctAnswer = String()
+        }
+        if elementName == "item" {
+            answer = Answer()
+        }
+    }
+    
+    // 2
+    func parser(_ parser: XMLParser, didEndElement elementName: String, namespaceURI: String?, qualifiedName qName: String?) {
+        if elementName == "theme" {
+            let theme = Theme()
+            theme.Name = Name
+            theme.id = themeId
+            ThemeStructure.themes.append(theme)
+        }
+        if elementName == "question" {
+            
+            let question = Question()
+            question.Name = questionName
+            question.id = id
+            isImage = (isImage as NSString).replacingOccurrences(of: "'", with: "")
+            isImage = (isImage as NSString).replacingOccurrences(of: " ", with: "")
+            question.IsImage = isImage
+            question.AnswersChoice = answers
+            question.CorrectAnswer = correctAnswer
+            question.Theme = self.currentTheme
+            if QuestionsStructure.questionDict[self.currentTheme] == nil {
+                QuestionsStructure.questionDict[self.currentTheme] = [Question]()
+            }
+            QuestionsStructure.questionDict[self.currentTheme]?.append(question)
+        }
+        if elementName == "item" {
+            answers.append(answer)
+        }
+    }
+    
+    // 3
+    func parser(_ parser: XMLParser, foundCharacters string: String) {
+        let data = string.trimmingCharacters(in: NSCharacterSet.whitespacesAndNewlines)
+        
+        if (!data.isEmpty) {
+            if eName == "id" {
+                id += data
+            }else if eName == "name" {
+                Name += data
+            } else if eName == "themeId" {
+                themeId += data
+            }else if eName == "questionName" {
+                questionName += data
+            }else if eName == "image" {
+                isImage += " " + data
+            }else if eName == "item" {
+                answer.Item += " " + data
+            } else if eName == "correctAnswer" {
+                correctAnswer += " " + data
+            }
+        }
+    }
 }
 

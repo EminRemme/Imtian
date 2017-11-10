@@ -1,9 +1,9 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <list>
   <question>
     <id>1</id>
     <image>''</image>
-    <name>'Как переводится слово "джеррах"?'</name>
+    <questionName>'Как переводится слово "джеррах"?'</questionName>
     <answerChoice>
       <list>
         <item>'Столяр'</item>
@@ -17,7 +17,7 @@
   <question>
     <id>2</id>
     <image>''</image>
-    <name>'Как переводится слово "растительность"?'</name>
+    <questionName>'Как переводится слово "растительность"?'</questionName>
     <answerChoice>
       <list>
         <item>'Ашерат'</item>
@@ -31,7 +31,7 @@
   <question>
     <id>3</id>
     <image>''</image>
-    <name>'Правильный перевод слова "продовольствие"'</name>
+    <questionName>'Правильный перевод слова "продовольствие"'</questionName>
     <answerChoice>
       <list>
         <item>'Эрзакъ'</item>
@@ -45,7 +45,7 @@
   <question>
     <id>4</id>
     <image>''</image>
-    <name>'Инкишаф - это..?'</name>
+    <questionName>'Инкишаф - это..?'</questionName>
     <answerChoice>
       <list>
         <item>'Увлечение'</item>
@@ -59,7 +59,7 @@
   <question>
     <id>5</id>
     <image>''</image>
-    <name>'Эбабиль - это...?'</name>
+    <questionName>'Эбабиль - это...?'</questionName>
     <answerChoice>
       <list>
         <item>'Горная ласточка'</item>
@@ -73,7 +73,7 @@
   <question>
     <id>6</id>
     <image>''</image>
-    <name>'Словосочетание "на закате дней" на крымско-татарском будет звучать так:'</name>
+    <questionName>'Словосочетание "на закате дней" на крымско-татарском будет звучать так:'</questionName>
     <answerChoice>
       <list>
         <item>'Омюрнинъ сонъунда'</item>
@@ -87,7 +87,7 @@
   <question>
     <id>7</id>
     <image>''</image>
-    <name>'"Делать что-либо из-под палки"'</name>
+    <questionName>'"Делать что-либо из-под палки"'</questionName>
     <answerChoice>
       <list>
         <item>'Меджбур этип'</item>
@@ -101,7 +101,7 @@
   <question>
     <id>8</id>
     <image>''</image>
-    <name>'Словосочетание "догъру фикир" переводится как:'</name>
+    <questionName>'Словосочетание "догъру фикир" переводится как:'</questionName>
     <answerChoice>
       <list>
         <item>'Верная мысль'</item>
@@ -115,7 +115,7 @@
   <question>
     <id>9</id>
     <image>''</image>
-    <name>'Выражение "Торопится в школу" на крымскотатарском звучит так:'</name>
+    <questionName>'Выражение "Торопится в школу" на крымскотатарском звучит так:'</questionName>
     <answerChoice>
       <list>
         <item>'Мектепке ашыкъмакъ'</item>
@@ -129,7 +129,7 @@
   <question>
     <id>10</id>
     <image>''</image>
-    <name>'Правильный перевод слова "блондинка"'</name>
+    <questionName>'Правильный перевод слова "блондинка"'</questionName>
     <answerChoice>
       <list>
         <item>'Къынапер'</item>
@@ -143,7 +143,7 @@
   <question>
     <id>11</id>
     <image>''</image>
-    <name>'Слово "брюнетка" переводится как:'</name>
+    <questionName>'Слово "брюнетка" переводится как:'</questionName>
     <answerChoice>
       <list>
         <item>'Сия сачлы'</item>
@@ -157,7 +157,7 @@
   <question>
     <id>12</id>
     <image>''</image>
-    <name>'Выражение "агъзындан ель алсын " переводится так:'</name>
+    <questionName>'Выражение "агъзындан ель алсын " переводится так:'</questionName>
     <answerChoice>
       <list>
         <item>'Типун тебе на язык'</item>
@@ -171,7 +171,7 @@
   <question>
     <id>13</id>
     <image>''</image>
-    <name>'Оказываясь в затруднительном положении, вы можете сказать:'</name>
+    <questionName>'Оказываясь в затруднительном положении, вы можете сказать:'</questionName>
     <answerChoice>
       <list>
         <item>'Эки атеш арасында къалдым'</item>
@@ -185,7 +185,7 @@
   <question>
     <id>14</id>
     <image>''</image>
-    <name>'Выражение "агъзынынъ первасы ёкъ" значит:'</name>
+    <questionName>'Выражение "агъзынынъ первасы ёкъ" значит:'</questionName>
     <answerChoice>
       <list>
         <item>'Язык без костей'</item>
@@ -199,7 +199,7 @@
   <question>
     <id>15</id>
     <image>''</image>
-    <name>'Геджелер бакъсам - кок толгъан, саба бакъсам - ёкъ олгъан, недир бу?'</name>
+    <questionName>'Геджелер бакъсам - кок толгъан, саба бакъсам - ёкъ олгъан, недир бу?'</questionName>
     <answerChoice>
       <list>
         <item>'Йылдызлар'</item>
@@ -213,7 +213,7 @@
   <question>
     <id>16</id>
     <image>''</image>
-    <name>'Козь ташласан - агъларсын, ондан гузель тапмазсынъ, недир бу?'</name>
+    <questionName>'Козь ташласан - агъларсын, ондан гузель тапмазсынъ, недир бу?'</questionName>
     <answerChoice>
       <list>
         <item>'Кунеш'</item>
@@ -227,7 +227,7 @@
   <question>
     <id>17</id>
     <image>''</image>
-    <name>'Бир акъ явлыкъ, ер устюнде джайдыкъ, недир бу?'</name>
+    <questionName>'Бир акъ явлыкъ, ер устюнде джайдыкъ, недир бу?'</questionName>
     <answerChoice>
       <list>
         <item>'Къар'</item>
@@ -241,7 +241,7 @@
   <question>
     <id>18</id>
     <image>''</image>
-    <name>'Как на керченском диалекте называют маму?'</name>
+    <questionName>'Как на керченском диалекте называют маму?'</questionName>
     <answerChoice>
       <list>
         <item>'Абай'</item>
@@ -255,7 +255,7 @@
   <question>
     <id>19</id>
     <image>''</image>
-    <name>'Вздрогнуть, встрепенуться от шума'</name>
+    <questionName>'Вздрогнуть, встрепенуться от шума'</questionName>
     <answerChoice>
       <list>
         <item>'А) абдырмакъ'</item>
@@ -269,7 +269,7 @@
   <question>
     <id>20</id>
     <image>''</image>
-    <name>'"Это произведение является литературным памятником"'</name>
+    <questionName>'"Это произведение является литературным памятником"'</questionName>
     <answerChoice>
       <list>
         <item>'Бу эсер эдедий абидеси'</item>
@@ -283,7 +283,7 @@
   <question>
     <id>21</id>
     <image>''</image>
-    <name>'Как называют сестру на диалекте южный?'</name>
+    <questionName>'Как называют сестру на диалекте южный?'</questionName>
     <answerChoice>
       <list>
         <item>'А) Абле'</item>
@@ -297,7 +297,7 @@
   <question>
     <id>22</id>
     <image>''</image>
-    <name>'Как звучит словосочетание "сделать вот так" на южном диалекте?'</name>
+    <questionName>'Как звучит словосочетание "сделать вот так" на южном диалекте?'</questionName>
     <answerChoice>
       <list>
         <item>'Аблен япмакъ'</item>
@@ -311,7 +311,7 @@
   <question>
     <id>23</id>
     <image>''</image>
-    <name>'Сен Аметны керчектен танымайсын?'</name>
+    <questionName>'Сен Аметны керчектен танымайсын?'</questionName>
     <answerChoice>
       <list>
         <item>'Неужели ты не знаешь Амета?'</item>
@@ -325,7 +325,7 @@
   <question>
     <id>24</id>
     <image>''</image>
-    <name>'В переводе с крымскотатарского "представители прекрасного пола" :'</name>
+    <questionName>'В переводе с крымскотатарского "представители прекрасного пола" :'</questionName>
     <answerChoice>
       <list>
         <item>'Аджайып джыныс векиллери'</item>
@@ -339,7 +339,7 @@
   <question>
     <id>25</id>
     <image>''</image>
-    <name>'"Вызвать скорую помощь ":'</name>
+    <questionName>'"Вызвать скорую помощь ":'</questionName>
     <answerChoice>
       <list>
         <item>'Аджеле ярдым чагъырмакъ'</item>
@@ -353,7 +353,7 @@
   <question>
     <id>26</id>
     <image>''</image>
-    <name>'Уйдурсанъ уйдур, къаранынъы къачырма'</name>
+    <questionName>'Уйдурсанъ уйдур, къаранынъы къачырма'</questionName>
     <answerChoice>
       <list>
         <item>'Ври, да знай меру'</item>
@@ -367,7 +367,7 @@
   <question>
     <id>27</id>
     <image>''</image>
-    <name>'Челтекнен сув ташымакъ'</name>
+    <questionName>'Челтекнен сув ташымакъ'</questionName>
     <answerChoice>
       <list>
         <item>'В решете воду носить'</item>
@@ -381,7 +381,7 @@
   <question>
     <id>28</id>
     <image>''</image>
-    <name>'Олмайджакъ шей ичюн алекет къопармакъ'</name>
+    <questionName>'Олмайджакъ шей ичюн алекет къопармакъ'</questionName>
     <answerChoice>
       <list>
         <item>'Много шума из ничего'</item>
@@ -395,7 +395,7 @@
   <question>
     <id>29</id>
     <image>''</image>
-    <name>'Чырайларындан къар ягъа'</name>
+    <questionName>'Чырайларындан къар ягъа'</questionName>
     <answerChoice>
       <list>
         <item>'Быть не в себе'</item>
@@ -409,7 +409,7 @@
   <question>
     <id>30</id>
     <image>''</image>
-    <name>'В народе домашнюю птицу называют так:'</name>
+    <questionName>'В народе домашнюю птицу называют так:'</questionName>
     <answerChoice>
       <list>
         <item>'Кумес къушлары'</item>
@@ -423,7 +423,7 @@
   <question>
     <id>31</id>
     <image>''</image>
-    <name>'Переведите: 1. Цыплёнок; 2. Голубь; 3. Гусь'</name>
+    <questionName>'Переведите: 1. Цыплёнок; 2. Голубь; 3. Гусь'</questionName>
     <answerChoice>
       <list>
         <item>'1. Чипче; 2. Гогерджин; 3. Къаз '</item>
@@ -437,7 +437,7 @@
   <question>
     <id>32</id>
     <image>''</image>
-    <name>'Переведите: Индюк; Павлин; Утка'</name>
+    <questionName>'Переведите: Индюк; Павлин; Утка'</questionName>
     <answerChoice>
       <list>
         <item>'Кокюш (мысыр); Тавускъуш; Папий '</item>
@@ -451,7 +451,7 @@
   <question>
     <id>33</id>
     <image>''</image>
-    <name>'Переведите: Курочка; Петух; Павлин'</name>
+    <questionName>'Переведите: Курочка; Петух; Павлин'</questionName>
     <answerChoice>
       <list>
         <item>'Тавукъ; Хораз; Тавускъуш '</item>
@@ -465,7 +465,7 @@
   <question>
     <id>34</id>
     <image>''</image>
-    <name>'Сюрюден айырылгъан сюрюнип олер'</name>
+    <questionName>'Сюрюден айырылгъан сюрюнип олер'</questionName>
     <answerChoice>
       <list>
         <item>'Кто от стада отойдёт, тот споткнётся и умрет'</item>
@@ -479,7 +479,7 @@
   <question>
     <id>35</id>
     <image>''</image>
-    <name>'Переведите слово "сбегать" на крымскотатарский'</name>
+    <questionName>'Переведите слово "сбегать" на крымскотатарский'</questionName>
     <answerChoice>
       <list>
         <item>'Чапып кельмек '</item>
@@ -493,7 +493,7 @@
   <question>
     <id>36</id>
     <image>''</image>
-    <name>'Как будет звучать слово мында (бу ерге) на южном диалекте?'</name>
+    <questionName>'Как будет звучать слово мында (бу ерге) на южном диалекте?'</questionName>
     <answerChoice>
       <list>
         <item>'Абрая'</item>
@@ -507,7 +507,7 @@
   <question>
     <id>37</id>
     <image>''</image>
-    <name>'Как звучит слово бойле на Бахчисарайском диалекте?'</name>
+    <questionName>'Как звучит слово бойле на Бахчисарайском диалекте?'</questionName>
     <answerChoice>
       <list>
         <item>'Аблежне'</item>
@@ -521,7 +521,7 @@
   <question>
     <id>38</id>
     <image>''</image>
-    <name>'Переведите: фасонить (модничать)'</name>
+    <questionName>'Переведите: фасонить (модничать)'</questionName>
     <answerChoice>
       <list>
         <item>'Аборотланмакъ'</item>
@@ -535,7 +535,7 @@
   <question>
     <id>39</id>
     <image>''</image>
-    <name>'Переведите: я ваш покорный слуга'</name>
+    <questionName>'Переведите: я ваш покорный слуга'</questionName>
     <answerChoice>
       <list>
         <item>'Мен сизинъ абиди аджизийнъизим'</item>
@@ -549,7 +549,7 @@
   <question>
     <id>40</id>
     <image>''</image>
-    <name>'Переведите: Эта комната хорошо проветриваемая'</name>
+    <questionName>'Переведите: Эта комната хорошо проветриваемая'</questionName>
     <answerChoice>
       <list>
         <item>'Бу ода авадар'</item>
@@ -563,7 +563,7 @@
   <question>
     <id>41</id>
     <image>''</image>
-    <name>'Как на южном диалекте называют бабушку?'</name>
+    <questionName>'Как на южном диалекте называют бабушку?'</questionName>
     <answerChoice>
       <list>
         <item>'Тапта'</item>
@@ -577,7 +577,7 @@
   <question>
     <id>42</id>
     <image>''</image>
-    <name>'Как на южном диалекте называют кошку?'</name>
+    <questionName>'Как на южном диалекте называют кошку?'</questionName>
     <answerChoice>
       <list>
         <item>'Писик'</item>
@@ -591,7 +591,7 @@
   <question>
     <id>43</id>
     <image>''</image>
-    <name>'Как на степном диалекте называют дождь?'</name>
+    <questionName>'Как на степном диалекте называют дождь?'</questionName>
     <answerChoice>
       <list>
         <item>'Джавун'</item>
@@ -605,7 +605,7 @@
   <question>
     <id>44</id>
     <image>''</image>
-    <name>'Как на керченском диалекте называют рис?'</name>
+    <questionName>'Как на керченском диалекте называют рис?'</questionName>
     <answerChoice>
       <list>
         <item>'Пирич'</item>
@@ -619,7 +619,7 @@
   <question>
     <id>45</id>
     <image>''</image>
-    <name>'Переведите: "тюй пастасы"'</name>
+    <questionName>'Переведите: "тюй пастасы"'</questionName>
     <answerChoice>
       <list>
         <item>'Пшенная каша'</item>
@@ -633,7 +633,7 @@
   <question>
     <id>46</id>
     <image>''</image>
-    <name>'Как называют суп на диалекте ай-серез'</name>
+    <questionName>'Как называют суп на диалекте ай-серез'</questionName>
     <answerChoice>
       <list>
         <item>'Шорва'</item>
@@ -647,7 +647,7 @@
   <question>
     <id>47</id>
     <image>''</image>
-    <name>'Как крымские татары называют гречневую крупу?'</name>
+    <questionName>'Как крымские татары называют гречневую крупу?'</questionName>
     <answerChoice>
       <list>
         <item>'Къара богъдай'</item>
@@ -661,7 +661,7 @@
   <question>
     <id>48</id>
     <image>''</image>
-    <name>'Как у крымских татар называют просо?'</name>
+    <questionName>'Как у крымских татар называют просо?'</questionName>
     <answerChoice>
       <list>
         <item>'Тары'</item>
@@ -675,7 +675,7 @@
   <question>
     <id>49</id>
     <image>''</image>
-    <name>'Переведите: овес; ячмень; кукурузная крупа'</name>
+    <questionName>'Переведите: овес; ячмень; кукурузная крупа'</questionName>
     <answerChoice>
       <list>
         <item>'Джылап; арпа курьпеси; мысырбогъдай курьпеси'</item>
@@ -689,7 +689,7 @@
   <question>
     <id>50</id>
     <image>''</image>
-    <name>'Переведите: фундамент дома'</name>
+    <questionName>'Переведите: фундамент дома'</questionName>
     <answerChoice>
       <list>
         <item>'Эвнинъ темели'</item>
@@ -703,7 +703,7 @@
   <question>
     <id>51</id>
     <image>''</image>
-    <name>'Переведите: черепица; крыша; проект дома'</name>
+    <questionName>'Переведите: черепица; крыша; проект дома'</questionName>
     <answerChoice>
       <list>
         <item>'Кирамет; дам; эвнинъ лейхасы'</item>
@@ -717,7 +717,7 @@
   <question>
     <id>52</id>
     <image>''</image>
-    <name>'Как как крымские татары называют строителя?'</name>
+    <questionName>'Как как крымские татары называют строителя?'</questionName>
     <answerChoice>
       <list>
         <item>'Къуруджы'</item>
@@ -731,7 +731,7 @@
   <question>
     <id>53</id>
     <image>''</image>
-    <name>'Какие значения имеет слово " тола"?'</name>
+    <questionName>'Какие значения имеет слово " тола"?'</questionName>
     <answerChoice>
       <list>
         <item>'Коротко стриженная овчина'</item>
@@ -745,7 +745,7 @@
   <question>
     <id>54</id>
     <image>''</image>
-    <name>'Переведите: доска; известь; песок'</name>
+    <questionName>'Переведите: доска; известь; песок'</questionName>
     <answerChoice>
       <list>
         <item>'Тахта; киреч; къум'</item>
@@ -759,7 +759,7 @@
   <question>
     <id>55</id>
     <image>''</image>
-    <name>'Как крымские татары называют лестницу?'</name>
+    <questionName>'Как крымские татары называют лестницу?'</questionName>
     <answerChoice>
       <list>
         <item>'Мердивен'</item>
@@ -773,7 +773,7 @@
   <question>
     <id>56</id>
     <image>''</image>
-    <name>'Переведите: платье; туфли; брюки'</name>
+    <questionName>'Переведите: платье; туфли; брюки'</questionName>
     <answerChoice>
       <list>
         <item>'Антер, аякъап, штан'</item>
@@ -787,7 +787,7 @@
   <question>
     <id>57</id>
     <image>''</image>
-    <name>'Переведите: галстук; юбка; рубашка'</name>
+    <questionName>'Переведите: галстук; юбка; рубашка'</questionName>
     <answerChoice>
       <list>
         <item>'Боюнбагъ; фистан; кольмек'</item>
@@ -801,7 +801,7 @@
   <question>
     <id>58</id>
     <image>''</image>
-    <name>'Переведите: ремень; сапоги; шуба'</name>
+    <questionName>'Переведите: ремень; сапоги; шуба'</questionName>
     <answerChoice>
       <list>
         <item>'Къушакъ, чызма, тон'</item>
@@ -815,7 +815,7 @@
   <question>
     <id>59</id>
     <image>''</image>
-    <name>'Переведите: самолет; корабль; сани'</name>
+    <questionName>'Переведите: самолет; корабль; сани'</questionName>
     <answerChoice>
       <list>
         <item>'Учакъ; геми; чана'</item>
@@ -829,7 +829,7 @@
   <question>
     <id>60</id>
     <image>''</image>
-    <name>'Переведите: парусник; лодка; поезд'</name>
+    <questionName>'Переведите: парусник; лодка; поезд'</questionName>
     <answerChoice>
       <list>
         <item>'Елькенли геми; къайыкъ; трен'</item>
@@ -843,7 +843,7 @@
   <question>
     <id>61</id>
     <image>''</image>
-    <name>'Переведите: грузовик; автомобиль; велосипед'</name>
+    <questionName>'Переведите: грузовик; автомобиль; велосипед'</questionName>
     <answerChoice>
       <list>
         <item>'Юк машнасы, машна, аякъмашна'</item>
@@ -857,7 +857,7 @@
   <question>
     <id>62</id>
     <image>''</image>
-    <name>'Переведите: попугай, аист, журавль'</name>
+    <questionName>'Переведите: попугай, аист, журавль'</questionName>
     <answerChoice>
       <list>
         <item>'Папагъан, лейлек, турна'</item>
@@ -871,7 +871,7 @@
   <question>
     <id>63</id>
     <image>''</image>
-    <name>'Переведите: соловей, лебедь, ласточка'</name>
+    <questionName>'Переведите: соловей, лебедь, ласточка'</questionName>
     <answerChoice>
       <list>
         <item>'Бульбуль, акъкъуш, къарылгъач'</item>
@@ -885,7 +885,7 @@
   <question>
     <id>64</id>
     <image>''</image>
-    <name>'Переведите: дятел, орел, голубь'</name>
+    <questionName>'Переведите: дятел, орел, голубь'</questionName>
     <answerChoice>
       <list>
         <item>'Такъ-такъ къуш, къартал, гогерджин'</item>
@@ -899,7 +899,7 @@
   <question>
     <id>65</id>
     <image>''</image>
-    <name>'Переведите: география, математика, физическая культура'</name>
+    <questionName>'Переведите: география, математика, физическая культура'</questionName>
     <answerChoice>
       <list>
         <item>'Джография, риязият, беден тербиеси'</item>
@@ -913,7 +913,7 @@
   <question>
     <id>66</id>
     <image>''</image>
-    <name>'Переведите: родной язык, литература, история'</name>
+    <questionName>'Переведите: родной язык, литература, история'</questionName>
     <answerChoice>
       <list>
         <item>'Ана тили, эдебият, тарих'</item>
@@ -927,7 +927,7 @@
   <question>
     <id>67</id>
     <image>''</image>
-    <name>'Переведите: арифметика, изобразительное искусство, иностранный язык'</name>
+    <questionName>'Переведите: арифметика, изобразительное искусство, иностранный язык'</questionName>
     <answerChoice>
       <list>
         <item>'Эсап, Тасвирий санаат, Эджнебий тиль'</item>
@@ -941,7 +941,7 @@
   <question>
     <id>68</id>
     <image>''</image>
-    <name>'Переведите словосочетание: с незапамятных времён'</name>
+    <questionName>'Переведите словосочетание: с незапамятных времён'</questionName>
     <answerChoice>
       <list>
         <item>'Дедемнинъ кунюнден (къалгъан)'</item>
@@ -955,7 +955,7 @@
   <question>
     <id>69</id>
     <image>''</image>
-    <name>'Назовите цвета: черный-причерный, белый, коричневый'</name>
+    <questionName>'Назовите цвета: черный-причерный, белый, коричневый'</questionName>
     <answerChoice>
       <list>
         <item>'Сим-сия, беяз, къаверенкли'</item>
@@ -969,7 +969,7 @@
   <question>
     <id>70</id>
     <image>''</image>
-    <name>'Какой из диалектов ближе всего к турецкому литературному языку?'</name>
+    <questionName>'Какой из диалектов ближе всего к турецкому литературному языку?'</questionName>
     <answerChoice>
       <list>
         <item>'южный'</item>
@@ -983,7 +983,7 @@
   <question>
     <id>71</id>
     <image>''</image>
-    <name>'Особенностью южного диалекта является:'</name>
+    <questionName>'Особенностью южного диалекта является:'</questionName>
     <answerChoice>
       <list>
         <item>'греческие заимствования'</item>
@@ -997,7 +997,7 @@
   <question>
     <id>72</id>
     <image>''</image>
-    <name>'Какой из диалектов относится к кыпчакским языкам?'</name>
+    <questionName>'Какой из диалектов относится к кыпчакским языкам?'</questionName>
     <answerChoice>
       <list>
         <item>'ногъайский'</item>
@@ -1011,7 +1011,7 @@
   <question>
     <id>73</id>
     <image>''</image>
-    <name>'Быдыр-быдыр лаф этмек'</name>
+    <questionName>'Быдыр-быдыр лаф этмек'</questionName>
     <answerChoice>
       <list>
         <item>'Тарахтеть без умолку'</item>
@@ -1025,7 +1025,7 @@
   <question>
     <id>74</id>
     <image>''</image>
-    <name>'Переведите: однородные величины'</name>
+    <questionName>'Переведите: однородные величины'</questionName>
     <answerChoice>
       <list>
         <item>'Бир сой буюкликлер'</item>
@@ -1039,7 +1039,7 @@
   <question>
     <id>75</id>
     <image>''</image>
-    <name>'Как на крымскотатарском звучит слово беспокоиться?'</name>
+    <questionName>'Как на крымскотатарском звучит слово беспокоиться?'</questionName>
     <answerChoice>
       <list>
         <item>'Бусанмакъ'</item>
@@ -1053,7 +1053,7 @@
   <question>
     <id>76</id>
     <image>''</image>
-    <name>'Выберите антонимы к слову буюк'</name>
+    <questionName>'Выберите антонимы к слову буюк'</questionName>
     <answerChoice>
       <list>
         <item>'Киик, уфакъ'</item>
@@ -1067,7 +1067,7 @@
   <question>
     <id>77</id>
     <image>''</image>
-    <name>'Переведите слово эвлеримиздендирлерми?'</name>
+    <questionName>'Переведите слово эвлеримиздендирлерми?'</questionName>
     <answerChoice>
       <list>
         <item>'Из наших домов ли'</item>
@@ -1081,7 +1081,7 @@
   <question>
     <id>78</id>
     <image>''</image>
-    <name>'Сколько аффиксов содержит слово эвлеримиздендирлерми?'</name>
+    <questionName>'Сколько аффиксов содержит слово эвлеримиздендирлерми?'</questionName>
     <answerChoice>
       <list>
         <item>'шесть'</item>
@@ -1095,7 +1095,7 @@
   <question>
     <id>79</id>
     <image>''</image>
-    <name>'Переведите словосочетание: переиздать книгу'</name>
+    <questionName>'Переведите словосочетание: переиздать книгу'</questionName>
     <answerChoice>
       <list>
         <item>'Китапны янъындан нешир этмек'</item>
@@ -1109,7 +1109,7 @@
   <question>
     <id>80</id>
     <image>''</image>
-    <name>'В каких значениях употребляется словосочетание " адам олмакъ"?'</name>
+    <questionName>'В каких значениях употребляется словосочетание " адам олмакъ"?'</questionName>
     <answerChoice>
       <list>
         <item>'Инсанджа яшамакъ'</item>

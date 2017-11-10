@@ -2,13 +2,14 @@
 //  QuestionDataClass.swift
 //  Imtian
 //
-//  Created by MQ on 12.08.17.
-//  Copyright © 2017 MQ. All rights reserved.
+//  Created by EY on 12.08.17.
+//  Copyright © 2017 EY. All rights reserved.
 //
 
 import Foundation
 
 class Question {
+    var Theme: String = String()
     var id: String = String()
     var Name: String = String()
     var AnswersChoice: [Answer] = []
@@ -19,8 +20,22 @@ class Question {
 class Answer {
     var Item: String = String()
 }
+class Theme {
+    var id: String = String()
+    var Name: String = String()
+}
+class ListQuestion {
+    var questions = [Question]()
+}
 
-/*class AllQuestions {
-    var themeName: String = String()
-    var question: Question = Question()
-}*/
+class ThemeStructure {
+    static var themes: [Theme] = []
+}
+class QuestionsStructure {
+    //static var questions: [Question] = []
+    static var questionDict: [String: [Question]] = [String: [Question]]()
+}
+class IsLaunchedBefore {
+    static var isWasLaunched: Bool = Bool()
+}
+

@@ -2,8 +2,8 @@
 //  LevelViewController.swift
 //  Imtian
 //
-//  Created by MQ on 22.07.17.
-//  Copyright © 2017 MQ. All rights reserved.
+//  Created by EY on 22.07.17.
+//  Copyright © 2017 EY. All rights reserved.
 //
 
 import UIKit
