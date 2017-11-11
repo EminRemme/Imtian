@@ -72,7 +72,7 @@
   </question>
   <question>
     <id>6</id>
-    <image>''</image>
+    <image>'1'</image>
     <questionName>'На этом фото изображено?'</questionName>
     <answerChoice>
       <list>
@@ -114,7 +114,7 @@
   </question>
   <question>
     <id>9</id>
-    <image>''</image>
+    <image>'1'</image>
     <questionName>'Что изображено на фото?'</questionName>
     <answerChoice>
       <list>
@@ -198,7 +198,7 @@
   </question>
   <question>
     <id>15</id>
-    <image>''</image>
+    <image>'1'</image>
     <questionName>'Что изображено на фото?'</questionName>
     <answerChoice>
       <list>
@@ -268,7 +268,7 @@
   </question>
   <question>
     <id>20</id>
-    <image>''</image>
+    <image>'1'</image>
     <questionName>'Домашняя лапша, залитая соусом из измельчённых овощей и мяса-это..?'</questionName>
     <answerChoice>
       <list>
@@ -338,7 +338,7 @@
   </question>
   <question>
     <id>25</id>
-    <image>''</image>
+    <image>'1'</image>
     <questionName>'Что изображено на фото?'</questionName>
     <answerChoice>
       <list>
@@ -422,7 +422,7 @@
   </question>
   <question>
     <id>31</id>
-    <image>''</image>
+    <image>'1'</image>
     <questionName>'Что изображено на данном фото?'</questionName>
     <answerChoice>
       <list>
@@ -1263,20 +1263,6 @@
   <question>
     <id>91</id>
     <image>''</image>
-    <questionName>'Выберите правильный ответ(слева на право)'</questionName>
-    <answerChoice>
-      <list>
-        <item>'Вареники, шурпа, лагман,сарма'</item>
-        <item>'Шурпа, юфакъ аш, лагман, сарма'</item>
-        <item>'Юфакъ аш, шурпа, лагман, долма'</item>
-        <item>'Юфакъ-аш, шурпа, лагман, сарма'</item>
-      </list>
-    </answerChoice>
-    <correctAnswer>'Юфакъ-аш, шурпа, лагман, сарма'</correctAnswer>
-  </question>
-  <question>
-    <id>92</id>
-    <image>''</image>
     <questionName>'Кто написал книгу "Къырымтатар емеклеры"?'</questionName>
     <answerChoice>
       <list>
@@ -1289,7 +1275,7 @@
     <correctAnswer>'Мамбет Билял'</correctAnswer>
   </question>
   <question>
-    <id>93</id>
+    <id>92</id>
     <image>''</image>
     <questionName>'К мучным блюдам относятся:'</questionName>
     <answerChoice>
@@ -1303,7 +1289,7 @@
     <correctAnswer>'Къыйыкъ, сары бурма'</correctAnswer>
   </question>
   <question>
-    <id>94</id>
+    <id>93</id>
     <image>''</image>
     <questionName>'Как правильно произносится слово..'</questionName>
     <answerChoice>
@@ -1317,7 +1303,7 @@
     <correctAnswer>'Кобете'</correctAnswer>
   </question>
   <question>
-    <id>95</id>
+    <id>94</id>
     <image>''</image>
     <questionName>'Ак-алва - это...?'</questionName>
     <answerChoice>
@@ -1331,7 +1317,7 @@
     <correctAnswer>'Белая халва из пережаренной муки или яичных белков'</correctAnswer>
   </question>
   <question>
-    <id>96</id>
+    <id>95</id>
     <image>''</image>
     <questionName>'Как называется чай, приготовленный из горных трав?'</questionName>
     <answerChoice>
@@ -1345,7 +1331,7 @@
     <correctAnswer>'Ляйля'</correctAnswer>
   </question>
   <question>
-    <id>97</id>
+    <id>96</id>
     <image>''</image>
     <questionName>'Что такое "деве тиши"?'</questionName>
     <answerChoice>
@@ -1359,7 +1345,7 @@
     <correctAnswer>'Вид зерновой пшеницы'</correctAnswer>
   </question>
   <question>
-    <id>98</id>
+    <id>97</id>
     <image>''</image>
     <questionName>'Из мяса крымские татары употребляют, преимущественно...'</questionName>
     <answerChoice>
@@ -1373,7 +1359,7 @@
     <correctAnswer>'Баранину'</correctAnswer>
   </question>
   <question>
-    <id>99</id>
+    <id>98</id>
     <image>''</image>
     <questionName>'Когда на полуострове перестали делать бузу?'</questionName>
     <answerChoice>
@@ -1387,7 +1373,7 @@
     <correctAnswer>'После 1944'</correctAnswer>
   </question>
   <question>
-    <id>100</id>
+    <id>99</id>
     <image>''</image>
     <questionName>'Сладкий напиток из разведённого и сброженного виноградного сока-это...?'</questionName>
     <answerChoice>
@@ -1401,7 +1387,7 @@
     <correctAnswer>'Бал'</correctAnswer>
   </question>
   <question>
-    <id>101</id>
+    <id>100</id>
     <image>''</image>
     <questionName>'Жители какой части Крыма отдавали предпочтение мясомолочным и зерновым продуктам?'</questionName>
     <answerChoice>
@@ -1415,7 +1401,7 @@
     <correctAnswer>'Степной'</correctAnswer>
   </question>
   <question>
-    <id>102</id>
+    <id>101</id>
     <image>''</image>
     <questionName>'Как правило, первое знакомство путешественника с культурой народа начиналось с...'</questionName>
     <answerChoice>
@@ -1429,7 +1415,7 @@
     <correctAnswer>'Традиции застолья'</correctAnswer>
   </question>
   <question>
-    <id>103</id>
+    <id>102</id>
     <image>''</image>
     <questionName>'Издавна излюбленным продуктом крымскотатарской кухни был(о)?'</questionName>
     <answerChoice>
@@ -1443,7 +1429,7 @@
     <correctAnswer>'Мясо'</correctAnswer>
   </question>
   <question>
-    <id>104</id>
+    <id>103</id>
     <image>''</image>
     <questionName>'Нарезанная на мелкие куски, поджаренная баранина,залитая жиром-это...?'</questionName>
     <answerChoice>
@@ -1457,7 +1443,7 @@
     <correctAnswer>'Къавурма'</correctAnswer>
   </question>
   <question>
-    <id>105</id>
+    <id>104</id>
     <image>''</image>
     <questionName>'В чём заготавливали и хранили къавурму?'</questionName>
     <answerChoice>
@@ -1471,7 +1457,7 @@
     <correctAnswer>'В глиняной посуде'</correctAnswer>
   </question>
   <question>
-    <id>106</id>
+    <id>105</id>
     <image>''</image>
     <questionName>'Венецианец Амвросий Контарини отмечал, что основной пищей степных татар было...'</questionName>
     <answerChoice>
@@ -1485,7 +1471,7 @@
     <correctAnswer>'Лошадиное мясо и молоко'</correctAnswer>
   </question>
   <question>
-    <id>107</id>
+    <id>106</id>
     <image>''</image>
     <questionName>'Что в Крымском ханстве считалось обязательной добавкой ко многим блюдам?'</questionName>
     <answerChoice>
@@ -1499,7 +1485,7 @@
     <correctAnswer>'Курдючный жир'</correctAnswer>
   </question>
   <question>
-    <id>108</id>
+    <id>107</id>
     <image>''</image>
     <questionName>'В чём хранили сливочное масло?'</questionName>
     <answerChoice>
@@ -1513,7 +1499,7 @@
     <correctAnswer>'В деревянных кадушках'</correctAnswer>
   </question>
   <question>
-    <id>109</id>
+    <id>108</id>
     <image>''</image>
     <questionName>'Как крымские татары называют чайную ложку?'</questionName>
     <answerChoice>
@@ -1527,7 +1513,7 @@
     <correctAnswer>'Къаве къашикъ'</correctAnswer>
   </question>
   <question>
-    <id>110</id>
+    <id>109</id>
     <image>''</image>
     <questionName>'В кофейнях Крымского ханства не устанавливали плату за кофе и болюда. Как расплачивались посетители?'</questionName>
     <answerChoice>
@@ -1541,7 +1527,7 @@
     <correctAnswer>'Платили столько, сколько позволял достаток'</correctAnswer>
   </question>
   <question>
-    <id>111</id>
+    <id>110</id>
     <image>''</image>
     <questionName>'Посетители чибиречных оставляли на тарелке уголок от каждого съеденного ими чиберека. Для чего?'</questionName>
     <answerChoice>
@@ -1555,7 +1541,7 @@
     <correctAnswer>'Чтобы официант смог подсчитать сколько съел посетитель'</correctAnswer>
   </question>
   <question>
-    <id>112</id>
+    <id>111</id>
     <image>''</image>
     <questionName>'В начале прошлого века крымские татары вывели уникальный сорт слив, который занимал более 30% промышленных площадей полуострова.Как назывался эот сорт?'</questionName>
     <answerChoice>
@@ -1569,7 +1555,7 @@
     <correctAnswer>'Изюм-эрик'</correctAnswer>
   </question>
   <question>
-    <id>113</id>
+    <id>112</id>
     <image>''</image>
     <questionName>'Как назывался сыр, высушенный в виде тонких ломтей, который не подвергался порче?'</questionName>
     <answerChoice>
@@ -1583,7 +1569,7 @@
     <correctAnswer>'Къуру пеныр'</correctAnswer>
   </question>
   <question>
-    <id>114</id>
+    <id>113</id>
     <image>''</image>
     <questionName>'Кто изобрёл бузу?'</questionName>
     <answerChoice>
@@ -1597,7 +1583,7 @@
     <correctAnswer>'пир Сары-Салтык'</correctAnswer>
   </question>
   <question>
-    <id>115</id>
+    <id>114</id>
     <image>''</image>
     <questionName>'Какой напиток в Крыму не пользовался популярностью?'</questionName>
     <answerChoice>
@@ -1611,7 +1597,7 @@
     <correctAnswer>'Чай'</correctAnswer>
   </question>
   <question>
-    <id>116</id>
+    <id>115</id>
     <image>''</image>
     <questionName>'Как назывался сыр, который изготавливали наши предки из кобыльего и коровьего молока?'</questionName>
     <answerChoice>
@@ -1625,7 +1611,7 @@
     <correctAnswer>'Кашкавал'</correctAnswer>
   </question>
   <question>
-    <id>117</id>
+    <id>116</id>
     <image>''</image>
     <questionName>'Крымские татары питались кониной, верблюжатиной, телятиной и бараниной'</questionName>
     <answerChoice>

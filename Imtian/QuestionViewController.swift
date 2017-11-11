@@ -31,6 +31,7 @@ class QuestionViewController: UIViewController, UIGestureRecognizerDelegate {
     var number:Int = 0
     var mark:Int = 0
     
+    var isImageAnimate: Bool = false
     var isLongQuestion = false
     var test = 1
     @IBOutlet weak var nameQuestion: UILabel!
@@ -166,7 +167,7 @@ class QuestionViewController: UIViewController, UIGestureRecognizerDelegate {
                 self.lightButtons(color: .green, lightButtonNum: correctAnswerNumber)
             }
         } else {
-            self.lightButtons(color: .cyan, lightButtonNum: choisenAnswerNumber)
+            self.lightButtons(color: .lightGray, lightButtonNum: choisenAnswerNumber)
         }
         
         UIView.animate(withDuration: 0.5, delay: 1, options: [],
@@ -284,9 +285,14 @@ class QuestionViewController: UIViewController, UIGestureRecognizerDelegate {
             setCorrectAnswerNumber(index: currentIndex)
             if(questions[currentIndex].IsImage == "1") {
                 imageQuestion.isHidden = false
-                imageQuestion.image = UIImage(named: choisenTheme.id.prefix(5) + questions[currentIndex].id)
+                imageQuestion.image = UIImage(named: questions[currentIndex].Theme.prefix(5) + questions[currentIndex].id)
             }else {
-                imageQuestion.isHidden = true
+                //if questions[currentIndex].Theme == "islam" {
+                    imageQuestion.isHidden = false
+                    imageQuestion.image = UIImage(named: String(questions[currentIndex].Theme.prefix(5)))
+                //} else {
+                   // imageQuestion.isHidden = true
+                //}
             }
             
         }
@@ -312,6 +318,12 @@ class QuestionViewController: UIViewController, UIGestureRecognizerDelegate {
             animationIn()
         }else {
             DispatchQueue.main.asyncAfter(deadline: .now() + 1.8, execute: {
+                let userDefaults = UserDefaults.standard
+                let bestExam = userDefaults.integer(forKey: "BestExam")
+                userDefaults.set(self.mark, forKey: "LastExam")
+                if self.mark > bestExam {
+                    userDefaults.set(self.mark, forKey: "BestExam")
+                }
                 let storyBoard: UIStoryboard = UIStoryboard(name: "Main", bundle: nil)
                 let resultViewController = storyBoard.instantiateViewController(withIdentifier: "ResultViewId") as! ResultViewController
                 resultViewController.mark = self.mark
@@ -390,16 +402,23 @@ class QuestionViewController: UIViewController, UIGestureRecognizerDelegate {
             tempTheme.append(theme.id)
         }
         tempTheme.remove(at: tempTheme.index(of: "RandomTheme")!)
+        
         while questions.count < questionsNumber {
             let currentThemeIndex = Int(arc4random_uniform(UInt32(Int32(tempTheme.count))))
             tempQuestions = QuestionsStructure.questionDict[tempTheme[currentThemeIndex]]!
-            for _ in 1 ... 5 {
+            var questCircle: Int = 2
+            if questionsNumber == 40 {
+                questCircle = 5
+            }
+            for _ in 1 ... questCircle {
                 let currentIndex = Int(arc4random_uniform(UInt32(Int32(tempQuestions.count))))
                 questions.append(tempQuestions[currentIndex])
                 tempQuestions.remove(at: currentIndex)
             }
+            
             tempTheme.remove(at: currentThemeIndex)
             
         }
+        
     }
 }

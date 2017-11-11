@@ -32,7 +32,6 @@ class ThemeStructure {
     static var themes: [Theme] = []
 }
 class QuestionsStructure {
-    //static var questions: [Question] = []
     static var questionDict: [String: [Question]] = [String: [Question]]()
 }
 class IsLaunchedBefore {

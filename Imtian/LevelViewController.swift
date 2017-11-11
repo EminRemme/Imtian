@@ -34,6 +34,16 @@ class LevelViewController: UIViewController {
             questionViewController.questionsNumber = 40
             
         }
+        if(segue.identifier == "showRandomQuestionsMini") {
+            let questionViewController = segue.destination as! QuestionViewController
+            let theme = Theme()
+            theme.Name = "Тренировка"
+            theme.id = "AllQuestions"
+            questionViewController.choisenTheme = theme
+            questionViewController.title = theme.Name
+            questionViewController.questionsNumber = 16
+            
+        }
         if(segue.identifier == "showTheme") {
             _ = segue.destination as! ThemesViewController
         }

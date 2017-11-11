@@ -32,7 +32,7 @@ class ResultViewController: UIViewController {
         progress.set(colors: UIColorFromRGB(rgbValue: 0x1589FF))
         progress.center = CGPoint(x: view.center.x, y: view.center.y + 25)
         view.addSubview(progress)
-        progress.animate(fromAngle: 0, toAngle: Double(360 / questionCount * mark), duration: Double(mark) * 0.5) { completed in
+        progress.animate(fromAngle: 0, toAngle: Double(360 / questionCount * mark), duration: Double(mark) * 0.08) { completed in
             if completed {
                 self.resultMarkLabel.isHidden = false
             } else {

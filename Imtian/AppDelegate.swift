@@ -33,6 +33,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate, XMLParserDelegate {
         if !IsLaunchedBefore.isWasLaunched {
             userDefaults.set(true, forKey: "IsLaunched")
             IsLaunchedBefore.isWasLaunched = true
+            userDefaults.set(0, forKey: "LastExam")
+            userDefaults.set(0, forKey: "BestExam")
         }
         //load allQuestions
         var parser : XMLParser = XMLParser()
@@ -193,9 +195,11 @@ class AppDelegate: UIResponder, UIApplicationDelegate, XMLParserDelegate {
             }else if eName == "image" {
                 isImage += " " + data
             }else if eName == "item" {
-                answer.Item += " " + data
+                //answer.Item += " " + data
+                answer.Item += data
             } else if eName == "correctAnswer" {
-                correctAnswer += " " + data
+                //correctAnswer += " " + data
+                correctAnswer += data
             }
         }
     }

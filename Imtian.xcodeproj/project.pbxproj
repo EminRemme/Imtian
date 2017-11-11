@@ -40,6 +40,7 @@
 		CCA089791FB1EA4400D34E7A /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCA089781FB1EA4400D34E7A /* ResultViewController.swift */; };
 		CCD35D5C1FB43B9E001DCA62 /* KDCircularProgress.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCD35D5B1FB43B9E001DCA62 /* KDCircularProgress.swift */; };
 		CCD35D621FB49639001DCA62 /* ThemesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCD35D611FB49639001DCA62 /* ThemesViewController.swift */; };
+		CCDDFDEB1FB73766007477B1 /* StatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCDDFDEA1FB73766007477B1 /* StatViewController.swift */; };
 		F80B171B1F234ED7003892AA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F80B171A1F234ED7003892AA /* AppDelegate.swift */; };
 		F80B171D1F234ED7003892AA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F80B171C1F234ED7003892AA /* ViewController.swift */; };
 		F80B17201F234ED7003892AA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F80B171E1F234ED7003892AA /* Main.storyboard */; };
@@ -96,6 +97,7 @@
 		CCA089781FB1EA4400D34E7A /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
 		CCD35D5B1FB43B9E001DCA62 /* KDCircularProgress.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KDCircularProgress.swift; sourceTree = "<group>"; };
 		CCD35D611FB49639001DCA62 /* ThemesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemesViewController.swift; sourceTree = "<group>"; };
+		CCDDFDEA1FB73766007477B1 /* StatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatViewController.swift; sourceTree = "<group>"; };
 		F80B17171F234ED7003892AA /* Imtian.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Imtian.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F80B171A1F234ED7003892AA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F80B171C1F234ED7003892AA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -212,6 +214,7 @@
 				F80B17291F234ED7003892AA /* Info.plist */,
 				F80B17211F234ED7003892AA /* Imtian.xcdatamodeld */,
 				F85E15AB1F3F2CA9006819DD /* QuestionDataClass.swift */,
+				CCDDFDEA1FB73766007477B1 /* StatViewController.swift */,
 			);
 			path = Imtian;
 			sourceTree = "<group>";
@@ -329,6 +332,7 @@
 				CCA089511FB1C82700D34E7A /* KeyboardLayoutConstraint.swift in Sources */,
 				F80B171D1F234ED7003892AA /* ViewController.swift in Sources */,
 				CCA089531FB1C82700D34E7A /* SpringTextView.swift in Sources */,
+				CCDDFDEB1FB73766007477B1 /* StatViewController.swift in Sources */,
 				F80B17231F234ED7003892AA /* Imtian.xcdatamodeld in Sources */,
 				CCD35D621FB49639001DCA62 /* ThemesViewController.swift in Sources */,
 				CCA0892F1FB1C7DC00D34E7A /* SwiftyJSON.swift in Sources */,
