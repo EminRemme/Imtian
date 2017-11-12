@@ -46,9 +46,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate, XMLParserDelegate {
             }
         }
         for theme in ThemeStructure.themes {
-            if theme.id == "RandomTheme" {
-                continue
-            }
             self.currentTheme = theme.id
             if let path = Bundle.main.url(forResource: theme.id, withExtension: "xml") {
                 if let parser = XMLParser(contentsOf: path) {

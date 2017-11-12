@@ -25,6 +25,7 @@ class ThemesViewController: UIViewController, UIGestureRecognizerDelegate {
         let theme = Theme()
         switch (segue.identifier) {
         case "RandomTheme"?:
+            
             let currentIndex = Int(arc4random_uniform(UInt32(Int32(ThemeStructure.themes.count))))
             theme.Name = ThemeStructure.themes[currentIndex].Name
             theme.id = ThemeStructure.themes[currentIndex].id

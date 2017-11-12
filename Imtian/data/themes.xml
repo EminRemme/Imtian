@@ -1,9 +1,5 @@
 <?xml version="1.0"?>
 <list>
-    <theme >
-        <themeId>RandomTheme</themeId>
-        <name>Случайная тема</name>
-    </theme>
 	<theme >
         <themeId>literature</themeId>
         <name>Литература</name>

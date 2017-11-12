@@ -2,8 +2,8 @@
 //  StatViewController.swift
 //  Imtian
 //
-//  Created by VUser on 11/11/17.
-//  Copyright © 2017 MQ. All rights reserved.
+//  Created by EY on 11/11/17.
+//  Copyright © 2017 EY. All rights reserved.
 //
 
 import UIKit

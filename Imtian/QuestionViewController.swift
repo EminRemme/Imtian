@@ -401,7 +401,6 @@ class QuestionViewController: UIViewController, UIGestureRecognizerDelegate {
         for theme in ThemeStructure.themes {
             tempTheme.append(theme.id)
         }
-        tempTheme.remove(at: tempTheme.index(of: "RandomTheme")!)
         
         while questions.count < questionsNumber {
             let currentThemeIndex = Int(arc4random_uniform(UInt32(Int32(tempTheme.count))))
