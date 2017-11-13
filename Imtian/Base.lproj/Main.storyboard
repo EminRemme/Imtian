@@ -180,8 +180,24 @@
                                 <rect key="frame" x="0.0" y="56" width="320" height="512"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ab4-01-omK">
+                                <rect key="frame" x="274" y="226" width="30" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                <state key="normal" backgroundImage="icon-info"/>
+                                <connections>
+                                    <action selector="blitzButtonTapped:" destination="taF-Nx-1h8" eventType="touchUpInside" id="uCg-zI-jfu"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Rkw-fR-738">
+                                <rect key="frame" x="274" y="303" width="30" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                <state key="normal" backgroundImage="icon-info"/>
+                                <connections>
+                                    <action selector="gameButtonTapped:" destination="taF-Nx-1h8" eventType="touchUpInside" id="dLj-Ll-XON"/>
+                                </connections>
+                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NJq-VQ-rlm">
-                                <rect key="frame" x="35" y="135" width="250" height="58"/>
+                                <rect key="frame" x="60" y="135" width="200" height="58"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.17434364560000001" green="0.25370860099999998" blue="0.34931322930000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="25"/>
@@ -193,7 +209,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="asZ-gf-mvW">
-                                <rect key="frame" x="35" y="367" width="250" height="57"/>
+                                <rect key="frame" x="60" y="367" width="200" height="57"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.17434364560000001" green="0.25370860099999998" blue="0.34931322930000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="25"/>
@@ -205,7 +221,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QNK-Zb-bOH">
-                                <rect key="frame" x="35" y="212" width="250" height="58"/>
+                                <rect key="frame" x="60" y="212" width="200" height="58"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.17434364560000001" green="0.25370860099999998" blue="0.34931322930000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="25"/>
@@ -217,7 +233,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LAP-sF-gGN">
-                                <rect key="frame" x="35" y="289" width="250" height="58"/>
+                                <rect key="frame" x="60" y="289" width="200" height="58"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.17434364560000001" green="0.25370860099999998" blue="0.34931322930000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="25"/>
@@ -226,6 +242,22 @@
                                 </state>
                                 <connections>
                                     <segue destination="NR5-JB-YFi" kind="show" identifier="showRandomQuestions" id="dpz-DA-TwX"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iP1-Fg-jYb">
+                                <rect key="frame" x="274" y="149" width="30" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                <state key="normal" backgroundImage="icon-info"/>
+                                <connections>
+                                    <action selector="trainingButtonTapped:" destination="taF-Nx-1h8" eventType="touchUpInside" id="eAF-nn-mDb"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="knI-fO-SjO">
+                                <rect key="frame" x="274" y="380" width="30" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                <state key="normal" backgroundImage="icon-info"/>
+                                <connections>
+                                    <action selector="hardButtonTapped:" destination="taF-Nx-1h8" eventType="touchUpInside" id="RHt-zj-Ude"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -237,7 +269,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="1tK-EY-IIL" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-897.10144927536237" y="-1005.163043478261"/>
+            <point key="canvasLocation" x="-898.125" y="-1005.6338028169014"/>
         </scene>
         <!--Темы-->
         <scene sceneID="Brp-rl-YOW">
@@ -564,6 +596,7 @@
         <image name="MainPage" width="1588" height="2246"/>
         <image name="Page" width="1588" height="2246"/>
         <image name="body_2" width="1588" height="2246"/>
+        <image name="icon-info" width="289" height="288"/>
         <image name="info" width="1588" height="2246"/>
         <image name="result" width="1588" height="2246"/>
         <image name="stat" width="1588" height="2246"/>

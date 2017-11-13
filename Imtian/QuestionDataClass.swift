@@ -24,9 +24,6 @@ class Theme {
     var id: String = String()
     var Name: String = String()
 }
-class ListQuestion {
-    var questions = [Question]()
-}
 
 class ThemeStructure {
     static var themes: [Theme] = []

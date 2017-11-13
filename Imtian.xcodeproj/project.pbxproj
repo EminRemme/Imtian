@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CC755B071FBA3D93003DD357 /* language.xml in Resources */ = {isa = PBXBuildFile; fileRef = CC755AFF1FBA3D93003DD357 /* language.xml */; };
+		CC755B081FBA3D93003DD357 /* music.xml in Resources */ = {isa = PBXBuildFile; fileRef = CC755B001FBA3D93003DD357 /* music.xml */; };
+		CC755B091FBA3D93003DD357 /* islam.xml in Resources */ = {isa = PBXBuildFile; fileRef = CC755B011FBA3D93003DD357 /* islam.xml */; };
+		CC755B0A1FBA3D93003DD357 /* literature.xml in Resources */ = {isa = PBXBuildFile; fileRef = CC755B021FBA3D93003DD357 /* literature.xml */; };
+		CC755B0B1FBA3D93003DD357 /* tradition.xml in Resources */ = {isa = PBXBuildFile; fileRef = CC755B031FBA3D93003DD357 /* tradition.xml */; };
+		CC755B0C1FBA3D93003DD357 /* history.xml in Resources */ = {isa = PBXBuildFile; fileRef = CC755B041FBA3D93003DD357 /* history.xml */; };
+		CC755B0D1FBA3D93003DD357 /* kitchen.xml in Resources */ = {isa = PBXBuildFile; fileRef = CC755B051FBA3D93003DD357 /* kitchen.xml */; };
+		CC755B0E1FBA3D93003DD357 /* toponimika.xml in Resources */ = {isa = PBXBuildFile; fileRef = CC755B061FBA3D93003DD357 /* toponimika.xml */; };
 		CCA0892F1FB1C7DC00D34E7A /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCA0892E1FB1C7DB00D34E7A /* SwiftyJSON.swift */; };
 		CCA089511FB1C82700D34E7A /* KeyboardLayoutConstraint.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCA089331FB1C82400D34E7A /* KeyboardLayoutConstraint.swift */; };
 		CCA089521FB1C82700D34E7A /* AutoTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCA089341FB1C82400D34E7A /* AutoTextView.swift */; };
@@ -52,17 +60,17 @@
 		F84F88401F8D057800E4E9D2 /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F84F883F1F8D057800E4E9D2 /* AboutViewController.swift */; };
 		F85E15A81F3F0374006819DD /* themes.xml in Resources */ = {isa = PBXBuildFile; fileRef = F85E15A51F3F0374006819DD /* themes.xml */; };
 		F85E15AC1F3F2CA9006819DD /* QuestionDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = F85E15AB1F3F2CA9006819DD /* QuestionDataClass.swift */; };
-		F87C844E1F6D395B00489C27 /* history.xml in Resources */ = {isa = PBXBuildFile; fileRef = F87C844B1F6D395B00489C27 /* history.xml */; };
-		F87C844F1F6D395B00489C27 /* literature.xml in Resources */ = {isa = PBXBuildFile; fileRef = F87C844C1F6D395B00489C27 /* literature.xml */; };
-		F87C84501F6D395B00489C27 /* toponimika.xml in Resources */ = {isa = PBXBuildFile; fileRef = F87C844D1F6D395B00489C27 /* toponimika.xml */; };
-		F895624B1F7A446600BE0CA3 /* music.xml in Resources */ = {isa = PBXBuildFile; fileRef = F89562461F7A446500BE0CA3 /* music.xml */; };
-		F895624C1F7A446600BE0CA3 /* language.xml in Resources */ = {isa = PBXBuildFile; fileRef = F89562471F7A446600BE0CA3 /* language.xml */; };
-		F895624D1F7A446600BE0CA3 /* kitchen.xml in Resources */ = {isa = PBXBuildFile; fileRef = F89562481F7A446600BE0CA3 /* kitchen.xml */; };
-		F895624E1F7A446600BE0CA3 /* islam.xml in Resources */ = {isa = PBXBuildFile; fileRef = F89562491F7A446600BE0CA3 /* islam.xml */; };
-		F895624F1F7A446600BE0CA3 /* tradition.xml in Resources */ = {isa = PBXBuildFile; fileRef = F895624A1F7A446600BE0CA3 /* tradition.xml */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CC755AFF1FBA3D93003DD357 /* language.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = language.xml; path = "../../../Downloads/drive-download-20171113T205048Z-001/language.xml"; sourceTree = "<group>"; };
+		CC755B001FBA3D93003DD357 /* music.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = music.xml; path = "../../../Downloads/drive-download-20171113T205048Z-001/music.xml"; sourceTree = "<group>"; };
+		CC755B011FBA3D93003DD357 /* islam.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = islam.xml; path = "../../../Downloads/drive-download-20171113T205048Z-001/islam.xml"; sourceTree = "<group>"; };
+		CC755B021FBA3D93003DD357 /* literature.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = literature.xml; path = "../../../Downloads/drive-download-20171113T205048Z-001/literature.xml"; sourceTree = "<group>"; };
+		CC755B031FBA3D93003DD357 /* tradition.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = tradition.xml; path = "../../../Downloads/drive-download-20171113T205048Z-001/tradition.xml"; sourceTree = "<group>"; };
+		CC755B041FBA3D93003DD357 /* history.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = history.xml; path = "../../../Downloads/drive-download-20171113T205048Z-001/history.xml"; sourceTree = "<group>"; };
+		CC755B051FBA3D93003DD357 /* kitchen.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = kitchen.xml; path = "../../../Downloads/drive-download-20171113T205048Z-001/kitchen.xml"; sourceTree = "<group>"; };
+		CC755B061FBA3D93003DD357 /* toponimika.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = toponimika.xml; path = "../../../Downloads/drive-download-20171113T205048Z-001/toponimika.xml"; sourceTree = "<group>"; };
 		CCA0892E1FB1C7DB00D34E7A /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SwiftyJSON.swift; path = Imtian/Libraries/SwiftyJSON.swift; sourceTree = SOURCE_ROOT; };
 		CCA089331FB1C82400D34E7A /* KeyboardLayoutConstraint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = KeyboardLayoutConstraint.swift; path = Imtian/Libraries/Spring/KeyboardLayoutConstraint.swift; sourceTree = SOURCE_ROOT; };
 		CCA089341FB1C82400D34E7A /* AutoTextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AutoTextView.swift; path = Imtian/Libraries/Spring/AutoTextView.swift; sourceTree = SOURCE_ROOT; };
@@ -111,14 +119,6 @@
 		F84F883F1F8D057800E4E9D2 /* AboutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
 		F85E15A51F3F0374006819DD /* themes.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = themes.xml; path = data/themes.xml; sourceTree = "<group>"; };
 		F85E15AB1F3F2CA9006819DD /* QuestionDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuestionDataClass.swift; sourceTree = "<group>"; };
-		F87C844B1F6D395B00489C27 /* history.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = history.xml; path = data/history.xml; sourceTree = "<group>"; };
-		F87C844C1F6D395B00489C27 /* literature.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = literature.xml; path = data/literature.xml; sourceTree = "<group>"; };
-		F87C844D1F6D395B00489C27 /* toponimika.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = toponimika.xml; path = data/toponimika.xml; sourceTree = "<group>"; };
-		F89562461F7A446500BE0CA3 /* music.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = music.xml; path = data/music.xml; sourceTree = "<group>"; };
-		F89562471F7A446600BE0CA3 /* language.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = language.xml; path = data/language.xml; sourceTree = "<group>"; };
-		F89562481F7A446600BE0CA3 /* kitchen.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = kitchen.xml; path = data/kitchen.xml; sourceTree = "<group>"; };
-		F89562491F7A446600BE0CA3 /* islam.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = islam.xml; path = data/islam.xml; sourceTree = "<group>"; };
-		F895624A1F7A446600BE0CA3 /* tradition.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = tradition.xml; path = data/tradition.xml; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -222,14 +222,14 @@
 		F85E159C1F3EFFF3006819DD /* data */ = {
 			isa = PBXGroup;
 			children = (
-				F89562491F7A446600BE0CA3 /* islam.xml */,
-				F89562481F7A446600BE0CA3 /* kitchen.xml */,
-				F89562471F7A446600BE0CA3 /* language.xml */,
-				F89562461F7A446500BE0CA3 /* music.xml */,
-				F895624A1F7A446600BE0CA3 /* tradition.xml */,
-				F87C844B1F6D395B00489C27 /* history.xml */,
-				F87C844C1F6D395B00489C27 /* literature.xml */,
-				F87C844D1F6D395B00489C27 /* toponimika.xml */,
+				CC755B041FBA3D93003DD357 /* history.xml */,
+				CC755B011FBA3D93003DD357 /* islam.xml */,
+				CC755B051FBA3D93003DD357 /* kitchen.xml */,
+				CC755AFF1FBA3D93003DD357 /* language.xml */,
+				CC755B021FBA3D93003DD357 /* literature.xml */,
+				CC755B001FBA3D93003DD357 /* music.xml */,
+				CC755B061FBA3D93003DD357 /* toponimika.xml */,
+				CC755B031FBA3D93003DD357 /* tradition.xml */,
 				F85E15A51F3F0374006819DD /* themes.xml */,
 			);
 			name = data;
@@ -295,20 +295,20 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F895624C1F7A446600BE0CA3 /* language.xml in Resources */,
-				F87C84501F6D395B00489C27 /* toponimika.xml in Resources */,
-				F895624B1F7A446600BE0CA3 /* music.xml in Resources */,
-				F87C844E1F6D395B00489C27 /* history.xml in Resources */,
-				F895624E1F7A446600BE0CA3 /* islam.xml in Resources */,
-				F895624D1F7A446600BE0CA3 /* kitchen.xml in Resources */,
-				F895624F1F7A446600BE0CA3 /* tradition.xml in Resources */,
+				CC755B0C1FBA3D93003DD357 /* history.xml in Resources */,
+				CC755B0A1FBA3D93003DD357 /* literature.xml in Resources */,
 				F85E15A81F3F0374006819DD /* themes.xml in Resources */,
-				F87C844F1F6D395B00489C27 /* literature.xml in Resources */,
+				CC755B081FBA3D93003DD357 /* music.xml in Resources */,
+				CC755B0E1FBA3D93003DD357 /* toponimika.xml in Resources */,
 				F80B17281F234ED7003892AA /* LaunchScreen.storyboard in Resources */,
 				F80B17251F234ED7003892AA /* Assets.xcassets in Resources */,
 				CCA0896D1FB1C82700D34E7A /* LoadingView.xib in Resources */,
+				CC755B0D1FBA3D93003DD357 /* kitchen.xml in Resources */,
+				CC755B0B1FBA3D93003DD357 /* tradition.xml in Resources */,
 				F80B17201F234ED7003892AA /* Main.storyboard in Resources */,
+				CC755B071FBA3D93003DD357 /* language.xml in Resources */,
 				CCA089611FB1C82700D34E7A /* Info.plist in Resources */,
+				CC755B091FBA3D93003DD357 /* islam.xml in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

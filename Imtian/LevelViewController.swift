@@ -10,8 +10,19 @@ import UIKit
 
 class LevelViewController: UIViewController {
     
-    @IBOutlet weak var ChoiseThemeButton: UIButton!
-    @IBOutlet weak var RandomThemeButton: UIButton!
+    @IBAction func trainingButtonTapped(_ sender: UIButton) {
+        showMessage(title: "Тренировка", message: "Тренируйтесь! Ответьте на 10 вопросов по выбранной теме")
+    }
+    @IBAction func blitzButtonTapped(_ sender: UIButton) {
+        showMessage(title: "Блиц-игра", message: "Легкая прогулка! Всего 16 вопросов из 8 тем. Правильные и неправильные ответы подсвечиваются")
+    }
+    
+    @IBAction func gameButtonTapped(_ sender: Any) {
+        showMessage(title: "Игра", message: "А вот это уже сложнее! 40 вопросов. 8 тем. Подсветка правильных ответов все еще работает")
+    }
+    @IBAction func hardButtonTapped(_ sender: UIButton) {
+        showMessage(title: "Готов на все", message: "Это будет сложно! Нет подсветки правильных ответов. И по-прежнему 40 вопросов. И 8 тем. Только результат из данного режима сохраняется в статистику. Удачи!")
+    }
     @IBAction func unwindToLevel(segue:UIStoryboardSegue) { }
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -59,7 +70,21 @@ class LevelViewController: UIViewController {
             
         }
     }
-    
+    func showMessage(title: String, message: String) {
+        let alert = UIAlertController(title: title,
+                                      message: message,
+                                      preferredStyle: .alert)
+        
+        let cancelAction = UIAlertAction(title: "OK",
+                                         style: .default) { (action: UIAlertAction!) -> Void in
+        }
+        
+        alert.addAction(cancelAction)
+        
+        present(alert,
+                animated: true,
+                completion: nil)
+    }
     /*
     // MARK: - Navigation
 
