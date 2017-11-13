@@ -13,7 +13,7 @@ class AboutViewController: UIViewController {
     @IBOutlet weak var aboutLabel: UILabel!
     override func viewDidLoad() {
         super.viewDidLoad()
-        let htmlAboutStr = "<span style=\"font-size: 14; color:black\"><strong>Imtian</strong> - игровое мобильное приложение-викторина, которое охватывает все сферы жизни крымских татар. Вы сможете проверить свои знания по следующим темам:</br><ul><li>литература</li><li>топонимика</li><li>язык</li><li>история</li><li>музыка</li><li>ислам</li><li>традиции</li><li>кухня</li></ul>       Приложение выпущено медиапроектом ZeyTune Production.</br>Разработчик: Эмин Юнусов.</br>Редакторы: Эдип Эмиров, Найле Адбухаирова, Хатидже Усманова, Севиль Юнусова, Адиле Керимова, Эмир Керимов."
+        let htmlAboutStr = "<span style=\"font-size: 14; color:black; font-family:Arial\"><strong>Imtian</strong> - игровое мобильное приложение-викторина, которое охватывает различные сферы жизни крымских татар</br></br>Вопросы в приложении разделены на такие темы:</br><strong>Литература, топонимика, язык, история, музыка, ислам, традиции, кухня</strong></br></br>Приложение выпущено медиапроектом</br><strong>ZeyTune Production</strong></br></br>Разработчик: <strong>Эмин Юнусов</strong></br></br>Проект-менеджер: <strong>Эмир Керимов</strong></br></br>Редакторы вопросов: <strong>Эдип Эмиров, Найле Адбухаирова, Хатидже Усманова, Севиль Юнусова, Адиле Керимова, Эмир Керимов</strong></br></br>Использованы изображения <strong> Смаила Тантаны</strong></span>"
         let attrStr = try! NSAttributedString(
             data: htmlAboutStr.data(using: String.Encoding.unicode, allowLossyConversion: true)!,
             options: [ .documentType: NSAttributedString.DocumentType.html],

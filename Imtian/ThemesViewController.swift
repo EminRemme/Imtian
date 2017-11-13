@@ -59,7 +59,7 @@ class ThemesViewController: UIViewController, UIGestureRecognizerDelegate {
             theme.id = "music"
             break
         case "tradition"?:
-            theme.Name = "Традиция"
+            theme.Name = "Традиции"
             theme.id = "tradition"
             break
         case .none:

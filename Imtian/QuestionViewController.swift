@@ -264,14 +264,15 @@ class QuestionViewController: UIViewController, UIGestureRecognizerDelegate {
         number = number + 1
         if(questions.count != 0 && number <= questionsNumber) {
             currentIndex = Int(arc4random_uniform(UInt32(Int32(questions.count))))
-            if questions[currentIndex].Name.length > 90 {
-            //characters.count > 90 {
+            var questionText: String = questions[currentIndex].Name.replacingOccurrences(of: "'", with: "")
+            if questionText.length > 90 {
                 isLongQuestion = true
+                questionText = questionText.prefix(90) + "...ЕЩЕ..."
             } else {
                 isLongQuestion = false
             }
             self.title = self.choisenTheme.Name + ": " + String(number)  + " из " + String(self.questionsNumber)
-            nameQuestion.text = questions[currentIndex].Name.replacingOccurrences(of: "'", with: "")
+            nameQuestion.text = questionText
             questions[currentIndex].AnswersChoice[0].Item = questions[currentIndex].AnswersChoice[0].Item.replacingOccurrences(of: "'", with: "")
             nameAnswer1.text = questions[currentIndex].AnswersChoice[0].Item.replacingOccurrences(of: "'", with: "")
             questions[currentIndex].AnswersChoice[1].Item = questions[currentIndex].AnswersChoice[1].Item.replacingOccurrences(of: "'", with: "")
@@ -287,12 +288,8 @@ class QuestionViewController: UIViewController, UIGestureRecognizerDelegate {
                 imageQuestion.isHidden = false
                 imageQuestion.image = UIImage(named: questions[currentIndex].Theme.prefix(5) + questions[currentIndex].id)
             }else {
-                //if questions[currentIndex].Theme == "islam" {
-                    imageQuestion.isHidden = false
-                    imageQuestion.image = UIImage(named: String(questions[currentIndex].Theme.prefix(5)))
-                //} else {
-                   // imageQuestion.isHidden = true
-                //}
+                imageQuestion.isHidden = false
+                imageQuestion.image = UIImage(named: String(questions[currentIndex].Theme.prefix(5)))
             }
             
         }

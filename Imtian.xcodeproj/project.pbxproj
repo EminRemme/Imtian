@@ -15,7 +15,6 @@
 		CC755B0C1FBA3D93003DD357 /* history.xml in Resources */ = {isa = PBXBuildFile; fileRef = CC755B041FBA3D93003DD357 /* history.xml */; };
 		CC755B0D1FBA3D93003DD357 /* kitchen.xml in Resources */ = {isa = PBXBuildFile; fileRef = CC755B051FBA3D93003DD357 /* kitchen.xml */; };
 		CC755B0E1FBA3D93003DD357 /* toponimika.xml in Resources */ = {isa = PBXBuildFile; fileRef = CC755B061FBA3D93003DD357 /* toponimika.xml */; };
-		CCA0892F1FB1C7DC00D34E7A /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCA0892E1FB1C7DB00D34E7A /* SwiftyJSON.swift */; };
 		CCA089511FB1C82700D34E7A /* KeyboardLayoutConstraint.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCA089331FB1C82400D34E7A /* KeyboardLayoutConstraint.swift */; };
 		CCA089521FB1C82700D34E7A /* AutoTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCA089341FB1C82400D34E7A /* AutoTextView.swift */; };
 		CCA089531FB1C82700D34E7A /* SpringTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCA089351FB1C82400D34E7A /* SpringTextView.swift */; };
@@ -71,7 +70,6 @@
 		CC755B041FBA3D93003DD357 /* history.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = history.xml; path = "../../../Downloads/drive-download-20171113T205048Z-001/history.xml"; sourceTree = "<group>"; };
 		CC755B051FBA3D93003DD357 /* kitchen.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = kitchen.xml; path = "../../../Downloads/drive-download-20171113T205048Z-001/kitchen.xml"; sourceTree = "<group>"; };
 		CC755B061FBA3D93003DD357 /* toponimika.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = toponimika.xml; path = "../../../Downloads/drive-download-20171113T205048Z-001/toponimika.xml"; sourceTree = "<group>"; };
-		CCA0892E1FB1C7DB00D34E7A /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SwiftyJSON.swift; path = Imtian/Libraries/SwiftyJSON.swift; sourceTree = SOURCE_ROOT; };
 		CCA089331FB1C82400D34E7A /* KeyboardLayoutConstraint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = KeyboardLayoutConstraint.swift; path = Imtian/Libraries/Spring/KeyboardLayoutConstraint.swift; sourceTree = SOURCE_ROOT; };
 		CCA089341FB1C82400D34E7A /* AutoTextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AutoTextView.swift; path = Imtian/Libraries/Spring/AutoTextView.swift; sourceTree = SOURCE_ROOT; };
 		CCA089351FB1C82400D34E7A /* SpringTextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SpringTextView.swift; path = Imtian/Libraries/Spring/SpringTextView.swift; sourceTree = SOURCE_ROOT; };
@@ -136,7 +134,6 @@
 			isa = PBXGroup;
 			children = (
 				CCA089321FB1C80000D34E7A /* Spring */,
-				CCA0892E1FB1C7DB00D34E7A /* SwiftyJSON.swift */,
 				CCD35D5B1FB43B9E001DCA62 /* KDCircularProgress.swift */,
 			);
 			name = Libraries;
@@ -335,7 +332,6 @@
 				CCDDFDEB1FB73766007477B1 /* StatViewController.swift in Sources */,
 				F80B17231F234ED7003892AA /* Imtian.xcdatamodeld in Sources */,
 				CCD35D621FB49639001DCA62 /* ThemesViewController.swift in Sources */,
-				CCA0892F1FB1C7DC00D34E7A /* SwiftyJSON.swift in Sources */,
 				CCA089521FB1C82700D34E7A /* AutoTextView.swift in Sources */,
 				CCA0895F1FB1C82700D34E7A /* AsyncButton.swift in Sources */,
 				CCA0896B1FB1C82700D34E7A /* DesignableTextView.swift in Sources */,

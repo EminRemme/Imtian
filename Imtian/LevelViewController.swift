@@ -11,17 +11,17 @@ import UIKit
 class LevelViewController: UIViewController {
     
     @IBAction func trainingButtonTapped(_ sender: UIButton) {
-        showMessage(title: "Тренировка", message: "Тренируйтесь! Ответьте на 10 вопросов по выбранной теме")
+        showMessage(title: "Тренировка", message: "Выбирайте одну из восьми тем для тренировки. Вам предстоит ответить на десять вопросов.")
     }
     @IBAction func blitzButtonTapped(_ sender: UIButton) {
-        showMessage(title: "Блиц-игра", message: "Легкая прогулка! Всего 16 вопросов из 8 тем. Правильные и неправильные ответы подсвечиваются")
+        showMessage(title: "Блиц-игра", message: "Быстрая игра. Всего шестнадцать вопросов из всех восьми тем. Правильные и неправильные ответы подсвечиваются")
     }
     
     @IBAction func gameButtonTapped(_ sender: Any) {
-        showMessage(title: "Игра", message: "А вот это уже сложнее! 40 вопросов. 8 тем. Подсветка правильных ответов все еще работает")
+        showMessage(title: "Игра", message: "Обычная игра. Сорок вопросов из всех восьми тем. Подсветка правильных и неправильных ответов работает")
     }
     @IBAction func hardButtonTapped(_ sender: UIButton) {
-        showMessage(title: "Готов на все", message: "Это будет сложно! Нет подсветки правильных ответов. И по-прежнему 40 вопросов. И 8 тем. Только результат из данного режима сохраняется в статистику. Удачи!")
+        showMessage(title: "Готов ко всему", message: "Это настоящий экзамен! Нет подсветки правильности ответа. Сорок вопросов из всех тем. Результаты только этого режима сохраняются в статистику. Удачи!")
     }
     @IBAction func unwindToLevel(segue:UIStoryboardSegue) { }
     override func viewDidLoad() {
