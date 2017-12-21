@@ -329,7 +329,7 @@ class QuestionViewController: UIViewController, UIGestureRecognizerDelegate {
             })
         }
     }
-    func showActiveMessage(title: String, message: String, isNext: Bool) {
+    /*func showActiveMessage(title: String, message: String, isNext: Bool) {
         let alert = UIAlertController(title: "",
                                       message: message,
                                       preferredStyle: .alert)
@@ -339,17 +339,15 @@ class QuestionViewController: UIViewController, UIGestureRecognizerDelegate {
                                         if isNext == true {
                                             self.animationOut()
                                             self.animationIn()
-                                            
                                         }else {
                                             _ = self.navigationController?.popViewController(animated: false)
                                         }
         }
-        
         alert.addAction(okAction)
         present(alert,
                 animated: true,
                 completion: nil)
-    }
+    }*/
     func showMessage(title: String, message: String) {
         let alert = UIAlertController(title: title,
                                       message: message,
@@ -358,9 +356,8 @@ class QuestionViewController: UIViewController, UIGestureRecognizerDelegate {
         let cancelAction = UIAlertAction(title: "OK",
                                          style: .default) { (action: UIAlertAction!) -> Void in
         }
-        
         alert.addAction(cancelAction)
-        
+        //UIAdaptivePresentationControllerDelegate();
         present(alert,
                               animated: true,
                               completion: nil)

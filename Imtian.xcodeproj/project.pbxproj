@@ -7,14 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		CC755B071FBA3D93003DD357 /* language.xml in Resources */ = {isa = PBXBuildFile; fileRef = CC755AFF1FBA3D93003DD357 /* language.xml */; };
-		CC755B081FBA3D93003DD357 /* music.xml in Resources */ = {isa = PBXBuildFile; fileRef = CC755B001FBA3D93003DD357 /* music.xml */; };
-		CC755B091FBA3D93003DD357 /* islam.xml in Resources */ = {isa = PBXBuildFile; fileRef = CC755B011FBA3D93003DD357 /* islam.xml */; };
-		CC755B0A1FBA3D93003DD357 /* literature.xml in Resources */ = {isa = PBXBuildFile; fileRef = CC755B021FBA3D93003DD357 /* literature.xml */; };
-		CC755B0B1FBA3D93003DD357 /* tradition.xml in Resources */ = {isa = PBXBuildFile; fileRef = CC755B031FBA3D93003DD357 /* tradition.xml */; };
-		CC755B0C1FBA3D93003DD357 /* history.xml in Resources */ = {isa = PBXBuildFile; fileRef = CC755B041FBA3D93003DD357 /* history.xml */; };
-		CC755B0D1FBA3D93003DD357 /* kitchen.xml in Resources */ = {isa = PBXBuildFile; fileRef = CC755B051FBA3D93003DD357 /* kitchen.xml */; };
-		CC755B0E1FBA3D93003DD357 /* toponimika.xml in Resources */ = {isa = PBXBuildFile; fileRef = CC755B061FBA3D93003DD357 /* toponimika.xml */; };
 		CCA089511FB1C82700D34E7A /* KeyboardLayoutConstraint.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCA089331FB1C82400D34E7A /* KeyboardLayoutConstraint.swift */; };
 		CCA089521FB1C82700D34E7A /* AutoTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCA089341FB1C82400D34E7A /* AutoTextView.swift */; };
 		CCA089531FB1C82700D34E7A /* SpringTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCA089351FB1C82400D34E7A /* SpringTextView.swift */; };
@@ -47,6 +39,14 @@
 		CCA089791FB1EA4400D34E7A /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCA089781FB1EA4400D34E7A /* ResultViewController.swift */; };
 		CCD35D5C1FB43B9E001DCA62 /* KDCircularProgress.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCD35D5B1FB43B9E001DCA62 /* KDCircularProgress.swift */; };
 		CCD35D621FB49639001DCA62 /* ThemesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCD35D611FB49639001DCA62 /* ThemesViewController.swift */; };
+		CCDB42CF1FEBABD400466569 /* kitchen.xml in Resources */ = {isa = PBXBuildFile; fileRef = CCDB42C71FEBABD300466569 /* kitchen.xml */; };
+		CCDB42D01FEBABD400466569 /* music.xml in Resources */ = {isa = PBXBuildFile; fileRef = CCDB42C81FEBABD300466569 /* music.xml */; };
+		CCDB42D11FEBABD400466569 /* history.xml in Resources */ = {isa = PBXBuildFile; fileRef = CCDB42C91FEBABD400466569 /* history.xml */; };
+		CCDB42D21FEBABD400466569 /* tradition.xml in Resources */ = {isa = PBXBuildFile; fileRef = CCDB42CA1FEBABD400466569 /* tradition.xml */; };
+		CCDB42D31FEBABD400466569 /* islam.xml in Resources */ = {isa = PBXBuildFile; fileRef = CCDB42CB1FEBABD400466569 /* islam.xml */; };
+		CCDB42D41FEBABD400466569 /* language.xml in Resources */ = {isa = PBXBuildFile; fileRef = CCDB42CC1FEBABD400466569 /* language.xml */; };
+		CCDB42D51FEBABD400466569 /* literature.xml in Resources */ = {isa = PBXBuildFile; fileRef = CCDB42CD1FEBABD400466569 /* literature.xml */; };
+		CCDB42D61FEBABD400466569 /* toponimika.xml in Resources */ = {isa = PBXBuildFile; fileRef = CCDB42CE1FEBABD400466569 /* toponimika.xml */; };
 		CCDDFDEB1FB73766007477B1 /* StatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCDDFDEA1FB73766007477B1 /* StatViewController.swift */; };
 		F80B171B1F234ED7003892AA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F80B171A1F234ED7003892AA /* AppDelegate.swift */; };
 		F80B171D1F234ED7003892AA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F80B171C1F234ED7003892AA /* ViewController.swift */; };
@@ -62,14 +62,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		CC755AFF1FBA3D93003DD357 /* language.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = language.xml; path = "../../../Downloads/drive-download-20171113T205048Z-001/language.xml"; sourceTree = "<group>"; };
-		CC755B001FBA3D93003DD357 /* music.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = music.xml; path = "../../../Downloads/drive-download-20171113T205048Z-001/music.xml"; sourceTree = "<group>"; };
-		CC755B011FBA3D93003DD357 /* islam.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = islam.xml; path = "../../../Downloads/drive-download-20171113T205048Z-001/islam.xml"; sourceTree = "<group>"; };
-		CC755B021FBA3D93003DD357 /* literature.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = literature.xml; path = "../../../Downloads/drive-download-20171113T205048Z-001/literature.xml"; sourceTree = "<group>"; };
-		CC755B031FBA3D93003DD357 /* tradition.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = tradition.xml; path = "../../../Downloads/drive-download-20171113T205048Z-001/tradition.xml"; sourceTree = "<group>"; };
-		CC755B041FBA3D93003DD357 /* history.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = history.xml; path = "../../../Downloads/drive-download-20171113T205048Z-001/history.xml"; sourceTree = "<group>"; };
-		CC755B051FBA3D93003DD357 /* kitchen.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = kitchen.xml; path = "../../../Downloads/drive-download-20171113T205048Z-001/kitchen.xml"; sourceTree = "<group>"; };
-		CC755B061FBA3D93003DD357 /* toponimika.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = toponimika.xml; path = "../../../Downloads/drive-download-20171113T205048Z-001/toponimika.xml"; sourceTree = "<group>"; };
 		CCA089331FB1C82400D34E7A /* KeyboardLayoutConstraint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = KeyboardLayoutConstraint.swift; path = Imtian/Libraries/Spring/KeyboardLayoutConstraint.swift; sourceTree = SOURCE_ROOT; };
 		CCA089341FB1C82400D34E7A /* AutoTextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AutoTextView.swift; path = Imtian/Libraries/Spring/AutoTextView.swift; sourceTree = SOURCE_ROOT; };
 		CCA089351FB1C82400D34E7A /* SpringTextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SpringTextView.swift; path = Imtian/Libraries/Spring/SpringTextView.swift; sourceTree = SOURCE_ROOT; };
@@ -103,6 +95,14 @@
 		CCA089781FB1EA4400D34E7A /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
 		CCD35D5B1FB43B9E001DCA62 /* KDCircularProgress.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KDCircularProgress.swift; sourceTree = "<group>"; };
 		CCD35D611FB49639001DCA62 /* ThemesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemesViewController.swift; sourceTree = "<group>"; };
+		CCDB42C71FEBABD300466569 /* kitchen.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = kitchen.xml; path = data/kitchen.xml; sourceTree = "<group>"; };
+		CCDB42C81FEBABD300466569 /* music.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = music.xml; path = data/music.xml; sourceTree = "<group>"; };
+		CCDB42C91FEBABD400466569 /* history.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = history.xml; path = data/history.xml; sourceTree = "<group>"; };
+		CCDB42CA1FEBABD400466569 /* tradition.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = tradition.xml; path = data/tradition.xml; sourceTree = "<group>"; };
+		CCDB42CB1FEBABD400466569 /* islam.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = islam.xml; path = data/islam.xml; sourceTree = "<group>"; };
+		CCDB42CC1FEBABD400466569 /* language.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = language.xml; path = data/language.xml; sourceTree = "<group>"; };
+		CCDB42CD1FEBABD400466569 /* literature.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = literature.xml; path = data/literature.xml; sourceTree = "<group>"; };
+		CCDB42CE1FEBABD400466569 /* toponimika.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = toponimika.xml; path = data/toponimika.xml; sourceTree = "<group>"; };
 		CCDDFDEA1FB73766007477B1 /* StatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatViewController.swift; sourceTree = "<group>"; };
 		F80B17171F234ED7003892AA /* Imtian.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Imtian.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F80B171A1F234ED7003892AA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -219,14 +219,14 @@
 		F85E159C1F3EFFF3006819DD /* data */ = {
 			isa = PBXGroup;
 			children = (
-				CC755B041FBA3D93003DD357 /* history.xml */,
-				CC755B011FBA3D93003DD357 /* islam.xml */,
-				CC755B051FBA3D93003DD357 /* kitchen.xml */,
-				CC755AFF1FBA3D93003DD357 /* language.xml */,
-				CC755B021FBA3D93003DD357 /* literature.xml */,
-				CC755B001FBA3D93003DD357 /* music.xml */,
-				CC755B061FBA3D93003DD357 /* toponimika.xml */,
-				CC755B031FBA3D93003DD357 /* tradition.xml */,
+				CCDB42C91FEBABD400466569 /* history.xml */,
+				CCDB42CB1FEBABD400466569 /* islam.xml */,
+				CCDB42C71FEBABD300466569 /* kitchen.xml */,
+				CCDB42CC1FEBABD400466569 /* language.xml */,
+				CCDB42CD1FEBABD400466569 /* literature.xml */,
+				CCDB42C81FEBABD300466569 /* music.xml */,
+				CCDB42CE1FEBABD400466569 /* toponimika.xml */,
+				CCDB42CA1FEBABD400466569 /* tradition.xml */,
 				F85E15A51F3F0374006819DD /* themes.xml */,
 			);
 			name = data;
@@ -292,20 +292,20 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CC755B0C1FBA3D93003DD357 /* history.xml in Resources */,
-				CC755B0A1FBA3D93003DD357 /* literature.xml in Resources */,
 				F85E15A81F3F0374006819DD /* themes.xml in Resources */,
-				CC755B081FBA3D93003DD357 /* music.xml in Resources */,
-				CC755B0E1FBA3D93003DD357 /* toponimika.xml in Resources */,
+				CCDB42D01FEBABD400466569 /* music.xml in Resources */,
 				F80B17281F234ED7003892AA /* LaunchScreen.storyboard in Resources */,
+				CCDB42D41FEBABD400466569 /* language.xml in Resources */,
+				CCDB42D61FEBABD400466569 /* toponimika.xml in Resources */,
+				CCDB42D11FEBABD400466569 /* history.xml in Resources */,
+				CCDB42D31FEBABD400466569 /* islam.xml in Resources */,
+				CCDB42D21FEBABD400466569 /* tradition.xml in Resources */,
 				F80B17251F234ED7003892AA /* Assets.xcassets in Resources */,
 				CCA0896D1FB1C82700D34E7A /* LoadingView.xib in Resources */,
-				CC755B0D1FBA3D93003DD357 /* kitchen.xml in Resources */,
-				CC755B0B1FBA3D93003DD357 /* tradition.xml in Resources */,
+				CCDB42CF1FEBABD400466569 /* kitchen.xml in Resources */,
 				F80B17201F234ED7003892AA /* Main.storyboard in Resources */,
-				CC755B071FBA3D93003DD357 /* language.xml in Resources */,
+				CCDB42D51FEBABD400466569 /* literature.xml in Resources */,
 				CCA089611FB1C82700D34E7A /* Info.plist in Resources */,
-				CC755B091FBA3D93003DD357 /* islam.xml in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

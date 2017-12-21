@@ -38,7 +38,7 @@ class LevelViewController: UIViewController {
         if(segue.identifier == "showRandomQuestions") {
             let questionViewController = segue.destination as! QuestionViewController
             let theme = Theme()
-            theme.Name = "Тренировка"
+            theme.Name = "Игра"
             theme.id = "AllQuestions"
             questionViewController.choisenTheme = theme
             questionViewController.title = theme.Name
@@ -48,7 +48,7 @@ class LevelViewController: UIViewController {
         if(segue.identifier == "showRandomQuestionsMini") {
             let questionViewController = segue.destination as! QuestionViewController
             let theme = Theme()
-            theme.Name = "Тренировка"
+            theme.Name = "Блиц-игра"
             theme.id = "AllQuestions"
             questionViewController.choisenTheme = theme
             questionViewController.title = theme.Name
@@ -61,7 +61,7 @@ class LevelViewController: UIViewController {
         if(segue.identifier == "showExamQuestions") {
             let questionViewController = segue.destination as! QuestionViewController
             let theme = Theme()
-            theme.Name = "Экзамен"
+            theme.Name = "Готов ко всему"
             theme.id = "AllQuestions"
             questionViewController.choisenTheme = theme
             questionViewController.title = theme.Name

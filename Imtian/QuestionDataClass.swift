@@ -34,4 +34,3 @@ class QuestionsStructure {
 class IsLaunchedBefore {
     static var isWasLaunched: Bool = Bool()
 }
-

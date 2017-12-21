@@ -13,7 +13,14 @@ class AboutViewController: UIViewController {
     @IBOutlet weak var aboutLabel: UILabel!
     override func viewDidLoad() {
         super.viewDidLoad()
-        let htmlAboutStr = "<span style=\"font-size: 14; color:black; font-family:Arial\"><strong>Imtian</strong> - игровое мобильное приложение-викторина, которое охватывает различные сферы жизни крымских татар</br></br>Вопросы в приложении разделены на такие темы:</br><strong>Литература, топонимика, язык, история, музыка, ислам, традиции, кухня</strong></br></br>Приложение выпущено медиапроектом</br><strong>ZeyTune Production</strong></br></br>Разработчик: <strong>Эмин Юнусов</strong></br></br>Проект-менеджер: <strong>Эмир Керимов</strong></br></br>Редакторы вопросов: <strong>Эдип Эмиров, Найле Адбухаирова, Хатидже Усманова, Севиль Юнусова, Адиле Керимова, Эмир Керимов</strong></br></br>Использованы изображения <strong> Смаила Тантаны</strong></span>"
+        var fonSize = 14.0
+        if UIDevice.current.userInterfaceIdiom == .phone && UIScreen.main.bounds.size.height == 568.0 {
+            fonSize = 12
+        }
+        if UIDevice.current.userInterfaceIdiom == .phone && UIScreen.main.bounds.size.height < 568.0 {
+            fonSize = 10
+        }
+        let htmlAboutStr = "<span style=\"font-size: " + String(fonSize) + "; color:black; font-family:Arial\"><strong>Imtian</strong> - игровое мобильное приложение-викторина, которое охватывает различные сферы жизни крымских татар</br></br>Вопросы в приложении разделены на такие темы:</br><strong>Ислам, литература, топонимика, язык, история, музыка, традиции, кухня</strong></br></br>Приложение выпущено медиапроектом</br><strong>ZeyTune Production</strong></br></br>Разработчик: <strong>Эмин Юнусов</strong></br></br>Проект-менеджер: <strong>Эмир Керимов</strong></br></br>Редакторы вопросов: <strong>Эдип Эмиров, Найле Абдухаирова, Хатидже Усманова, Севиль Юнусова, Адиле Керимова, Эмир Керимов, Нилюфер Черкес</strong></br></br>Использованы изображения <strong> Смаила Тантаны</strong></span>"
         let attrStr = try! NSAttributedString(
             data: htmlAboutStr.data(using: String.Encoding.unicode, allowLossyConversion: true)!,
             options: [ .documentType: NSAttributedString.DocumentType.html],
